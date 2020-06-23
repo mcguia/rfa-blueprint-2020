@@ -1,1 +1,1 @@
-Sitemap: https://mcguia.github.io/rfa-blueprint-2020/sitemap.xml
+Sitemap: https://mcguia.github.io/rfa-blueprint-2020/rfa-blueprint-2020/sitemap.xml
