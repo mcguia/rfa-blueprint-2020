@@ -1,1 +1,1 @@
-Sitemap: https://2019state.results4america.org/sitemap.xml
+Sitemap: https://mcguia.github.io/rfa-blueprint-2020/sitemap.xml
