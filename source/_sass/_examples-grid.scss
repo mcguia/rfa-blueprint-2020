@@ -156,6 +156,9 @@ a.external-link-container {
       .leading {
        background-color: darken(#e7ecf0, ($i - 1) * 3%); 
       }
+      .promising {
+        background-color: darken(#cae9f2, ($i - 1) * 3%);
+      }
     }
   }
 }
@@ -170,6 +173,10 @@ a.external-link-container {
     font-weight: 400;
     line-height: 1.2;
     position: relative;
+    .external-link-container {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
     @include breakpoint($medium-only) {
       font-size: 1rem;
       padding: 1rem;
@@ -261,9 +268,12 @@ a.external-link-container {
       flex-direction: column;
     }
     .description {
-      margin: 1rem 0;
       font-size: 1.06rem;
       padding-bottom: 15px;
+      p:first-child {
+        padding-top: 0;
+        margin-top: 0;
+      }
       @include breakpoint($medium-only) {
         display: none;
       }

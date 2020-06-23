@@ -4,6 +4,8 @@ title: 2020 Results for America Blueprint
 description:
 seo_image_path: #'/images/media/filename.jpg'
 ---
+{% if site.environment == "development" %}
+{% endif %}
 {% assign index = site.data.contentful.indexPage.indexPage | where: "year", site.content_year %}
 {% for page in index %}
 <main role="main" id="index">

@@ -3,12 +3,12 @@ strategy:
 - sys:
     id: ivyGZZW7cxscox0BITbRp
     created_at: !ruby/object:DateTime 2020-06-22 23:53:22.593000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:29:10.132000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:00:03.333000000 Z
     content_type_id: strategy
-    revision: 2
+    revision: 3
   title: Strategy A
-  short_description: Establish public, customer oriented, measurable strategic __goals__
-    and metrics that reflect the governor’s (or agency’s) priorities.
+  short_description: A. Establish public, customer oriented, measurable strategic
+    __goals__ and metrics that reflect the governor’s (or agency’s) priorities.
   actions:
   - sys:
       id: 7avQBLm7mKtB3dTlcLWq3p
@@ -107,12 +107,12 @@ strategy:
 - sys:
     id: 1rsiz3Q2oIYsjNKXGiAuRl
     created_at: !ruby/object:DateTime 2020-06-23 00:00:07.118000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:28:00.747000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:00:17.007000000 Z
     content_type_id: strategy
-    revision: 2
+    revision: 3
   title: Strategy B
-  short_description: Create a __systematic approach to managing results__ that aligns
-    budget, policy, and legislative activities to advance the governor’s statewide
+  short_description: B. Create a __systematic approach to managing results__ that
+    aligns budget, policy, and legislative activities to advance the governor’s statewide
     priorities and support continuous learning.
   actions:
   - sys:
@@ -215,12 +215,12 @@ strategy:
 - sys:
     id: 4E0DMB679ccWVBlhhbnJAf
     created_at: !ruby/object:DateTime 2020-06-23 00:06:23.264000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:25:17.550000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:00:26.260000000 Z
     content_type_id: strategy
-    revision: 2
+    revision: 3
   title: Strategy C
-  short_description: Promote a __culture of using data and evidence__ to deliver results
-    for customers.
+  short_description: C. Promote a __culture of using data and evidence__ to deliver
+    results for customers.
   actions:
   - sys:
       id: 2jJEw2VC9yIIYurVskAbUD
@@ -344,11 +344,11 @@ strategy:
 - sys:
     id: bxhhNAi32CY2GHsyYsALa
     created_at: !ruby/object:DateTime 2020-06-23 12:10:12.695000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:10:12.695000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:00:35.543000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy D
-  short_description: Develop the vision, framework and governance for effectively
+  short_description: D. Develop the vision, framework and governance for effectively
     __collecting and using data__ across state agencies to improve programs and operations.
   actions:
   - sys:
@@ -454,12 +454,12 @@ strategy:
 - sys:
     id: 3yI8zfPlQi84oq5lR4zvfi
     created_at: !ruby/object:DateTime 2020-06-23 12:15:38.632000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:15:38.632000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:00:44.109000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy E
-  short_description: Build the __talent__ in the governor's office and agencies to
-    advance the state’s vision for collecting and using data.
+  short_description: E. Build the __talent__ in the governor's office and agencies
+    to advance the state’s vision for collecting and using data.
   actions:
   - sys:
       id: 6PXR4HWVR7I0mQrcFfeutV
@@ -571,13 +571,13 @@ strategy:
 - sys:
     id: 3bgPcMLG9iNwpHGBjFKiNy
     created_at: !ruby/object:DateTime 2020-06-23 12:20:54.872000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:20:54.872000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:00:54.510000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy F
-  short_description: Establish a roadmap for __more integrated data usage__ that links
-    program data across state activities through better process and technology, while
-    ensuring strong privacy protocols.
+  short_description: F. Establish a roadmap for __more integrated data usage__ that
+    links program data across state activities through better process and technology,
+    while ensuring strong privacy protocols.
   actions:
   - sys:
       id: EUUSHNBrUmyEKGoH14UeQ
@@ -717,12 +717,12 @@ strategy:
 - sys:
     id: 5oBFvSmuYPHbQi4Pby3NFW
     created_at: !ruby/object:DateTime 2020-06-23 12:52:14.097000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:52:14.097000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:01:02.067000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy G
-  short_description: Create leadership structures to effectively build and use evidence
-    across state programs and departments.
+  short_description: G. Create leadership structures to effectively build and use
+    evidence across state programs and departments.
   actions:
   - sys:
       id: 5fgRah0dhgqwf5EvoM9pvk
@@ -807,11 +807,11 @@ strategy:
 - sys:
     id: 3C8W8cacjEAwumCDDQ1Eut
     created_at: !ruby/object:DateTime 2020-06-23 12:55:53.500000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:55:53.500000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:01:11.060000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy H
-  short_description: Build the __infrastructure to evaluate state programs__ through
+  short_description: H. Build the __infrastructure to evaluate state programs__ through
     evaluation policies, evidence definitions, program inventories and funding to
     support state leaders.
   actions:
@@ -934,11 +934,11 @@ strategy:
 - sys:
     id: 5hK3qSoKsGNLJZ6nMUEIro
     created_at: !ruby/object:DateTime 2020-06-23 12:59:30.183000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:59:30.183000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:01:20.426000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy I
-  short_description: 'Position the __budget__ as a key tool to build state evaluation
+  short_description: 'I. Position the __budget__ as a key tool to build state evaluation
     capacity and apply that capacity to focus resources on evidence-based investments. '
   actions:
   - sys:
@@ -1053,12 +1053,12 @@ strategy:
 - sys:
     id: 4N9zWgMXUwUaMm9jaIM3ZT
     created_at: !ruby/object:DateTime 2020-06-23 13:04:52.618000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:04:52.618000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:01:29.011000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy J
-  short_description: Prioritize __key areas__ for analysis and improvement based on
-    statewide goals.
+  short_description: J. Prioritize __key areas__ for analysis and improvement based
+    on statewide goals.
   actions:
   - sys:
       id: 4pkONMiZyDVyuaXDuOgJr
@@ -1175,11 +1175,11 @@ strategy:
 - sys:
     id: 7HwpHGaxA54j4ClNIHhyr3
     created_at: !ruby/object:DateTime 2020-06-23 13:08:11.015000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:08:52.282000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:01:36.829000000 Z
     content_type_id: strategy
-    revision: 2
+    revision: 3
   title: Strategy K
-  short_description: Use data-driven tools and methods to __preference evidence__
+  short_description: K. Use data-driven tools and methods to __preference evidence__
     by spending on the most effective and cost-efficient programs and initiatives.
   actions:
   - sys:
@@ -1290,11 +1290,11 @@ strategy:
 - sys:
     id: 5GbeQ4iZKxUegPq6vmHHTp
     created_at: !ruby/object:DateTime 2020-06-23 13:11:47.258000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:11:47.258000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-23 19:01:47.159000000 Z
     content_type_id: strategy
-    revision: 1
+    revision: 2
   title: Strategy L
-  short_description: __Re-direct grant dollars and contract spending__ toward interventions
+  short_description: L. __Re-direct grant dollars and contract spending__ toward interventions
     with evidence of effectiveness in order to deliver results and encourage innovation.
   actions:
   - sys:

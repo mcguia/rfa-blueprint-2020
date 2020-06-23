@@ -1,6 +1,5 @@
 // import CompactPanel from './compact-panel';
 import Expandable from './expandable';
-import Filter from './filter';
 import FixedNav from './fixed-nav';
 import FixedSection from './fixed-section';
 import Modal from './modal';
@@ -22,9 +21,9 @@ Search.init();
 Sticky.init();
 Tooltip.init();
 Utils.markdownLinksNewPage();
+Utils.fixOrderedLists();
 
 
 if (window.location.pathname === '/' || window.location.pathname === '/rfa-2019/') {
   FixedSection.init();
-  Filter.init();
 };
