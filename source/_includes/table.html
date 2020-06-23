@@ -3,8 +3,8 @@
 
 <section class="table examples-grid">
   <!-- examples-grid header -->
-  <div class="row expanded examples-grid__header fixed-section ">
-    <div class="row expanded examples-grid__header-row">
+  <div class="row examples-grid__header fixed-section ">
+    <div class="row examples-grid__header-row">
       <!-- header columns  -->
       <div class="column examples-grid-column examples-grid__header-cell title-criteria">Blueprint Themes</div>
       <div class="column examples-grid-column examples-grid__header-cell title-leading">Strategies</div>
@@ -23,7 +23,7 @@
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
     {% assign url = "/theme/" | append: title | append: ".html" %}
 
-    <div class="row expanded examples-grid__content-row criteria">
+    <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
       <div class="column examples-grid-column examples-grid__content-cell title" onclick="window.location='{{ url | relative_url }}">
         <span>

@@ -3,6 +3,11 @@
   .examples-grid__header {
     transition: opacity 0.1s ease;
     z-index: 3;
+    max-width: 95rem;
+  }
+  .examples-grid__header.fixed {
+    left: 50%;
+    transform: translateX(-50%);
   }
   .examples-grid__header-row {
     color: #fff;
@@ -33,9 +38,13 @@
     font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: 0.05em;
-    padding: 15px 0 15px 35px;
-    text-align: left;
+    padding: 15px 0;
+    text-align: center;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     @include breakpoint($medium-only) {
       font-size: 1.2rem;
       padding: 15px;
@@ -44,8 +53,12 @@
       font-size: 0.65rem;
       padding: 5px 10px;
     }
-    &:nth-child(2) {
-      background-color: lighten($dark-blue, 3);
+    &:nth-child(1) {
+      background-color: #eff0f0;
+      color: $dark-gray;
+    }
+    &:nth-child(3) {
+      background-color: #219cc4;
     }
   }
 }
@@ -67,8 +80,8 @@
   &.title-leading {
     // width: calc(80% / 2);
     // max-width: calc(80% / 2);
-    width: 37%;
-    max-width: 37%;
+    width: 60%;
+    max-width: 60%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);
@@ -78,8 +91,8 @@
   &.title-promising {
     // width: calc(80% / 2);
     // max-width: calc(80% / 2);
-    width: 43%;
-    max-width: 43%;
+    width: 20%;
+    max-width: 20%;
     @include breakpoint($small-only) {
       width: calc(100% / 3);
       max-width: calc(100% / 3);
@@ -122,26 +135,27 @@ a.external-link-container {
 .examples-grid__content-row {
   display: flex;
   width: 100%;
-  &:nth-of-type(odd) {
-    .title {
-      background-color: $medium-gray;
-    }
-    .leading {
-      background-color: $dark-green-tint;
-    }
-    .promising {
-      background-color: $dark-orange-tint;
-    }
+  max-width: 95rem;
+  margin: 0 auto;
+  .title {
+    background-color: #fafafa;
   }
-  &:nth-of-type(even) {
-    .title {
-      background-color: $light-gray;
-    }
-    .leading {
-      background-color: $light-green-tint;
-    }
-    .promising {
-      background-color: $light-orange-tint;
+  .leading {
+    background-color: #e7ecf0;
+  }
+  .promising {
+    background-color: #cae9f2;
+  }
+
+
+  @for $i from 2 through 7 {
+    &:nth-child(#{$i}) {
+      .title {
+        background-color: darken(#fafafa, ($i - 1) * 3%);
+      }
+      .leading {
+       background-color: darken(#e7ecf0, ($i - 1) * 3%); 
+      }
     }
   }
 }
