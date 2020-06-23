@@ -1,50 +1,14 @@
-{% assign criteria = site.data.contentful.criteria.criteria |  where: "year", site.content_year %}
-{% assign leadingExamples = site.data.contentful.leading.leading | where: "year", site.content_year %}
-{% assign promisingExamples = site.data.contentful.promising.promising | where: "year", site.content_year %}
+{% assign theme = site.data.contentful.theme.theme |  where: "year", site.content_year %}
 
-<!-- Grab all used Issues -->
-{% assign all_issues = "" | split: "" %}
-
-{% for leading_example in leadingExamples %}
-{% for issue in leading_example.issue %}
-{% assign all_issues = all_issues | push: issue %}
-{% endfor %}
-{% endfor %}
-
-{% for promising_example in promisingExamples %}
-{% for issue in promising_example.issue %}
-{% assign all_issues = all_issues | push: issue  %}
-{% endfor %}
-{% endfor %}
-
-{% assign all_issues = all_issues | uniq | sort %}
 
 <section class="table examples-grid">
   <!-- examples-grid header -->
   <div class="row expanded examples-grid__header fixed-section ">
     <div class="row expanded examples-grid__header-row">
       <!-- header columns  -->
-      <div class="column examples-grid-column examples-grid__header-cell title-criteria">Criteria</div>
-      <div class="column examples-grid-column examples-grid__header-cell title-leading"><a
-          class="external-link-container"
-          href="{{ '/state-standard-of-excellence/leading-examples.html' | relative_url }}">Leading Examples</a></div>
-      <div class="column examples-grid-column examples-grid__header-cell title-promising">Promising Examples</div>
-    </div>
-    <div class="row expanded  align-center examples-grid__header-row examples-grid__filter-row">
-      <div class="issues-dropdown-filter-wrapper">
-        <div class="select issues-dropdown-filter">
-          <select aria-label="issues dropdown filter" class="issues-dropdown-filter__select">
-            <option class="issues-dropdown-filter__option" value="all">All Issues</option>
-            {% for issue in all_issues %}
-            <option class="issues-dropdown-filter__option" value="{{issue | slugify }}"
-              data-page="{{ issue | slugify }}">{{issue}}</option>
-            {% endfor %}
-          </select>
-        </div>
-      </div>
-
-      <button tabindex="0" class="key key-modal__open  js-open-modal" data-term="key">Key<i class="material-icons">more_vert</i></button>
-      {% include key-modal.html issues=all_issues%}
+      <div class="column examples-grid-column examples-grid__header-cell title-criteria">Blueprint Themes</div>
+      <div class="column examples-grid-column examples-grid__header-cell title-leading">Strategies</div>
+      <div class="column examples-grid-column examples-grid__header-cell title-promising">Related State Standard Criteria</div>
     </div>
   </div>
 </section>
@@ -55,97 +19,39 @@
   <div class="content-section">
 
     <!-- grid content -->
-    {% for item in criteria %}
+    {% for item in theme %}
     {% assign title = item.title | replace: "/", "0000" | slugify | remove: "0000" %}
-    {% assign url = "/state-standard-of-excellence/" | append: title | append: ".html" %}
-    {% assign url_leading_example = "/state-standard-of-excellence/" | append: title | append: ".html" | append: "#leading-example"%}
+    {% assign url = "/theme/" | append: title | append: ".html" %}
 
     <div class="row expanded examples-grid__content-row criteria">
       <!-- content columns  -->
-      <div class="column examples-grid-column examples-grid__content-cell title"
-        onclick="window.location='{{ url | relative_url }}';">
+      <div class="column examples-grid-column examples-grid__content-cell title" onclick="window.location='{{ url | relative_url }}">
         <span>
-          <a class="external-link-container" href="{{ url | relative_url }}"><span class="title-order">{{item.order}}.
-            </span>{{ item.title }}</a>
-        </span>
-        <span class="tooltip">
-          {{ item.description }}
+          <a class="external-link-container" href="{{ url | relative_url}}">{{ item.title }}</a>
         </span>
       </div>
 
       <div class="column examples-grid-column examples-grid__content-cell leading filterable">
         <!-- Leading issues -->
-        {% assign leading_issues = "" | split: "" %}
-        {% for issue in item.leading_list.issue %}
-        {% assign issue_slug = issue | slugify %}
-        {% assign leading_issues = leading_issues | push: issue_slug %}
-        {% endfor %}
-        <div class="examples-wrapper leading-example" data-examples="all {{leading_issues | join: " "}}">
+        <div class="examples-wrapper leading-example">
           <div class="row">
-            <div class="leading__state column large-12">
-              <span class="state-abbrev">
-                <a style="text-decoration:none;"
-                  href="{{ url_leading_example | relative_url }}">{{item.leading_list.state_abbreviation}}
-                </a>
-              </span>
-            </div>
             <div class="description column large-12">
-              {{item.leading_list.short_description}}
-            </div>
-          </div>
-          <div class="link row">
-            <div class="column large-7 issues-container">
-              {% for issue in item.leading_list.issue %}
-              <span class="issue issue--leading issue--{{ issue | slugify }}"></span>
+              {% for strategy in item.strategies %}
+                {{ strategy.short_description | markdownify }}
               {% endfor %}
-            </div>
-            <div class="column large-5">
-              <a class="learn-more" href="{{ url_leading_example | relative_url }}">Learn More</a>
             </div>
           </div>
         </div>
       </div>
-      {% assign list_length = item.promising_list | size %}
-      {% if list_length == 0  %}
-        <div class="column examples-grid-column examples-grid__content-cell promising filterable filterable--empty">
-        </div>
-      {% else %}
-
       <div class="column examples-grid-column examples-grid__content-cell promising filterable">
-          {% for state in item.promising_list %}
-            {% assign issues = state.issue %}
-            {% assign state-slug = state.state | slugify %}
-            {% assign url-promising-examples = "/state-standard-of-excellence/" | append: title | append: ".html#" | append: state-slug  %}
-            
-            <!-- Promsing issues -->
-            {% assign promising_issues = "" | split: "" %}
-            {% for issue in issues %}
-              {% assign issue_slug = issue | slugify %}
-              {% assign promising_issues = promising_issues | push: issue_slug %}
-            {% endfor %}
-
-            <div class="examples-wrapper promising-example" data-examples="all {{promising_issues | join: " "}}">
-
-              <a href="{{ url-promising-examples | relative_url }}" class="promising__state">
-                <div class="state__issues">
-                  <span class="state__title">{{ state.state }}</span>
-                  <span class="state__abbreviation">{{ state.state_abbreviation }}</span>
-
-                  {% if issues %}
-                  {% for issue in issues %}
-                  <span class="issue issue--{{ issue | slugify }}"></span>
-                  {% endfor %}
-                  {% endif %}
-                </div>
-              </a>
-            </div>
-          {% endfor %}
+        <div class="examples-wrapper promising-example">
+          <div class="description column large-12">
+            {{ item.related_criteria | markdownify }}
+          </div>
         </div>
-        {% endif %}
+      </div>
     </div>
     
     {% endfor %}
-  </div>
-  </div>
   </div>
 </section>

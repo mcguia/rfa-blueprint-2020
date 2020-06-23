@@ -33,7 +33,7 @@ project_url: "/state-standard-of-excellence/"
 twitter_username: results4america
 github_username:
 seo_image_path: '/images/rfa-og.jpg'
-content_year: 2019
+content_year: 2020
 
 # Build settings
 markdown: kramdown
@@ -56,6 +56,22 @@ source: ./source
 
 contentful:
   spaces:
+    - action: # Jekyll _data folder identifier - Required
+        space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
+        access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
+        base_path: ./source         # Optional - Defaults to Current directory
+        destination: /contentful # Optional - Defaults to _data/contentful/spaces
+        all_entries: true
+        cda_query:
+          content_type: action
+    - example: # Jekyll _data folder identifier - Required
+        space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
+        access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
+        base_path: ./source         # Optional - Defaults to Current directory
+        destination: /contentful # Optional - Defaults to _data/contentful/spaces
+        all_entries: true
+        cda_query:
+          content_type: example
     - indexPage: # Jekyll _data folder identifier - Required
         space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
         access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
@@ -64,52 +80,28 @@ contentful:
         all_entries: true
         cda_query:
           content_type: indexPage
-    - criteria: # Jekyll _data folder identifier - Required
+    - strategy: # Jekyll _data folder identifier - Required
         space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
         access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
         base_path: ./source         # Optional - Defaults to Current directory
         destination: /contentful # Optional - Defaults to _data/contentful/spaces
         all_entries: true
         cda_query:
-          content_type: criteria
-    - leadingPage: # Jekyll _data folder identifier - Required
+          content_type: strategy
+    - theme: # Jekyll _data folder identifier - Required
         space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
         access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
         base_path: ./source         # Optional - Defaults to Current directory
         destination: /contentful # Optional - Defaults to _data/contentful/spaces
         all_entries: true
         cda_query:
-          content_type: leadingPage
-    - downloadsPage: # Jekyll _data folder identifier - Required
-        space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
-        access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
-        base_path: ./source         # Optional - Defaults to Current directory
-        destination: /contentful # Optional - Defaults to _data/contentful/spaces
-        all_entries: true
-        cda_query:
-          content_type: downloadsPage
-    - leading: # Jekyll _data folder identifier - Required
-        space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
-        access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
-        base_path: ./source         # Optional - Defaults to Current directory
-        destination: /contentful # Optional - Defaults to _data/contentful/spaces
-        all_entries: true
-        cda_query:
-          content_type: leading
-    - promising: # Jekyll _data folder identifier - Required
-        space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
-        access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
-        base_path: ./source         # Optional - Defaults to Current directory
-        destination: /contentful # Optional - Defaults to _data/contentful/spaces
-        all_entries: true
-        cda_query:
-          content_type: promising
+          content_type: theme
           
 
 
 page_gen:
-  - data: contentful.criteria.criteria
-    template: criteria
+  - data: contentful.theme.theme
+    template: theme
     name: title
-    dir: state-standard-of-excellence
-    filter_condition: "record['year'] == '2019'"
+    dir: theme
+    filter_condition: "record['year'] == '2020'"
