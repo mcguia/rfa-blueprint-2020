@@ -33,7 +33,6 @@
     }
   }
   .examples-grid__header-cell {
-    background-color: $dark-blue;
     color: #fff;
     font-size: 1.4rem;
     font-weight: 700;
@@ -53,13 +52,16 @@
       font-size: 0.65rem;
       padding: 5px 10px;
     }
-    &:nth-child(1) {
-      background-color: #eff0f0;
-      color: $dark-gray;
-    }
-    &:nth-child(3) {
-      background-color: #219cc4;
-    }
+  }
+  .grey {
+    background-color: #eff0f0;
+    color: $dark-gray;
+  }
+  .dark-blue {
+    background-color: $dark-blue;
+  }
+  .blue {
+    background-color: #219cc4;
   }
 }
 
@@ -67,7 +69,7 @@
   @include breakpoint($small-only) {
     padding: 0.5rem;
   }
-  &.title,
+  &.themes,
   &.title-criteria {
     width: 20%;
     max-width: 20%;
@@ -76,7 +78,7 @@
       max-width: calc(100% / 3);
     }
   }
-  &.leading,
+  &.strategies,
   &.title-leading {
     // width: calc(80% / 2);
     // max-width: calc(80% / 2);
@@ -87,7 +89,7 @@
       max-width: calc(100% / 3);
     }
   }
-  &.promising,
+  &.criteria,
   &.title-promising {
     // width: calc(80% / 2);
     // max-width: calc(80% / 2);
@@ -137,26 +139,26 @@ a.external-link-container {
   width: 100%;
   max-width: 95rem;
   margin: 0 auto;
-  .title {
+  .light-grey {
     background-color: #fafafa;
   }
-  .leading {
+  .grey {
     background-color: #e7ecf0;
   }
-  .promising {
+  .light-blue {
     background-color: #cae9f2;
   }
 
 
   @for $i from 2 through 7 {
     &:nth-child(#{$i}) {
-      .title {
+      .light-grey {
         background-color: darken(#fafafa, ($i - 1) * 3%);
       }
-      .leading {
+      .grey {
        background-color: darken(#e7ecf0, ($i - 1) * 3%); 
       }
-      .promising {
+      .light-blue {
         background-color: darken(#cae9f2, ($i - 1) * 3%);
       }
     }
@@ -168,7 +170,7 @@ a.external-link-container {
   @include breakpoint($large) {
     padding: 3rem 2rem 2rem 2rem;
   }
-  &.title {
+  &.themes {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.2;
@@ -185,11 +187,6 @@ a.external-link-container {
       font-size: 0.8rem;
       padding: 0.5rem;
     }
-  }
-  &.leading {
-
-  }
-  &.promising {
   }
   .tooltip {
     &:before {
