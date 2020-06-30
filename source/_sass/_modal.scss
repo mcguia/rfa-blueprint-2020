@@ -72,3 +72,32 @@ button.key-modal__open {
     }
   }
 }
+
+#overlay {
+  opacity: .6;
+  background-color: #000;
+}
+
+.modal__content {
+  padding: 0;
+  
+  .row {
+    margin: 0;
+  }
+  .examples-grid-column.themes {
+    width: 30%;
+    max-width: 30%;
+  }
+  .examples-grid-column.strategies {
+    width: 70%;
+    max-width: 70%;
+  }
+}
+
+.modal__close {
+  color: #333;
+}
+
+.light-green {
+  background-color: #eef7f1;
+}

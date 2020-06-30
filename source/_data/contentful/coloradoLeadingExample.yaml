@@ -1,0 +1,148 @@
+---
+coloradoLeadingExample:
+- sys:
+    id: 3ZjsG4xndcdTLjPqs5gbga
+    created_at: !ruby/object:DateTime 2020-06-29 19:02:43.899000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-29 19:02:43.899000000 Z
+    content_type_id: coloradoLeadingExample
+    revision: 1
+  description: "Of special note, Investing for Results is the most important Blueprint
+    Theme for state government leaders. Spending is where the “rubber meets the road”
+    -- the point at which governments allocate public resources to deliver services
+    and programs. Using the Strategies in this Blueprint will help state leaders shift
+    away from making spending decisions based on assumptions and towards spending
+    resources on activities that have (or are building) evidence of effectiveness.
+    As illustrated in the Colorado example below, shifting resources is a difficult,
+    but necessary, step to truly achieve the best possible results both in government
+    and for customers. \n"
+  icon:
+  - sys:
+      id: 1UuNIzxSKo2yx4rj2yygVM
+      created_at: !ruby/object:DateTime 2020-06-29 18:47:19.152000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 18:47:19.152000000 Z
+    title: MFR green
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/1UuNIzxSKo2yx4rj2yygVM/ed2b5ac2390f5295a5f630a6fb847f72/MFR5_green_.png"
+  - sys:
+      id: 1ZRJ0SYMuKT429Q9xhE6Na
+      created_at: !ruby/object:DateTime 2020-06-29 18:49:04.704000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 18:49:21.046000000 Z
+    title: LD green
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/1ZRJ0SYMuKT429Q9xhE6Na/5eca4b7cf7cfdcddd9b6a000f589ba5f/LD2_green_.png"
+  - sys:
+      id: 1Gyo7nldkx90wFK9k3irj9
+      created_at: !ruby/object:DateTime 2020-06-29 18:49:37.590000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 18:49:37.590000000 Z
+    title: BUE green
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/1Gyo7nldkx90wFK9k3irj9/a23fc0ebea4b2a2c8e77f8bfc01dd99a/BUE1_green_.png"
+  - sys:
+      id: 5VV4gDEtDS9YzUixrV0u8s
+      created_at: !ruby/object:DateTime 2020-06-29 18:50:54.265000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 18:50:54.265000000 Z
+    title: IFR green
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/5VV4gDEtDS9YzUixrV0u8s/b156a73113cb0fa66f9ddd8a0416f484/IFR2_green_.png"
+  themes_overview: 'For over a decade, Colorado’s state government has been a leader
+    in using data and evidence to improve its results (including being [recognized](https://results4america.org/press-releases/results-for-america-releases-2019-invest-in-what-works-state-standard-of-excellence/)
+    as a Leading State in the 2019 State Standard of Excellence). During this time,
+    the state implemented many of the Blueprint Strategies, illustrating how evidence-based
+    policymaking can improve results in the area of economic opportunity. '
+  mfr: 'Colorado launched a public dashboard in 2016, with customer-oriented metrics
+    that cascaded down to agency operations through [departmental strategic plans](https://operations.colorado.gov/department-performance-plans).
+    Leveraging both lead and lag metrics, the state reviewed its performance quarterly
+    at the cabinet level, which informed cross-department collaboration on major initiatives.
+    This effort was launched by the state’s first Chief Performance Officer, appointed
+    in 2015, and expanded that same year when the new Lieutenant Governor assumed
+    role of Chief Operating Officer with operational responsibility for a state government
+    budget of more than $30 billion and a 30,000 person workforce. Over three years,
+    the state improved on 85% of its metrics and hit the target on 55%. For example,
+    as noted in the Governor’s November 2018 budget request, the state expanded broadband
+    connectivity for school districts from 74% in 2015 to 98% in 2018, lowered the
+    healthcare uninsured rate from 14% in 2013 to 6.5% in 2017, and cut or modified
+    half of the state’s 24,500 regulations, delivering more than $7.9 million in cost
+    avoidance and 2.3 million in hours saved for Colorado businesses in 2017. Given
+    the success of these efforts, the [public dashboard](https://dashboard.state.co.us/)
+    was maintained across a change in Administration in 2019. The state also established
+    [process improvement resources and teams](https://coloradolab.org/wp-content/uploads/2019/11/Report-5-Lean-Process-Improvement.11.1.19.pdf)
+    that led to the completion of nearly 900 projects over seven years, touching every
+    state agency. These efforts combined to promote a statewide culture of delivering
+    results for the customer. '
+  ld: 'In 2009, Colorado hired the country’s first state government Chief Data Officer
+    (CDO) to create an enterprise-wide vision for data usage in support of service
+    delivery. The CDO chaired the statewide [Government Data Advisory Board](http://www.oit.state.co.us/cto/cim/government-data-advisory-board)
+    that created a statewide data integration service, which allowed for interoperability
+    of data assets among state entities. The state also established a [training academy](https://www.innovations.harvard.edu/performance-management-academy)
+    in 2013 to support staff in using data-driven methods to improve outcomes across
+    all agencies. More than 500 state leaders completed the training, which included
+    topics on using metrics and data-based methods to deliver results; the training
+    regularly received a 50%+ net promoter score. '
+  bue: 'In 2017, the state created the [Colorado Evaluation and Action Lab](https://coloradolab.org/)
+    as a strategic research partner for government agencies and a bridge to the research
+    community. In one of many efforts, the Colorado Evaluation and Action Lab and
+    the Governor’s Office co-designed the [Linked Information Network of Colorado](https://coloradolab.org/linc/)
+    (LINC) to facilitate data sharing for research and analysis purposes to drive
+    improvement in state policies and programs. During this period, the Governor’s
+    Office of State Planning and Budgeting increased the use of data and evidence
+    in budget decisions by [requiring agencies](https://drive.google.com/file/d/0B0TNL0CtD9wXOXozbkMzUlZwZHc/view)
+    to include the following in their budget requests: evidence of program effectiveness,
+    alignment with the Governor’s dashboard metrics, and if they had been the focus
+    of a process improvement project. The Governor’s Office of State Planning and
+    Budgeting has partnered with state agencies, academic and philanthropic organizations,
+    and the state legislature’s Joint Budget Committee as part of an [Evidence-Based
+    Policy Collaborative](https://leg.colorado.gov/sites/default/files/ebp_12-11-2018.pdf)
+    to “use the best available research and information to help guide and inform policy
+    and budget decisions” for the state’s budget of more than $30 billion. '
+  ifr: Colorado also took a number of actions to prioritize funding programs and initiatives
+    that delivered results. In 2014, the state partnered with the Pew Results First
+    Initiative to leverage a cost-benefit model to assess programs in the areas of
+    adult criminal justice, juvenile justice, and child welfare. This cost-benefit
+    analysis identified 24 programs with positive returns on investment as well as
+    nine programs with more costs than benefits. (These nine programs were reassessed
+    so they could be improved.) Building on these efforts, in 2018, the Governor’s
+    Office and the legislature passed legislation to create three child welfare [Pay
+    for Success initiatives](http://www.americaforward.org/wp-content/uploads/2018/05/PFS-OSPB-initiative-one-pager-April-2018-Signing-Ceremony.pdf).
+    Funded with $6 million, these projects aimed to return $15 million in savings
+    to taxpayers and society.
+  pulling_it_all_together: "State policymakers believe that to prepare all students
+    for a rapidly changing world, they must continue to make stronger connections
+    across the traditional silos of K-12 education, higher education, and employment.
+    Concurrent Enrollment programs allow students to do just this by earning college-level
+    credit while in high school. Motivated by the strong [evidence](https://eric.ed.gov/?id=EJ961443)
+    of the success of these programs, the state rapidly expanded Concurrent Enrollment
+    opportunities. Nearly 46,000 students [participated in these programs in 2018](https://highered.colorado.gov/Publications/Reports/Enrollment/FY2018/2018_Concurrent_Enrollment_April_2019.pdf),
+    up 10% from the previous year, representing nearly one-third of all juniors and
+    seniors who attend public high schools in Colorado. \n \nThe effort to promote
+    and grow Concurrent Enrollment in Colorado is a comprehensive example of the state’s
+    use of the Blueprint’s Strategies to deliver results. Governor Polis is managing
+    for results by supporting the [statewide target](http://masterplan.highered.colorado.gov/the-colorado-goal-66-percent-statewide-attainment/)
+    set by the state’s Commission on Higher Education of 66% postsecondary credential
+    attainment among adults ages 25 to 34 by 2025. Governor Polis included this statewide
+    target on his Governor’s Dashboard, with Concurrent Enrollment as a [key strategy](https://dashboard.state.co.us/bold4-education-workforce.htm)
+    to get there, with its own specific target metrics. \n \nRecognizing the need
+    to leverage data to make the case for the expansion of Concurrent Enrollment,
+    the Colorado Department of Higher Education worked with the Colorado Department
+    of Education to combine data (in a way that preserved student privacy) so that
+    the effectiveness of the program could be measured. Agency leadership, as well
+    as staff focused on data management and evaluation within them, enabled the agencies
+    to bring expertise in research- and evidence-based methods.\n\nThe Colorado Evaluation
+    and Action Lab was enlisted to help build and use the evidence needed to understand
+    if the program was working. A [causal study](https://coloradolab.org/ies-concurrent-enrollment/)
+    was conducted, which followed five cohorts of 11th grade students who attended
+    a state secondary school from the 2009-2010 school year through the 2015-2016
+    school year. The results were encouraging. The study found that, even with special
+    attention to low-income and minority family outcomes, the probability of enrolling
+    in college within one year of expected high school graduation was 77% for students
+    who participated in Concurrent Enrollment, versus 52% for those who did not; the
+    probability of persisting into a second year of college was 82% versus 77%, respectively.
+    In 2020, the Colorado Evaluation and Action Lab is using [rigorous methods to
+    evaluate](https://coloradolab.org/concurrent-enrollment-and-labor/) if Concurrent
+    Enrollment improves time-to-degree and wages for participants.\n \nGovernor Polis
+    then invested in results by [citing](https://highered.colorado.gov/Publications/Reports/Enrollment/FY2018/2018_Concurrent_Enrollment_April_2019.pdf)
+    the evidence of Concurrent Enrollment’s effectiveness as a key reason to scale
+    the program further through “smart policy tweaks and investments this year and
+    in the years to come.” This led to a [direct request](https://co.chalkbeat.org/2019/11/1/21109160/colorado-gov-polis-calls-for-6-000-more-state-funded-preschool-spots-in-2020-budget-request)
+    for a $500,000 increase in funding for Concurrent Enrollment programs for the
+    FY 2020-21 budget cycle, meant to accelerate the governor’s goal of improving
+    the affordability of a postsecondary credential."

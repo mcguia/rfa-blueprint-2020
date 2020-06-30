@@ -6,6 +6,7 @@ seo_image_path: #'/images/media/filename.jpg'
 ---
 
 {% assign index = site.data.contentful.indexPage.indexPage | where: "year", site.content_year %}
+{% assign co = site.data.contentful.coloradoLeadingExample.coloradoLeadingExample %}
 {% for page in index %}
 <main role="main" id="index">
   <section class="top-section">
@@ -68,6 +69,23 @@ seo_image_path: #'/images/media/filename.jpg'
   </section>
 
   {% include table.html %}
+  {% for c in co %}
+      <div class="row align-center">
+        <div class="column large-11 medium-12 small-12 markdown">
+          <h3>Where the Rubber Meets the Road:<br>
+          Investing for Results Matters</h3>
+          {{ c.description | markdownify }}
+        </div>
+      </div>
+  {% endfor %}
+
+  <div class="row align-center">
+  <div class="column large-11 medium-12 small-12 markdown">
+   <a class="button download-button js-open-modal">Colorado<i
+          class="material-icons ">arrow_forward</i></a>
+    {% include colorado-modal.html %}
+  </div>
+  </div>
 
       <div class="row align-center">
         <div class="column large-11 medium-12 small-12 markdown">
@@ -82,5 +100,7 @@ seo_image_path: #'/images/media/filename.jpg'
           {{ page.further_information | markdownify }}
         </div>
       </div>
+
+      {% include buttons.html %}
 </main>
 {% endfor %}

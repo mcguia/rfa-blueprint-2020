@@ -26,9 +26,9 @@
     <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
       <div class="column examples-grid-column examples-grid__content-cell themes light-grey text-center" onclick="window.location='{{ url | relative_url }}';">
-        <span>
-          <a class="external-link-container" href="{{ url | relative_url }}">{{ item.title }}</a>
-        </span>
+        <a class="theme-link" href="{{ url | relative_url }}">{{ item.title }}
+          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+        </a>
       </div>
 
       <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">

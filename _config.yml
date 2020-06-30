@@ -65,6 +65,14 @@ contentful:
         all_entries: true
         cda_query:
           content_type: action
+    - coloradoLeadingExample: # Jekyll _data folder identifier - Required
+        space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
+        access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN
+        base_path: ./source         # Optional - Defaults to Current directory
+        destination: /contentful # Optional - Defaults to _data/contentful/spaces
+        all_entries: true
+        cda_query:
+          content_type: coloradoLeadingExample
     - example: # Jekyll _data folder identifier - Required
         space: ENV_RFA_CONTENTFUL_SPACE_ID         # Required
         access_token: ENV_RFA_CONTENTFUL_DELIVERY_TOKEN

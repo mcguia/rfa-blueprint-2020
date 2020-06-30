@@ -1,0 +1,83 @@
+{% assign co = site.data.contentful.coloradoLeadingExample.coloradoLeadingExample %}
+{% for c in co %}
+<div class="modal examples-grid-modal js-target-modal">
+  <div class="modal__header modal--top-section">
+    <button class="modal__close js-close-modal">
+      <i class="material-icons">close</i>
+    </button>
+  </div>
+  <div class="modal__content">
+    <div class="row examples-grid__content-row criteria">
+      <!-- content columns  -->
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
+        <div class="theme-link" href="{{ url | relative_url }}">Managing for Results</div>
+          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+
+      </div>
+
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+        <div class="examples-wrapper leading-example">
+          <div class="row">
+            <div class="description column large-12">
+                {{ c.mfr | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="row examples-grid__content-row criteria">
+      <!-- content columns  -->
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
+        <a class="theme-link" href="{{ url | relative_url }}">Leveraging Data
+          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+        </a>
+      </div>
+
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+        <div class="examples-wrapper leading-example">
+          <div class="row">
+            <div class="description column large-12">
+                {{ c.ld | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="row examples-grid__content-row criteria">
+      <!-- content columns  -->
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
+        <div class="theme-link" href="{{ url | relative_url }}">Building and Using Evidence</div>
+          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+
+      </div>
+
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+        <div class="examples-wrapper leading-example">
+          <div class="row">
+            <div class="description column large-12">
+                {{ c.bue | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="row examples-grid__content-row criteria">
+      <!-- content columns  -->
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
+        <div class="theme-link" href="{{ url | relative_url }}">Investing for Results</div>
+          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+      </div>
+
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+        <div class="examples-wrapper leading-example">
+          <div class="row">
+            <div class="description column large-12">
+                {{ c.ifr | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
