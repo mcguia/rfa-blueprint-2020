@@ -44,7 +44,7 @@ layout: default
         </div>
       </div>
     </section>
-    <section class="section section__description">
+    <section class="section section__actions" style="margin-bottom:3rem">
       <div class="row align-center">
         <div class="column large-10 markdown">
           <h5>Actions:</h5>
@@ -74,7 +74,7 @@ layout: default
       </div>
     </section>
 
-    <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
+    <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper" style="margin-bottom:3rem">
       <div class="content-section">
 
         <!-- grid content -->
@@ -104,7 +104,125 @@ layout: default
         {% endfor %}
       </div>
     </section>
-  {% endfor %}
+    {% endfor %}
+
+    <div class="row align-center">
+      <div class="column large-10 markdown">
+    <h3 style="margin-bottom:0.5rem">What Could This Look Like Over Time?</h3>
+    <h4 style="margin-top:0">{{ page.title }}</h4>
+  </div></div>
+
+    <section class="table examples-grid">
+      <!-- examples-grid header -->
+      <div class="row examples-grid__header fixed-section ">
+        <div class="row examples-grid__header-row">
+          <!-- header columns  -->
+          <div class="column examples-grid-column examples-grid__header-cell title-criteria dark-blue">Blueprint Strategies</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper" style="margin-bottom:3rem">
+
+      <div class="content-section">
+
+        <!-- grid content -->
+
+        {% for strategy in page.strategies %}
+        <div class="row examples-grid__content-row criteria">
+          <!-- content columns  -->
+          <div class="column examples-grid-column examples-grid__content-cell themes dark-blue text-center">
+            <div class="theme-link strategies-text" href="{{ url | relative_url }}">{{ strategy.title }}:{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</div>
+          </div>
+
+          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+            <div class="examples-wrapper leading-example">
+              <div class="row">
+                <div class="description column large-12">
+                  <div class="column-header">Beginning</div>
+                  {{ strategy.beginning_description | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+            <div class="examples-wrapper leading-example">
+              <div class="row">
+                <div class="description column large-12">
+                  <div class="column-header">Building</div>
+                  {{ strategy.building_description | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+            <div class="examples-wrapper leading-example">
+              <div class="row">
+                <div class="description column large-12">
+                  <div class="column-header">Sustaining</div>
+                  {{ strategy.sustaining_description | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <div class="row align-center">
+      <div class="column large-6 markdown">
+    <h3 style="margin-bottom:0.5rem">Wins</h3>
+    <p>By following the actions above and building over time, states should aim to achieve wins along the way to galvanize internal and external support. Here are some sample wins, though there are many other types of achievements that states could use to mark their progress.</p>
+  </div></div>
+
+  <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper" style="margin-bottom:3rem">
+
+      <div class="content-section">
+
+        <!-- grid content -->
+
+        <div class="row examples-grid__content-row criteria" style="max-width:62.5rem">
+          <!-- content columns  -->
+
+          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+            <div class="examples-wrapper leading-example">
+              <div class="row">
+                <div class="description column large-12">
+                  <div class="column-header">Short-term Wins</div>
+                  {{ page.quick_wins | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+            <div class="examples-wrapper leading-example">
+              <div class="row">
+                <div class="description column large-12">
+                  <div class="column-header">Mid-term Wins</div>
+                  {{ page.mid_term_wins | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+            <div class="examples-wrapper leading-example">
+              <div class="row">
+                <div class="description column large-12">
+                  <div class="column-header">Long-term Wins</div>
+                  {{ page.long_term_wins | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
 
   {% include mobile-index.html %}

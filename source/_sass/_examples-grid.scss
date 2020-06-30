@@ -148,6 +148,10 @@ a.external-link-container {
   .light-blue {
     background-color: #cae9f2;
   }
+  .dark-blue {
+    background-color: $dark-blue;
+    color: #fff;
+  }
 
 
   @for $i from 2 through 7 {
@@ -189,6 +193,10 @@ a.external-link-container {
     @include breakpoint($small-only) {
       font-size: 0.8rem;
       padding: 0.5rem;
+    }
+    .strategies-text > p {
+      color: #fff;
+      font-weight: 400;
     }
   }
   .tooltip {
@@ -279,6 +287,11 @@ a.external-link-container {
       }
       @include breakpoint($small-only) {
         display: none;
+      }
+      .column-header {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $dark-blue;
       }
     }
     .learn-more {
