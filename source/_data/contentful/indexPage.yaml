@@ -3,21 +3,52 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:16:15.946000000 Z
+    updated_at: !ruby/object:DateTime 2020-06-29 22:49:32.649000000 Z
     content_type_id: indexPage
-    revision: 6
+    revision: 8
   year: '2020'
   overview: |-
     This *Blueprint for Delivering Results in State Government* is an implementation guide for Results for America’s [Invest in What Works State Standard of Excellence](https://2019state.results4america.org/) (State Standard). The State Standard sets a national standard for how state governments can use evidence and data to achieve better outcomes for their residents whereas the *Blueprint for Delivering Results in State Government* (Blueprint) provides state governments with specific implementation strategies and actions for consistently and effectively using evidence and data in budget, policy, and management decisions.
 
 
-    Taken together, the State Standard and Blueprint provide state governments with a set of comprehensive resources to:
-    - __Identify a high level roadmap__ to [assess](https://2019state.results4america.org/downloads.html) where they can increase their capacity to use evidence and data in their decision-making;
-    - __Implement detailed strategies__ to build this capacity to foster and sustain an organizational culture focused on learning and results; and
-    - __Improve investments__ by using their evidence and data capacity to spend taxpayer dollars on evidence-based solutions that achieve better results for their residents
-
-
-    This Blueprint is designed for state government leaders in governors offices, state budget and policy offices, and within state agencies who are charged with making their state’s critical budget, policy, and management decisions. The Blueprint describes specific strategies, actions, resources, and examples of leading practices to help state governments achieve excellence in the State Standard and better outcomes for their residents.
+    Taken together, the State Standard of Excellence and Blueprint provide state governments with a set ofcomprehensive resources to:
+  roadmap_image:
+    sys:
+      id: 4udP4M1dqs3lWemK3A5JHx
+      created_at: !ruby/object:DateTime 2020-06-29 16:35:48.609000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 16:35:48.609000000 Z
+    title: Roadmap
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/4udP4M1dqs3lWemK3A5JHx/0946f6f06ffa0b2c76fca6afa693c028/Overview1.png"
+  roadmap: __Create a high-level roadmap__ for how they can increase their [capacity](https://2019state.results4america.org/downloads.html%23state-spotlights)
+    to use evidence and data in their decision-making;
+  capacity_image:
+    sys:
+      id: wY7LqrlJrObl00mcYKwS2
+      created_at: !ruby/object:DateTime 2020-06-29 16:36:19.678000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 16:36:19.678000000 Z
+    title: Capacity
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/wY7LqrlJrObl00mcYKwS2/809d77ec420ee9b2606e5f3440352ed6/Overview2.png"
+  capacity: __Build capacity__ to foster and sustain an organizational culture focused
+    on learning and results; and
+  investments_image:
+    sys:
+      id: 62suOa8qj8aeFN87La5ZuP
+      created_at: !ruby/object:DateTime 2020-06-29 16:36:38.360000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 16:36:38.360000000 Z
+    title: Investments
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/62suOa8qj8aeFN87La5ZuP/d07d803e3a77baea98a036d9698802f5/Overview3.png"
+  investments: __Improve investments__ by using their evidence and data capacity to
+    spend taxpayer dollars on evidence-based solutions that achievebetter results
+    for their residents
+  overview2: This Blueprint is designed for state government leaders in governors
+    offices, state budget and policy offices, and within state agencies who are charged
+    with making their state’s critical budget, policy, and management decisions. The
+    Blueprint describes specific strategies, actions, resources, and examples of leading
+    practices to help state governments achieve excellence in the State Standard and
+    better outcomes for their residents.
   summary_of_strategies: "*The Blueprint is organized into the following Blueprint
     Themes, each of which has accompanying Strategies that are aligned to specific
     criteria in the State Standard. The Blueprint also recommends a series of accompanying
@@ -27,11 +58,19 @@ indexPage:
   - sys:
       id: 2UIJjDT50igsVZ3wI7MXKL
       created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-23 10:24:49.633000000 Z
+      updated_at: !ruby/object:DateTime 2020-06-29 16:52:30.528000000 Z
       content_type_id: theme
-      revision: 3
+      revision: 4
     title: Managing for Results
     order: 1
+    icon:
+      sys:
+        id: 39XMRrBsHdlLSoc7xAp1qd
+        created_at: !ruby/object:DateTime 2020-06-29 16:52:22.876000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 16:52:22.876000000 Z
+      title: MFR
+      description: 
+      url: "//images.ctfassets.net/xrxa0m8bxqnj/39XMRrBsHdlLSoc7xAp1qd/fc05a7b32a1db8cff1006765fa1f1859/MFR5.png"
     related_criteria: |-
       1. [Strategic goals](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html)
       2. [Performance management/continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)

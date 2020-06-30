@@ -19,6 +19,37 @@ seo_image_path: #'/images/media/filename.jpg'
       <div class="row align-center">
         <div class="column large-11 medium-12 small-12 markdown">
           {{ page.overview | markdownify }}
+          <div class="media-object">
+            <div class="media-object-section">
+              <div class="thumbnail">
+                <img class="overview-img" alt="Roadmap" src={{page.roadmap_image.url}} />
+              </div>
+            </div>
+            <div class="media-object-section main-section">
+              {{ page.roadmap | markdownify }}
+            </div>
+          </div>
+          <div class="media-object">
+            <div class="media-object-section">
+              <div class="thumbnail">
+                <img class="overview-img" alt="Roadmap" src={{page.capacity_image.url}} />
+              </div>
+            </div>
+            <div class="media-object-section main-section">
+              {{ page.capacity | markdownify }}
+            </div>
+          </div>
+          <div class="media-object">
+            <div class="media-object-section">
+              <div class="thumbnail">
+                <img class="overview-img" alt="Roadmap" src={{page.investments_image.url}} />
+              </div>
+            </div>
+            <div class="media-object-section main-section">
+              {{ page.investments | markdownify }}
+            </div>
+          </div>
+          {{ page.overview2 | markdownify }}
         </div>
       </div>
 

@@ -3,9 +3,24 @@ const Expandable = {
     const expandableSection = document.querySelector('.expandable');
     $('.read-more').on('click', e => {
       const expandableTarget = e.currentTarget.closest('.expandable');
-      expandableTarget.classList.contains('js-expandable-active') 
-        ? expandableTarget.classList.remove('js-expandable-active')
-        : expandableTarget.classList.add('js-expandable-active'); 
+      const expandableMedia = expandableTarget.querySelectorAll('.media-object');
+
+      if (expandableTarget.classList.contains('js-expandable-active')) {
+        expandableTarget.classList.remove('js-expandable-active');
+        if (expandableMedia) {
+          expandableMedia.forEach((e) => {
+            e.style.display = 'none';
+          });
+        }
+      }
+      else {
+        expandableTarget.classList.add('js-expandable-active');
+        if (expandableMedia) {
+          expandableMedia.forEach((e) => {
+            e.style='display:flex!important';
+          });
+        }
+      }
     })
   },
   init() {
