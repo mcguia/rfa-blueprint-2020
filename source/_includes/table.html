@@ -36,7 +36,7 @@
           <div class="row">
             <div class="description column large-12">
               {% for strategy in item.strategies %}
-                {{ strategy.short_description | markdownify }}
+                <a href="{{url | relative_url}}#{{strategy.title | remove: " "}}">{{ strategy.short_description | markdownify }}</a>
               {% endfor %}
             </div>
           </div>

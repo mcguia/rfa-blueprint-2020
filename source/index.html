@@ -79,7 +79,7 @@ seo_image_path: #'/images/media/filename.jpg'
       </div>
   {% endfor %}
 
-  <div class="row align-center">
+  <div class="row align-center" style="margin-bottom:3rem">
   <div class="column large-11 medium-12 small-12 markdown">
    <a class="button download-button js-open-modal">Colorado<i
           class="material-icons ">arrow_forward</i></a>
@@ -87,12 +87,10 @@ seo_image_path: #'/images/media/filename.jpg'
   </div>
   </div>
 
-      <div class="row align-center">
-        <div class="column large-11 medium-12 small-12 markdown">
-          <h3>Conclusion</h3>
-          {{ page.conclusion | markdownify }}
-        </div>
-      </div>
+  <div class="row align-center">
+    <div class="column large-11 medium-12 small-12 markdown">
+    {% include accordion.html %}
+  </div></div>
 
       <div class="row align-center">
         <div class="column large-11 medium-12 small-12 markdown">
