@@ -40,7 +40,7 @@ layout: default
     <section class="section section__description">
       <div class="row align-center">
         <div class="column large-10 markdown">
-          <h3>{{ strategy.title }}</h3> {{ strategy.short_description | markdownify }}
+          <h3 id="{{strategy.title | remove: " "}}">{{ strategy.title }}</h3> {{ strategy.short_description | markdownify }}
         </div>
       </div>
     </section>
@@ -48,19 +48,28 @@ layout: default
       <div class="row align-center">
         <div class="column large-10 markdown">
           <h5>Actions:</h5>
+          <ul>
           {% for action in strategy.actions %}
-            <p>Actions placeholder</p>
+            {% for a in site.data.contentful.action.action %}
+              {% if a.sys.id == action.sys.id %}
+                <li>{{ a.description | markdownify }}</li>
+                {% if a.sub_description %}
+                  <li>{{ a.sub_description | markdownify }}</li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
           {% endfor %}
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="table examples-grid">
       <!-- examples-grid header -->
-      <div class="row examples-grid__header fixed-section ">
+      <div class="row examples-grid__header fixed-section " style="max-width:62.5rem">
         <div class="row examples-grid__header-row">
           <!-- header columns  -->
-          <div class="column examples-grid-column examples-grid__header-cell title-examples">Examples</div>
+          <div class="column examples-grid-column examples-grid__header-cell dark-blue">Blueprint Strategies in Practice</div>
         </div>
       </div>
     </section>
@@ -69,26 +78,30 @@ layout: default
       <div class="content-section">
 
         <!-- grid content -->
-
-        <div class="row examples-grid__content-row criteria">
+        {% for example in strategy.examples %}
+        <div class="row examples-grid__content-row criteria" style="max-width:62.5rem">
           <!-- content columns  -->
-          <div class="column examples-grid-column examples-grid__content-cell title" style="width:40%; max-width: 40%">
-            <span>
-              <a class="" href="">Example placeholder</a>
-            </span>
-          </div>
+            {% for e in site.data.contentful.example.example %}
+              {% if e.sys.id == example.sys.id %}
+                <div class="column examples-grid-column examples-grid__content-cell light-green title" style="width:40%; max-width: 40%">
+                  <div class="theme-link">{{ e.state | markdownify }}</div>
 
-          <div class="column examples-grid-column examples-grid__content-cell leading filterable" style="width:60%; max-width: 60%">
-            <!-- Leading issues -->
-            <div class="examples-wrapper leading-example">
-              <div class="row">
-                <div class="description column large-12">
-                  Description placeholder
                 </div>
-              </div>
-            </div>
-          </div>
+
+                <div class="column examples-grid-column examples-grid__content-cell light-green leading filterable" style="width:60%; max-width: 60%">
+                  <!-- Leading issues -->
+                  <div class="examples-wrapper leading-example">
+                    <div class="row">
+                      <div class="description column large-12">
+                        {{ e.description | markdownify }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
         </div>
+        {% endfor %}
       </div>
     </section>
   {% endfor %}
