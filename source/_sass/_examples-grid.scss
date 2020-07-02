@@ -175,6 +175,12 @@ a.internal-link-container {
   .grey {
     background-color: #e7ecf0;
   }
+  .grey-2 {
+    background-color: #dae2e8;
+  }
+  .grey-3 {
+    background-color: #ced8e0;
+  }
   .light-blue {
     background-color: #cae9f2;
   }
@@ -183,20 +189,21 @@ a.internal-link-container {
     color: #fff;
   }
 
-
-  @for $i from 2 through 7 {
-    &:nth-child(#{$i}) {
-      .light-grey {
-        background-color: darken(#fafafa, ($i - 1) * 4%);
-      }
-      .grey {
-       background-color: darken(#e7ecf0, ($i - 1) * 4%); 
-      }
-      .light-blue {
-        background-color: darken(#cae9f2, ($i - 1) * 4%);
-      }
-      .light-green {
-        background-color: lighten(#e4f5e9, ($i - 1) * 2%);
+  &.criteria {
+    @for $i from 2 through 7 {
+      &:nth-child(#{$i}) {
+        .light-grey {
+          background-color: darken(#fafafa, ($i - 1) * 4%);
+        }
+        .grey {
+         background-color: darken(#e7ecf0, ($i - 1) * 4%); 
+        }
+        .light-blue {
+          background-color: darken(#cae9f2, ($i - 1) * 4%);
+        }
+        .light-green {
+          background-color: lighten(#d8f0df, ($i - 1) * 3%);
+        }
       }
     }
   }
@@ -231,6 +238,11 @@ a.internal-link-container {
   }
   &.strategies {
     position: relative;
+  }
+  &.wins {
+    li {
+      padding-bottom: 1rem;
+    }
   }
   .tooltip {
     &:before {
