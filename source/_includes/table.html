@@ -7,8 +7,8 @@
     <div class="row examples-grid__header-row">
       <!-- header columns  -->
       <div class="column examples-grid-column examples-grid__header-cell title-criteria grey">Blueprint Themes</div>
-      <div class="column examples-grid-column examples-grid__header-cell title-leading dark-blue">Strategies</div>
-      <div class="column examples-grid-column examples-grid__header-cell title-promising blue">Related State Standard Criteria</div>
+      <div class="column examples-grid-column examples-grid__header-cell title-leading dark-blue">Blueprint Strategies for Delivering Results</div>
+      <div class="column examples-grid-column examples-grid__header-cell title-promising blue">Relevant State Standard of Excellence Criteria</div>
     </div>
   </div>
 </section>
@@ -35,16 +35,18 @@
         <div class="examples-wrapper leading-example">
           <div class="row">
             <div class="description column large-12">
+              <ol type="A">
               {% for strategy in item.strategies %}
-                <a href="{{url | relative_url}}#{{strategy.title | remove: " "}}">{{ strategy.short_description | markdownify }}</a>
+                <a href="{{url | relative_url}}#{{strategy.title | remove: " "}}"><li>{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</li></a>
               {% endfor %}
+              </ol>
             </div>
           </div>
         </div>
       </div>
       <div class="column examples-grid-column examples-grid__content-cell criteria light-blue filterable">
         <div class="examples-wrapper promising-example">
-          <div class="description column large-12">
+          <div class="description column large-12" style="padding: 0">
             {{ item.related_criteria | markdownify }}
           </div>
         </div>
