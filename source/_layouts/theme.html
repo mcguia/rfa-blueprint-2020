@@ -35,10 +35,16 @@ layout: default
   </section>
 
   <section class="section section__explanation">
-    <div class="row align-center">
-      <div class="column large-10 markdown">
-        <h3 class="example__title--leading">Rationale</h3>
-        {{ page.rationale | markdownify }}
+    <div class="expandable">
+      <div class="row align-center">
+        <div class="column large-10 markdown">
+          {{ page.rationale | markdownify }}
+        </div>
+      </div>
+      <div class="row align-center">
+        <div class="column large-11 read-more-wrapper">
+          <button class="read-more" aria-label="Read More Toggle"></button>
+        </div>
       </div>
     </div>
   </section>
@@ -49,7 +55,7 @@ layout: default
   </div>
   <div class="column large-12 markdown">
   {% for strategy in page.strategies %}
-    <button class="accordion" id="{{strategy.title | remove: " "}}"><h5>{{ strategy.short_description | markdownify }}</h5></button>
+    <button class="accordion" id="{{strategy.title | remove: " "}}"><h5>{{ strategy.short_description | markdownify }}</h5><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
     <div class="panel">
       <section class="section section__actions" style="margin-bottom:3rem">
         <div class="row align-center">
@@ -59,8 +65,8 @@ layout: default
             {% for action in strategy.actions %}
               {% for a in site.data.contentful.action.action %}
                 {% if a.sys.id == action.sys.id %}
-                  <li>{{ a.description | markdownify }}</li>
-                  {% for t in a.type %}<span class="icon-{{t}}">{{t}}</span>{% endfor %}
+                  <li class="convert-span">{{ a.description | markdownify }}{% for t in a.type %}<span class="icon-{{t}}">{{t}}</span>{% endfor %}</li>
+                  
                   {% if a.sub_description %}
                     <li>{{ a.sub_description | markdownify }}</li>
                   {% endif %}

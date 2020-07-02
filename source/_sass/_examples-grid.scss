@@ -69,6 +69,14 @@
   @include breakpoint($small-only) {
     padding: 0.5rem;
   }
+  .theme-link {
+    margin-bottom: 2rem;
+  }
+  &.themes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   &.themes,
   &.title-criteria {
     width: 20%;
@@ -112,6 +120,28 @@ a.external-link-container {
   &:after {
     @extend .u-material-icons;
     content: 'launch';
+    padding: 0 5px;
+    font-size: 1.2rem;
+    vertical-align: -3px;
+    display: inline;
+    @include breakpoint($small-only) {
+      font-size: 0.8rem;
+      vertical-align: -2px;
+    }
+  }
+}
+a.internal-link-container {
+  p {
+    color: inherit;
+  }
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+    @extend .u-transition;
+  }
+  &:after {
+    @extend .u-material-icons;
+    content: 'arrow_forward';
     padding: 0 5px;
     font-size: 1.2rem;
     vertical-align: -3px;
@@ -198,6 +228,9 @@ a.external-link-container {
       color: #fff;
       font-weight: 400;
     }
+  }
+  &.strategies {
+    position: relative;
   }
   .tooltip {
     &:before {
@@ -404,5 +437,11 @@ a.external-link-container {
         }
       }
     }
+  }
+}
+
+.convert-span {
+  p {
+    display: inline;
   }
 }

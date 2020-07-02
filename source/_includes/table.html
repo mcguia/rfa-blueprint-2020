@@ -26,8 +26,9 @@
     <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
       <div class="column examples-grid-column examples-grid__content-cell themes light-grey text-center" onclick="window.location='{{ url | relative_url }}';">
-        <a class="theme-link" href="{{ url | relative_url }}">{{ item.title }}
+        <a class="theme-link" href="{{ url | relative_url }}">
           <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+          {{ item.title }}
         </a>
       </div>
 
@@ -37,9 +38,12 @@
             <div class="description column large-12">
               <ol type="A">
               {% for strategy in item.strategies %}
-                <a href="{{url | relative_url}}#{{strategy.title | remove: " "}}"><li>{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</li></a>
+                <li><a class="internal-link-container convert-span" href="{{url | relative_url}}#{{strategy.title | remove: " "}}">{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</a></li>
               {% endfor %}
               </ol>
+              <span class="tooltip">
+                  {{ item.rationale | truncatewords: 15 | append: " Read More" }}
+                </span>
             </div>
           </div>
         </div>

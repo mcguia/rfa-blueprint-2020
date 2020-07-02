@@ -1,5 +1,7 @@
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
+  display: flex;
+  justify-content: space-between;
   font-weight:500;
   background-color: $blue;
   color: #444;
@@ -19,6 +21,9 @@
     color: #fff;
     letter-spacing: normal;
   }
+  .fa {
+    color: #fff;
+  }
 }
 
 .accordion-row {
@@ -28,7 +33,7 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: $light-gray;
-  h5, p {
+  h5, p, .fa {
     color: $blue;
   }
 }
