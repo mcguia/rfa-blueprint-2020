@@ -1,4 +1,4 @@
-# Results For America 2019
+# Results For America 2020
 
 ### Prerequisites
 - [jekyll](https://jekyllrb.com/)

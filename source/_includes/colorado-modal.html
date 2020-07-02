@@ -1,6 +1,6 @@
 {% assign co = site.data.contentful.coloradoLeadingExample.coloradoLeadingExample %}
 {% for c in co %}
-<div class="modal examples-grid-modal js-target-modal">
+<div class="colorado-modal modal examples-grid-modal js-target-modal text-left">
   <div class="modal__header modal--top-section">
     <button class="modal__close js-close-modal">
       <i class="material-icons">close</i>
@@ -9,13 +9,30 @@
   <div class="modal__content">
     <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
-      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
-        <div class="theme-link" href="{{ url | relative_url }}">Managing for Results</div>
-          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green-2 text-center flex-column" onclick="window.location='{{ url | relative_url }}';">
+        <div class="state-title">Colorado</div>
+        <img class="state-img" alt="{{ c.state_outline.title }} Outline Image" src={{ c.state_outline.url }} />
+      </div>
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green-2 filterable">
+        <div class="examples-wrapper leading-example">
+          <div class="row">
+            <div class="description column large-12">
+                {{ c.themes_overview | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row examples-grid__content-row criteria">
+      <!-- content columns  -->
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green-2 text-center flex-column" onclick="window.location='{{ url | relative_url }}';">
+        <div class="theme-link green" href="{{ url | relative_url }}">Managing for Results</div>
+          <img class="state-img" alt="Managing for Results Icon" src={{c.icon[0].url}} />
 
       </div>
 
-      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green-2 filterable">
         <div class="examples-wrapper leading-example">
           <div class="row">
             <div class="description column large-12">
@@ -27,13 +44,13 @@
     </div>
         <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
-      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
-        <a class="theme-link" href="{{ url | relative_url }}">Leveraging Data
-          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green-2 text-center flex-column" onclick="window.location='{{ url | relative_url }}';">
+        <a class="theme-link green" href="{{ url | relative_url }}">Leveraging Data
+          <img class="state-img" alt="Leveraging Data Icon" src={{c.icon[1].url}} />
         </a>
       </div>
 
-      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green-2 filterable">
         <div class="examples-wrapper leading-example">
           <div class="row">
             <div class="description column large-12">
@@ -45,13 +62,13 @@
     </div>
         <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
-      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
-        <div class="theme-link" href="{{ url | relative_url }}">Building and Using Evidence</div>
-          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green-2 text-center flex-column" onclick="window.location='{{ url | relative_url }}';">
+        <div class="theme-link green" href="{{ url | relative_url }}">Building and Using Evidence</div>
+          <img class="state-img" alt="Building and Using Evidence Icon" src={{c.icon[2].url}} />
 
       </div>
 
-      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green-2 filterable">
         <div class="examples-wrapper leading-example">
           <div class="row">
             <div class="description column large-12">
@@ -61,14 +78,14 @@
         </div>
       </div>
     </div>
-        <div class="row examples-grid__content-row criteria">
+    <div class="row examples-grid__content-row criteria">
       <!-- content columns  -->
-      <div class="column examples-grid-column examples-grid__content-cell themes light-green text-center" onclick="window.location='{{ url | relative_url }}';">
-        <div class="theme-link" href="{{ url | relative_url }}">Investing for Results</div>
-          <img class="theme-img" alt="Roadmap" src={{item.icon.url}} />
+      <div class="column examples-grid-column examples-grid__content-cell themes light-green-2 text-center flex-column" onclick="window.location='{{ url | relative_url }}';">
+        <div class="theme-link green" href="{{ url | relative_url }}">Investing for Results</div>
+          <img class="state-img" alt="Investing for Results Icon" src={{c.icon[3].url}} />
       </div>
 
-      <div class="column examples-grid-column examples-grid__content-cell strategies light-green filterable">
+      <div class="column examples-grid-column examples-grid__content-cell strategies light-green-2 filterable">
         <div class="examples-wrapper leading-example">
           <div class="row">
             <div class="description column large-12">
@@ -77,15 +94,21 @@
           </div>
         </div>
       </div>
-      <div class="row examples-grid__content-row criteria">
-      <!-- content columns  -->
-      <div class="column examples-grid-column examples-grid__content-cell strategies light-green" onclick="window.location='{{ url | relative_url }}';">
-        <div class="description column large-12">
-                {{ c.pulling_it_all_together | markdownify }}
-            </div>
+    </div>
+    <div class="row align-center light-green-2">
+      <div class="column large-11">
+        <h5 class="green" style="margin-bottom:0;font-weight:700">Pulling it All Together</h5>
+        <h5 class="green" style="margin:0"><i>Expanding Concurrent Enrollment to Support Economic Opportunity</i></h5>
       </div>
     </div>
+    <div class="row examples-grid__content-row criteria align-center light-green-2">
+    <!-- content columns  -->
+    <div class="column large-11" onclick="window.location='{{ url | relative_url }}';">
+      <div class="description">
+        {{ c.pulling_it_all_together | markdownify }}
+      </div>
     </div>
   </div>
+</div>
 </div>
 {% endfor %}

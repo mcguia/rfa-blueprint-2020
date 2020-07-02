@@ -3,9 +3,17 @@ coloradoLeadingExample:
 - sys:
     id: 3ZjsG4xndcdTLjPqs5gbga
     created_at: !ruby/object:DateTime 2020-06-29 19:02:43.899000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 19:02:43.899000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 22:40:04.428000000 Z
     content_type_id: coloradoLeadingExample
-    revision: 1
+    revision: 2
+  state_outline:
+    sys:
+      id: 5G3SktGT23s5j26ZxyDcmV
+      created_at: !ruby/object:DateTime 2020-07-02 22:24:57.373000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-02 22:24:57.373000000 Z
+    title: Colorado
+    description: 
+    url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
   description: "Of special note, Investing for Results is the most important Blueprint
     Theme for state government leaders. Spending is where the “rubber meets the road”
     -- the point at which governments allocate public resources to deliver services
