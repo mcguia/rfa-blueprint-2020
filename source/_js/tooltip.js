@@ -9,6 +9,18 @@ const Tooltip = {
   init() {
     this.hoverCriteria('.title');
     this.hoverCriteria('.strategies');
+    let tooltips = document.querySelectorAll('.strategies-tooltip');
+    tooltips.forEach((t) => {
+      let link = document.querySelectorAll('.theme-link');
+      if (t) {
+        let temp_link = document.createElement("a");
+        temp_link.href = link[parseInt(t.id)-1].href;
+        temp_link.style.fontSize = "16px";
+        temp_link.style.fontWeight = "500";
+        temp_link.innerHTML = " Read more";
+        t.appendChild(temp_link);
+      }
+    });
   }
 };
 

@@ -41,8 +41,8 @@
                 <li><a class="internal-link-container convert-span" href="{{url | relative_url}}#{{strategy.title | remove: " "}}">{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</a></li>
               {% endfor %}
               </ol>
-              <span class="tooltip">
-                  {{ item.rationale | truncatewords: 15 | append: " Read More" }}
+              <span class="tooltip strategies-tooltip" id="{{ forloop.index }}">
+                  {{ item.rationale | truncatewords: 15 }}
                 </span>
             </div>
           </div>
