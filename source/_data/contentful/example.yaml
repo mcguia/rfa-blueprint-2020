@@ -3,28 +3,29 @@ example:
 - sys:
     id: 6IVylyPiMZsXIm8bSfWHCO
     created_at: !ruby/object:DateTime 2020-06-22 23:48:27.505000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:29:37.928000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:30:58.490000000 Z
     content_type_id: example
-    revision: 3
+    revision: 4
   state: Vermont
   url: "[State Strategic Plan 2018–2023 (FY2019–FY2023)](https://strategicplan.vermont.gov/sites/strategicplan/files/documents/Theme-plans/Strategic%20Plans%20All%20Agencies%20by%20Theme%20v1.3new_wCover.pdf)"
-  description: 'An [executive order](https://governor.vermont.gov/sites/scott/files/documents/EO1Strategic%20Goals.FINALpdf2.pdf)
+  description: "An [executive order](https://governor.vermont.gov/sites/scott/files/documents/EO1Strategic%20Goals.FINALpdf2.pdf)
     mandated the creation of Vermont’s statewide strategic goals. Vermont has published
     its [strategic plan online](https://strategicplan.vermont.gov/strategic-plan)
     and it includes extensively detailed strategic outcomes, goals, breakthrough indicators,
-    and targets. More information: 2019 State Standard of Excellence ([Criteria 1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#vermont))'
+    and targets. \n\n__More information: 2019 State Standard of Excellence ([Criteria
+    1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#vermont))__"
   year: '2020'
 - sys:
     id: 1tBrMxEAc82J8W8tHrSQhV
     created_at: !ruby/object:DateTime 2020-06-22 23:51:20.945000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:29:27.708000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:31:23.690000000 Z
     content_type_id: example
-    revision: 2
+    revision: 3
   state: Washington
   url: "[Results Washington](https://results.wa.gov)"
-  description: 'The Governor’s dashboard on Results Washington publicly lists statewide
+  description: "The Governor’s dashboard on Results Washington publicly lists statewide
     strategic goals, outcome measures, and live progress toward meeting these goals.
-    More information: 2019 State Standard of Excellence ([Criteria 1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#washington))'
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#washington))__"
   year: '2020'
 - sys:
     id: ucc6rBMQEmWMIELGCNlcR
@@ -56,41 +57,42 @@ example:
 - sys:
     id: 3FU1PWOrGBjxi1KTk206cP
     created_at: !ruby/object:DateTime 2020-06-22 23:58:30.223000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:28:19.129000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:31:11.772000000 Z
     content_type_id: example
-    revision: 2
+    revision: 3
   state: Colorado
   url: "[Colorado Governor's Budget Request](https://drive.google.com/drive/folders/10H70tFEGOJg_b2EPtdhpEA0xbfK4rCOc)"
-  description: 'The Governor’s budget request aligns the Governor’s priorities with
+  description: "The Governor’s budget request aligns the Governor’s priorities with
     the budgeting process and cycle. This is supported by the [Colorado State Measurement
     for Accountable, Responsive, and Transparent Government](https://operations.colorado.gov/performance-management)
-    (SMART) Act. More information: 2019 State Standard of Excellence ([Criteria 1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#leading-example)).'
+    (SMART) Act. \n\n__More information: 2019 State Standard of Excellence ([Criteria
+    1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 346GEVqblIiW0VWvCWeTPv
     created_at: !ruby/object:DateTime 2020-06-22 23:59:25.307000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:28:10.209000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:31:37.672000000 Z
     content_type_id: example
-    revision: 2
+    revision: 3
   state: Washington
   url: "[Results Washington Results Review](https://results.wa.gov/measuring-progress/results-reviews)"
-  description: 'The governor and state leadership convene monthly [Results Reviews](https://results.wa.gov/measuring-progress/results-reviews)
+  description: "The governor and state leadership convene monthly [Results Reviews](https://results.wa.gov/measuring-progress/results-reviews)
     meetings on specific strategic goals and outcome measures. These meetings engage
     community members in sharing their experiences and are made publicly available.
-    More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#leading-example)).'
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 1Xozq1UHPcEWvJzS8Jsrh7
     created_at: !ruby/object:DateTime 2020-06-23 00:04:27.290000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:26:24.521000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:31:50.096000000 Z
     content_type_id: example
-    revision: 2
+    revision: 3
   state: Maryland
   url: "[Managing for Results](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)"
-  description: 'Maryland’s Managing for Results initiative publishes annual performance
+  description: "Maryland’s Managing for Results initiative publishes annual performance
     reports and tracks agencies’ key goals, objectives, and performance measures,
-    which are supported by the Governor’s Improvement Office. More information: 2019
-    State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#maryland)).'
+    which are supported by the Governor’s Improvement Office. \n\n__More information:
+    2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#maryland)).__"
   year: '2020'
 - sys:
     id: 7hyLf1E1tbL1nWx7JVpZga
@@ -110,147 +112,149 @@ example:
 - sys:
     id: 7M4MsvA2Vphef5Xrb4ZhUz
     created_at: !ruby/object:DateTime 2020-06-23 00:06:15.793000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:25:32.117000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:32:13.106000000 Z
     content_type_id: example
-    revision: 2
+    revision: 3
   state: Colorado
   url: "[Colorado's Department of Human Services C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)"
-  description: 'C-Stat is the Colorado Department of Human Services’ performance-based
+  description: "C-Stat is the Colorado Department of Human Services’ performance-based
     analysis strategy that allows each program to focus on continuous improvement
     and outcomes. The dashboard is supported by stat meetings where executive leadership
     and staff analyze data to identify positive trends and opportunities for improvement.
-    More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#colorado)).'
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#colorado)).__"
   year: '2020'
 - sys:
     id: 5SUiKpJXbXcvnIgoMT4V89
     created_at: !ruby/object:DateTime 2020-06-23 12:08:23.276000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:08:23.276000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:30:43.387000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: California
   url: California's Open Data Portal
-  description: 'California’s statewide Open Data Policy encourages departments to
+  description: "California’s statewide Open Data Policy encourages departments to
     share data in standard and accessible formats through the California Open Data
     Portal. As outlined in the California Open Data Handbook, the state’s open efforts
     are designed to improve collaboration, expand transparency, encourage innovation,
     and increase effectiveness. In addition, the state hosts CalData, a professional
     network for government officials and partners to promote the best uses of open
-    data. More information: 2019 State Standard of Excellence (Criteria 3).'
+    data. \n\n__More information: 2019 State Standard of Excellence (Criteria 3).__"
   year: '2020'
 - sys:
     id: jhtU6flcizsMtJn5pEy1M
     created_at: !ruby/object:DateTime 2020-06-23 12:08:44.781000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:08:44.781000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:30:30.016000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Ohio
   url: InnovateOhio
-  description: 'In 2019, Ohio’s governor signed Executive Order 2019-15D consolidating
+  description: "In 2019, Ohio’s governor signed Executive Order 2019-15D consolidating
     state data systems into the InnovateOhio Platform, which uses data as “a shared
     strategic asset” whose “value is multiplied when data sets are linked across programs
     and organizations.” The executive order created a presumption of data sharing
     between state agencies, except where a specific legal prohibition is identified
-    in writing. More information: 2019 State Standard of Excellence (Criteria 5).'
+    in writing. \n\n__More information: 2019 State Standard of Excellence (Criteria
+    5).__"
   year: '2020'
 - sys:
     id: S3qPuHpK4LtEuKj7vZZjB
     created_at: !ruby/object:DateTime 2020-06-23 12:09:11.725000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:09:11.725000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:30:18.575000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Connecticut
   url: Connecticut’s State Data Plan and Data Governance Framework
-  description: 'Connecticut’s Chief Data Officer, along with individual agency data
+  description: "Connecticut’s Chief Data Officer, along with individual agency data
     officers, are required to update the state data plan biennially. The plan contains
     11 principles and accompanying practices that all agencies should adopt to improve
-    their management, use, sharing, and analysis of data. More information: 2019 State
-    Standard of Excellence (Criteria 3).'
+    their management, use, sharing, and analysis of data. \n\n__More information:
+    2019 State Standard of Excellence (Criteria 3).__"
   year: '2020'
 - sys:
     id: 16w17gIaFIjoNOUxLrCykY
     created_at: !ruby/object:DateTime 2020-06-23 12:13:33.002000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:13:33.002000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:30:06.214000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Indiana
   url: Indiana's Chief Data Officer
-  description: 'Created by a 2017 law, Indiana’s Chief Data Officer has the budget,
+  description: "Created by a 2017 law, Indiana’s Chief Data Officer has the budget,
     staff, and authority to coordinate data analytics and data transparency for state
     agencies; advise state agencies regarding best practices for data maintenance,
-    security, and privacy; and oversee the Indiana Management Performance Hub. More
-    information: 2019 State Standard of Excellence (Criteria 3).'
+    security, and privacy; and oversee the Indiana Management Performance Hub. \n\n__More
+    information: 2019 State Standard of Excellence (Criteria 3).__"
   year: '2020'
 - sys:
     id: 7CPnUuw55bItZxjHnOKOmR
     created_at: !ruby/object:DateTime 2020-06-23 12:14:05.230000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:14:05.230000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:29:53.305000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Kentucky
   url: Kentucky Center for Statistics’ Data Governance
-  description: 'By providing data sets, publishing reports, and fulfilling research
+  description: "By providing data sets, publishing reports, and fulfilling research
     requests, the Kentucky Center for Statistics provides state-specific education
     and workforce data insights with appropriate data privacy and data access controls.
     With more than 40 staff members who are dedicated to data-use and sharing, the
     Center is run by an executive director with oversight by a board composed of participating
-    state agencies. The Center has developed a research agenda for 2020-22. More information:
-    2019 State Standard of Excellence (Criteria 5).'
+    state agencies. The Center has developed a research agenda for 2020-22. \n\n__More
+    information: 2019 State Standard of Excellence (Criteria 5).__"
   year: '2020'
 - sys:
     id: 78qS4xNfp17otvq0n0Aha9
     created_at: !ruby/object:DateTime 2020-06-23 12:14:44.590000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:14:44.590000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:29:34.267000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Connecticut
   url: Connecticut Chief Data Officer
-  description: 'A Connecticut’s Chief Data Officer, established by a 2018 Connecticut
+  description: "A Connecticut’s Chief Data Officer, established by a 2018 Connecticut
     law, created the Connecticut Data Analysis Technology Advisory Board, and required
     each state agency to designate an agency data officer to manage high value data
     sets and coordinate data-related activities with the state Chief Data Officer.
-    More information: 2019 State Standard of Excellence (Criteria 3).'
+    \n\n__More information: 2019 State Standard of Excellence (Criteria 3).__"
   year: '2020'
 - sys:
     id: 1cHVX6a09mDUCHBwc1GXoe
     created_at: !ruby/object:DateTime 2020-06-23 12:19:05.430000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:19:05.430000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:29:23.221000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Indiana
   url: Indiana Management Performance Hub
-  description: 'Indiana Management Performance Hub is an integrated database that
+  description: "Indiana Management Performance Hub is an integrated database that
     brings together data from key policy issues related to opioids, vehicle crashes,
     medicaid, fiscal transparency, and other areas. According to a 2018 annual report,
     the Hub has generated an estimated return on investment of $40 million for the
-    state. More information: 2019 State Standard of Excellence (Criteria 3).'
+    state. \n\n__More information: 2019 State Standard of Excellence (Criteria 3).__"
   year: '2020'
 - sys:
     id: 3doeD0BPRYPVEYkZoqrRmV
     created_at: !ruby/object:DateTime 2020-06-23 12:19:34.023000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:19:34.023000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:29:11.576000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Colorado
   url: Linked Information Network of Colorado
-  description: 'Colorado Governor’s Office and the Colorado Evaluation and Action
+  description: "Colorado Governor’s Office and the Colorado Evaluation and Action
     Lab (CAEL) co-designed the Linked Information Network of Colorado (LINC) to facilitate
     data sharing for research and analytics purposes as a way to improve state policies
-    and programs. More information: 2019 State Standard of Excellence (Criteria 5).'
+    and programs. \n\n__More information: 2019 State Standard of Excellence (Criteria
+    5).__"
   year: '2020'
 - sys:
     id: 3OLw0bi8N6sIZaoKUe0AQ5
     created_at: !ruby/object:DateTime 2020-06-23 12:20:04.491000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:20:04.491000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:29:00.002000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Washington
   url: Washington’s Department of Social Services’s Integrated Client Database
-  description: 'Washington State Department of Social Services Research and Data Analysis
+  description: "Washington State Department of Social Services Research and Data Analysis
     Division oversees an Integrated Client Database, which brings together data from
     10 state agencies, 40 separate data systems, and 2.4 million individuals. The
     database has been used by the state’s Health Home Program to generate tens of
-    millions of dollars in reduced costs and shared savings payments. More information:
-    2019 State Standard of Excellence (Criteria 5).'
+    millions of dollars in reduced costs and shared savings payments. \n\n__More information:
+    2019 State Standard of Excellence (Criteria 5).__"
   year: '2020'
 - sys:
     id: ghnTlGDGSNMCbfaeqeoQS
@@ -268,64 +272,62 @@ example:
 - sys:
     id: 3yfaicl2CZ6HmPZGHeTU7r
     created_at: !ruby/object:DateTime 2020-06-23 12:51:08.151000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:51:08.151000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:28:43.326000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Ohio
   url: Ohio Department of Education’s Office of Research, Evaluation and Advanced
     Analytics
-  description: 'The Director of the Ohio Department of Education’s Office of Research,
+  description: "The Director of the Ohio Department of Education’s Office of Research,
     Evaluation and Advanced Analytics helps educational leaders across the state use
-    evidence through resources and a clearinghouse. More information: 2019 State Standard
-    of Excellence (Criteria 6).'
+    evidence through resources and a clearinghouse. \n\n__More information: 2019 State
+    Standard of Excellence (Criteria 6).__"
   year: '2020'
 - sys:
     id: 5e8eV1BfsFB46oOGjaVeJX
     created_at: !ruby/object:DateTime 2020-06-23 12:51:32.366000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:51:32.366000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:28:31.953000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Massachusetts
   url: Massachusetts Department of Elementary and Secondary Education’s Chief Strategy
     and Research Officer
-  description: 'The Massachusetts Department of Elementary and Secondary Education’s
+  description: "The Massachusetts Department of Elementary and Secondary Education’s
     Office of Planning and Research is led by a Chief Strategy and Research Officer
     who is responsible for improving the use of data and research findings to influence
-    policy and program decision-making. More information: 2019 State Standard of Excellence
-    (Criteria 6).'
+    policy and program decision-making. \n\n__More information: 2019 State Standard
+    of Excellence (Criteria 6).__"
   year: '2020'
 - sys:
     id: 3JxhbESm9p9VgL7JI0Pw9G
     created_at: !ruby/object:DateTime 2020-06-23 12:54:57.559000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:54:57.559000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:28:22.095000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Tennessee
   url: Tennessee Education Research Alliance
-  description: 'The Tennessee Education Research Alliance (TERA) is a formal research
-    partnership between the Tennessee Department of Education and Vanderbilt University’s
-    Peabody College of Education. Led by seven full-time staff and guided by a steering
-    committee and advisory council, the Department and the University have co-developed
-    a research agenda that allows the University to conduct research on a variety
-    of issues. More information: 2019 State Standard of Excellence (Criteria 7).'
+  description: |-
+    The Tennessee Education Research Alliance (TERA) is a formal research partnership between the Tennessee Department of Education and Vanderbilt University’s Peabody College of Education. Led by seven full-time staff and guided by a steering committee and advisory council, the Department and the University have co-developed a research agenda that allows the University to conduct research on a variety of issues.
+
+    __More information: 2019 State Standard of Excellence (Criteria 7).__
   year: '2020'
 - sys:
     id: 4ysmpdl4J9HPFVpy56WQJw
     created_at: !ruby/object:DateTime 2020-06-23 12:55:23.649000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:55:23.649000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:28:05.278000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: California
   url: California Department of Social Services Evidence-Based Clearinghouse for Child
     Welfare
-  description: 'The California Department of Social Services created an Evidence-Based
+  description: "The California Department of Social Services created an Evidence-Based
     Clearinghouse for Child Welfare, which allows child welfare providers and professionals
     to identify, select, and implement evidence-based child welfare practices. In
     addition, the Clearinghouse provides guidance and support for program implementation.
     The Clearinghouse’s numerical rating scale categorizes programs into six tiers
     of evidence and uses a relevance scale as a complement to the scientific rating
-    scale to demonstrate applicability for client populations. More information: 2019
-    State Standard of Excellence (Criteria 10).'
+    scale to demonstrate applicability for client populations. \n\n__More information:
+    2019 State Standard of Excellence (Criteria 10).__"
   year: '2020'
 - sys:
     id: 5Z37GmG5FqvKIuEMkQEJl4
@@ -349,30 +351,30 @@ example:
 - sys:
     id: 4pOTiLxtc7GZBRLa5yRYJi
     created_at: !ruby/object:DateTime 2020-06-23 12:58:12.378000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:58:12.378000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:27:51.076000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: North Carolina
   url: North Carolina's Budget Office Reform
-  description: In 2018, North Carolina redesigned its budget process to increase the
-    use of evidence-based decision-making. As a result, the 2019-2021 budget development
+  description: "In 2018, North Carolina redesigned its budget process to increase
+    the use of evidence-based decision-making. As a result, the 2019-2021 budget development
     instructions require that agency requests “for new or expanded programs or services
     must include evidence and research supporting the program’s effect on desired
-    outcomes.”  2019 State Standard of Excellence (Criteria 9).
+    outcomes.”  \n\n__More information: 2019 State Standard of Excellence (Criteria
+    9).__"
   year: '2020'
 - sys:
     id: 3ruwrptdviD2zfKVgrFPXJ
     created_at: !ruby/object:DateTime 2020-06-23 12:58:41.842000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:58:41.842000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:27:24.678000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Minnesota
   url: Minnesota Management and Budget Guidance for New and Expanded Programs
-  description: 'Minnesota Management and Budget issued guidance on how to report outcome
-    data to help agencies and departments meet this statutory requirement. In addition,
-    the state also used evidence to inform funding decisions resulting in $87 million
-    in new or expanded evidence-based programming in the FY 2020-2021 budget. More
-    information: 2019 State Standard of Excellence (Criteria 10).'
+  description: |-
+    Minnesota Management and Budget issued guidance on how to report outcome data to help agencies and departments meet this statutory requirement. In addition, the state also used evidence to inform funding decisions resulting in $87 million in new or expanded evidence-based programming in the FY 2020-2021 budget.
+
+    __More information: 2019 State Standard of Excellence (Criteria 10).__
   year: '2020'
 - sys:
     id: 3SED6H70BYo1ehUbdwGTNv
@@ -391,12 +393,12 @@ example:
 - sys:
     id: 3B181F7MBGFq6CLwqtMIhd
     created_at: !ruby/object:DateTime 2020-06-23 13:03:58.930000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:03:58.930000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:26:24.781000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Indiana
   url: Indiana’s Efforts to Lower Statewide Infant Mortality Rates
-  description: 'To meet the governor’s goal of having the lowest infant mortality
+  description: "To meet the governor’s goal of having the lowest infant mortality
     rate in the Midwest, Indiana leveraged its Management Performance Hub, which facilitates
     the linkage, storage, and analysis of administrative data. By linking data across
     17 data sets, Management Performance Hub staff were able to better understand
@@ -406,33 +408,33 @@ example:
     increased investment in a targeted strategy to identify those at-risk and connect
     them with vital resources to reduce infant mortality. As a result, infant mortality
     rate decreased significantly from 2017 to 2018 and is at its lowest since 2012.
-    More information: Results for America blog.'
+    \n\n__More information: Results for America blog.__"
   year: '2020'
 - sys:
     id: 3DggedgAlCq9l997dJGEW5
     created_at: !ruby/object:DateTime 2020-06-23 13:04:19.837000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:04:19.837000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:26:34.510000000 Z
     content_type_id: example
-    revision: 1
+    revision: 3
   state: Maryland
   url: Maryland's Office of Children
-  description: 'The Maryland Governor’s Office for Children focuses on achieving the
+  description: "The Maryland Governor’s Office for Children focuses on achieving the
     governor’s child welfare goals. The Office incentivizes the use of data by requiring
     at least three years of performance information from grant applicants and incorporates
     evidence by allocating 10 points (out of 100) for evidence of effectiveness with
     a bonus point to any applicant that proposes an evidence-based home visiting program
     utilizing a model approved by the U.S. Department of Health and Human Services.
-    More information: 2019 State Standard of Excellence (Criteria 12).'
+    \n\n__More information: 2019 State Standard of Excellence (Criteria 12).__"
   year: '2020'
 - sys:
     id: 4ZV8BZ9tliOXcZQhe186Ux
     created_at: !ruby/object:DateTime 2020-06-23 13:04:42.903000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:04:42.903000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:26:42.829000000 Z
     content_type_id: example
-    revision: 1
+    revision: 3
   state: Colorado
   url: Colorado Governor's Office and Agencies Partner with External Research Lab
-  description: 'The Colorado Governor’s Office and the Colorado Evaluation and Action
+  description: "The Colorado Governor’s Office and the Colorado Evaluation and Action
     Lab (The Lab) co-designed the Linked Information Network of Colorado (LINC) to
     facilitate data sharing for research and analytics purposes as a way to improve
     state policies and programs. Using this data, the Lab and state agencies have
@@ -441,77 +443,78 @@ example:
     issued a request for proposals that would provide funding for each of the Governor’s
     Cabinet Groups, which support implementation of the governor’s strategic goals,
     to utilize LINC for high-priority cabinet business analytic needs in meeting these
-    goals. More information: 2019 State Standard of Excellence (Criteria 5)'
+    goals. \n\n__More information: 2019 State Standard of Excellence (Criteria 5)__"
   year: '2020'
 - sys:
     id: 2GOBbgXrinUfXGxXR74ee0
     created_at: !ruby/object:DateTime 2020-06-23 13:06:49.562000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:06:49.562000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:26:53.274000000 Z
     content_type_id: example
-    revision: 1
+    revision: 3
   state: Washington
   url: Washington State Institute for Public Policy’s Cost-Benefit Analyses
-  description: 'The Washington State Institute for Public Policy (WSIPP) has published
+  description: "The Washington State Institute for Public Policy (WSIPP) has published
     hundreds of cost-benefit analyses in a wide variety of issue areas over the past
     10 years. The WSIPP cost-benefit framework has been widely adopted by governments
-    across the country. More information: 2019 State Standard of Excellence (Criteria
-    11).'
+    across the country. \n\n__More information: 2019 State Standard of Excellence
+    (Criteria 11).__"
   year: '2020'
 - sys:
     id: 4zkCAmorNkJM0R8ELeWEDS
     created_at: !ruby/object:DateTime 2020-06-23 13:07:14.818000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:07:14.818000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:27:00.486000000 Z
     content_type_id: example
-    revision: 1
+    revision: 3
   state: Rhode Island
   url: Rhode Island’s Active Contract Management Strategies and Results-Driven Contracting
-  description: 'Rhode Island’s Department of Children, Youth, and Families relied
+  description: "Rhode Island’s Department of Children, Youth, and Families relied
     on active contract management strategies in restructuring 116 contracts (totaling
     $90 million), which resulted in a reduction in the number of foster children in
-    groupcare and an expansion of foster care. More information: 2019 State Standard
-    of Excellence (Criteria 14).'
+    groupcare and an expansion of foster care. \n\n__More information: 2019 State
+    Standard of Excellence (Criteria 14).__"
   year: '2020'
 - sys:
     id: 3xIwGtQQSmgzsFW2QJAaby
     created_at: !ruby/object:DateTime 2020-06-23 13:07:36.053000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:07:36.053000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:25:03.551000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Nevada
   url: Nevada Department of Education’s Commitment to Funding Evidence-based Interventions
-  description: 'Since 2017, the Nevada Department of Education has allocated 100%
+  description: "Since 2017, the Nevada Department of Education has allocated 100%
     of the state’s $8.5 million in federal Title I school improvement funds to districts
     and schools for interventions backed by strong, moderate, or promising evidence
     (using the top three tiers of evidence as defined by the federal Every Student
-    Succeeds Act (ESSA)). More information: 2019 State Standard of Excellence and
-    this Results for America case study. (Criteria 12).'
+    Succeeds Act (ESSA)). \n\n__More information: 2019 State Standard of Excellence
+    and this Results for America case study. (Criteria 12).__"
   year: '2020'
 - sys:
     id: 6h0IeBvKh7Jx1o08yOuzD3
     created_at: !ruby/object:DateTime 2020-06-23 13:11:13.893000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:11:13.893000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:24:49.090000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Minnesota
   url: Minnesota Department of Human Services’ Performance-Based Targets for Cash
     Assistance Programs
-  description: 'Counties that do not meet the Self-Support Index performance targets
+  description: "Counties that do not meet the Self-Support Index performance targets
     must submit performance improvement plans. In counties where “no improvement is
     shown by the end of the multi-year plan, the county’s or tribe’s allocation must
-    be decreased by 2.5 percent” as required by law. More information: 2019 State
-    Standard of Excellence (Criteria 15).'
+    be decreased by 2.5 percent” as required by law. \n\n__More information: 2019
+    State Standard of Excellence (Criteria 15).__"
   year: '2020'
 - sys:
     id: GDDgyApAxW6mVj1aG0N8V
     created_at: !ruby/object:DateTime 2020-06-23 13:11:35.598000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:11:35.598000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:09:17.558000000 Z
     content_type_id: example
-    revision: 1
+    revision: 2
   state: Pennsylvania
   url: Pennsylvania's Department of Corrections Performance-Based Contracts Policy
-  description: 'Pennsylvania Department of Corrections has set performance targets
+  description: "Pennsylvania Department of Corrections has set performance targets
     for its community corrections program through performance-based contracts. Providers
     that meet recidivism prevention goals receive a 1% increase in their rate while
     providers that fail to meet targets for two consecutive years can have their contracts
-    terminated. More information: 2019 State Standard of Excellence (Criteria 15).'
+    terminated. \n\n__More information: 2019 State Standard of Excellence (Criteria
+    15).__"
   year: '2020'

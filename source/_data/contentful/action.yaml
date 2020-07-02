@@ -3,9 +3,9 @@ action:
 - sys:
     id: 7avQBLm7mKtB3dTlcLWq3p
     created_at: !ruby/object:DateTime 2020-06-22 23:42:20.688000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:30:02.212000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:57:59.576000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 1
   description: Appoint or designate a key leader, like a [Chief Performance Officer](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2019/04-2019/Governor-Lamont-Launches-Statewide-Performance-and-Results-Agenda),
     with the authority and skill set to lead the creation of specific goals and metrics
@@ -16,26 +16,26 @@ action:
 - sys:
     id: vANKUATJjUY95X9JzJAtD
     created_at: !ruby/object:DateTime 2020-06-22 23:44:15.884000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:29:54.316000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:58:10.281000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 2
   description: Ensure the strategic planning process for developing the governor’s
     and agency-specific goals and metrics incorporate a breadth of internal and external
     stakeholder input to support legitimacy
-  type:
-  - People
-  - Policy
   sub_description: |-
     - Establish a [clear set of definitions and guidelines](https://centerforgov.gitbooks.io/performance-management-getting-started/content/) for using metrics (e.g. lead vs. lag metrics, and input vs. output vs. outcome), and ensure that public-facing and decision-oriented metrics are focused on tangible results that matter (i.e. consider the question, if we moved the dial on this metric, would it matter to the public?)
     - Engage and include community stakeholders into the process for developing state goals to reflect community needs
+  type:
+  - People
+  - Policy
   year: '2020'
 - sys:
     id: 5bkSigboM3juN31qHXXxdS
     created_at: !ruby/object:DateTime 2020-06-22 23:46:46.974000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:29:46.116000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:58:22.562000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 3
   description: Make the goals and metrics accessible to the public through a scorecard
     or dashboard that is updated in real time or at regular intervals
@@ -46,40 +46,40 @@ action:
 - sys:
     id: 5p8e2t3JH9K0lDSLHENUO2
     created_at: !ruby/object:DateTime 2020-06-22 23:55:03.755000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:28:58.978000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:58:39.255000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 1
   description: Develop a performance review process for goals and metrics that focuses
     on learning from data and engages staff at all levels (including senior personnel
     with authority to make decisions) as well as community stakeholders where relevant
   type:
-  - Policy
   - People
+  - Policy
   year: '2020'
 - sys:
     id: 2GgDDpwx6dEZ2AksASZuQE
     created_at: !ruby/object:DateTime 2020-06-22 23:55:44.263000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:28:49.594000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:58:49.664000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 2
   description: Link outcome metrics for the governor’s goals to the department strategic
     plans and dashboards to support their use in operational decision-making and program
     evaluation
-  type:
-  - Infrastructure
-  - Policy
   sub_description: "- Consider using a “logic tree” approach to show how administration
     goals link to department and even individual goals and activities \n- Consider
     the role of equity in how departments design and implement their strategic plans"
+  type:
+  - Policy
+  - Infrastructure
   year: '2020'
 - sys:
     id: 2v0Z7necStUId8GTcAZfnK
     created_at: !ruby/object:DateTime 2020-06-22 23:56:14.819000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:28:40.537000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:59:01.311000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 3
   description: Create [structures to link](https://www.osbm.nc.gov/management/governors-advisory-committee-performance-management)
     budget, policy, and legislative efforts that support the achievement of goals
@@ -91,9 +91,9 @@ action:
 - sys:
     id: 2jJEw2VC9yIIYurVskAbUD
     created_at: !ruby/object:DateTime 2020-06-23 00:01:58.652000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:27:47.465000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:59:18.872000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 1
   description: Take executive level action (e.g. [executive order](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf)
     or [legislation](https://www.ncleg.gov/Sessions/2017/Bills/Senate/PDF/S257v9.pdf))
@@ -105,9 +105,9 @@ action:
 - sys:
     id: 5k8pGRnEmeBErw3zWcwsWw
     created_at: !ruby/object:DateTime 2020-06-23 00:02:14.939000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:27:36.789000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:59:27.070000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 2
   description: Conduct ongoing internal and external communication about the overall
     approach to delivering results that helps support internal culture and builds
@@ -118,9 +118,9 @@ action:
 - sys:
     id: 6mr9DWwbuYgESbPbvJqq9W
     created_at: !ruby/object:DateTime 2020-06-23 00:02:44.093000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:27:27.736000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:59:37.317000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 3
   description: Establish a method and resources (e.g. [lean process improvement](https://lean.ohio.gov))
     for managers and front-line staff to use data and other information to improve
@@ -132,9 +132,9 @@ action:
 - sys:
     id: 6DeQttQdTZT7lwb1OdmMhs
     created_at: !ruby/object:DateTime 2020-06-23 00:03:25.690000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:27:17.865000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:59:48.647000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 4
   description: Provide adequate personnel resources, [training](https://denpeakacademy.com/about/),
     support, and network development for management and front-line staff to effectively
@@ -145,9 +145,9 @@ action:
 - sys:
     id: 6BwfaPjuNsAdSXRYIwGkYy
     created_at: !ruby/object:DateTime 2020-06-23 00:03:49.459000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 10:27:08.351000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:00:04.302000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 5
   description: Measure employee engagement with specific questions to test awareness
     and connection with core administration values, performance processes, and priorities
@@ -158,42 +158,45 @@ action:
 - sys:
     id: 7FuUlgbe7hmYtXFkEb2ybz
     created_at: !ruby/object:DateTime 2020-06-23 12:06:20.970000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:07:19.170000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:03:17.289000000 Z
     content_type_id: action
-    revision: 2
+    revision: 3
   order: 1
-  description: Create a framework that includes the purpose, priorities, methods and
-    governance for collecting, using and sharing data across state agencies
+  description: Create a [framework](https://beeckcenter.georgetown.edu/report/sharing-data-for-social-impact-guidebook-to-establishing-responsible-governance-practices/)
+    that includes the purpose, priorities, methods and governance for [collecting,
+    using and sharing data](https://www.aisp.upenn.edu/wp-content/uploads/2020/05/AISP-Intro-.pdf)
+    across state agencies
+  sub_description: "- Connect the framework to the administration’s priorities and
+    systematic approach to managing results \n- Elevate the usage of data to “[make
+    peoples’ lives better](https://results4america.org/wp-content/uploads/2017/10/Unleashing-the-Power-of-Administrative-Data.pdf)”
+    (as opposed to more academic pursuits) to help guide usage, address barriers to
+    equality of opportunity, and make the case internally and to the public for why
+    data is important \n- [Center racial equity and the community voice](https://www.aisp.upenn.edu/wp-content/uploads/2020/05/AISP-Toolkit_5.27.20.pdf)
+    within the context of data integration to avoid perpetuating the racially-biased
+    systems that have produced inequitable outcomes"
   type:
   - Policy
   - Infrastructure
-  sub_description: "- Connect the framework to the administration’s priorities and
-    systematic approach to managing results \n- Elevate the usage of data to “make
-    peoples’ lives better” (as opposed to more academic pursuits) to help guide usage,
-    address barriers to equality of opportunity, and make the case internally and
-    to the public for why data is important \n- Center racial equity and the community
-    voice within the context of data integration to avoid perpetuating the racially-biased
-    systems that have produced inequitable outcomes"
   year: '2020'
 - sys:
     id: 4FTl0BR6Twa9vHZbrFE0hJ
     created_at: !ruby/object:DateTime 2020-06-23 12:07:02.148000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:07:02.148000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:03:33.039000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
   description: Consider a guiding vision that protects data privacy and security but
-    elevates the principle of “our default is to share” among state agencies to help
-    break down silos between agencies and systems
+    elevates the principle of “[our default is to share](https://governor.ohio.gov/wps/portal/gov/governor/media/executive-orders/2019-15d)”
+    among state agencies to help break down silos between agencies and systems
   type:
   - Policy
   year: '2020'
 - sys:
     id: 2x8UrusNCtzlc9SwTaCXee
     created_at: !ruby/object:DateTime 2020-06-23 12:07:40.660000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:07:40.660000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:03:41.481000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 3
   description: Codify a vision for data use in an executive order or legislation for
     sustainability
@@ -203,88 +206,94 @@ action:
 - sys:
     id: 6PXR4HWVR7I0mQrcFfeutV
     created_at: !ruby/object:DateTime 2020-06-23 12:11:21.895000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:11:21.895000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:04:27.389000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 1
   description: Hire a Chief Data Officer (CDO) within, or strongly connected to, the
-    governor’s Office with the expertise, authority, and resources to build a data
-    vision, framework, and to guide the effort statewide
-  type:
-  - People
+    governor’s Office with the expertise, [authority](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm),
+    and resources to build a data vision, framework, and to guide the effort statewide
   sub_description: Ensure the CDO has a voice in the policy, budget and management
     decisions where data is a critical element
+  type:
+  - People
   year: '2020'
 - sys:
     id: z4hLtZ1c2ciXy9Y8rFbFQ
     created_at: !ruby/object:DateTime 2020-06-23 12:11:45.011000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:11:45.011000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:04:55.595000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 2
   description: Build capacity to support data capture, management and collaboration
     across agencies
-  type:
-  - People
   sub_description: "- Identify existing technical resources across agencies to understand
     strengths, gaps, and opportunities for increased collaboration \n- Consider increasing
-    technical capacity (e.g. data analysts) within agencies but prioritize placing
-    “data strategists” (i.e. data strategy that is human-centered vs. solely technical)
-    into coordination and management roles "
+    technical capacity (e.g. [data analysts](http://www.hr.ri.gov/documents/jobs/DATA%20ANALYST%20I.PDF))
+    within agencies but prioritize placing “data strategists” (i.e. data strategy
+    that is human-centered vs. solely technical) into coordination and management
+    roles "
+  type:
+  - People
   year: '2020'
 - sys:
     id: EcUaxajdmcf1H6pwrANwx
     created_at: !ruby/object:DateTime 2020-06-23 12:13:05.170000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:13:05.170000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:06:22.869000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 3
   description: 'Build groups and relationships to support the data agenda, such as:
 
     '
-  type:
-  - People
-  - Policy
   sub_description: |-
-    - Data governance board to provide formal feedback on data standards and usage (people, policy)
-    - Community of practice amongst all data related leaders / key agency staff to share best practices (people)
-    - Relationship(s) with (local) university researchers to add expertise and capacity for potential project-based work (people)
-    - Stakeholder engagement mechanisms to ensure that community voice informs how data is gathered and used
+    - [Data governance board](https://mldscenter.maryland.gov/Governance.html) to provide formal feedback on [data standards and usage](https://www.cde.ca.gov/ds/ed/datastandardinventory.asp)
+    - [Community of practice](https://coloradolab.org/linc/) amongst all data related leaders / key agency staff to share best practices
+    - Relationship(s) with (local) [university researchers](https://www.urban.org/sites/default/files/publication/99293/evidence-based_policymaking_at_the_state_level.pdf) to add expertise and capacity for potential project-based work
+    - Stakeholder engagement mechanisms to ensure that [community voice](https://www.kingcounty.gov/depts/community-human-services/initiatives/best-starts-for-kids/advisory-board.aspx) informs how data is gathered and used
+  type:
+  - Policy
+  - People
+  - Infrastructure
   year: '2020'
 - sys:
     id: EUUSHNBrUmyEKGoH14UeQ
     created_at: !ruby/object:DateTime 2020-06-23 12:16:34.068000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:16:34.068000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:07:23.915000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 1
-  description: Activate the right leadership group (ideally including a data governance
-    board, the Chief Data Officer, and engagement from within the governor’s Office)
-    to help drive the collaborative creation of a statewide data roadmap
+  description: Activate the right leadership group (ideally including a [data governance
+    board](https://www.administration.virginia.gov/cdo/data-governance/), the [Chief
+    Data Officer](https://www.oregonlegislature.gov/bills_laws/ors/ors276A.html),
+    and [engagement](https://www.cga.ct.gov/current/pub/chap_050.htm#sec_4-67p) from
+    within the governor’s Office) to help drive the collaborative creation of a statewide
+    data roadmap
+  type:
+  - People
   year: '2020'
 - sys:
     id: Wtoo0kmdMRu2W6DiUanRy
     created_at: !ruby/object:DateTime 2020-06-23 12:16:56.055000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:16:56.055000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:09:35.842000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
   description: Develop an inventory of the people, processes, and infrastructure used
     to capture data (including partners if feasible) to provide a view of the “starting
     point” for enhanced data integration and usage moving forward
+  type:
+  - People
   year: '2020'
 - sys:
     id: 3LaoDMNJtftIX0oCiYTFLy
     created_at: !ruby/object:DateTime 2020-06-23 12:17:24.465000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:17:24.465000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:09:46.448000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 3
   description: Create a data infrastructure roadmap that starts from the current state
     and builds to a data system integrated at the most viable level
-  type:
-  - Infrastructure
-  - Policy
   sub_description: "- Engage internal stakeholders to understand sensitivities, resources,
     and starting point technological realities to build data integration that allows
     rapid cross-agency data combination for the purpose of specific problem solving\n-
@@ -294,27 +303,30 @@ action:
     be appropriate as a short term or medium term goal \n- Engage community stakeholders
     to build a set of questions and use cases that can ultimately be solved by integrating
     data "
-  year: '2020'
-- sys:
-    id: 6pxRWt1JwliMN5bN4xQSjq
-    created_at: !ruby/object:DateTime 2020-06-23 12:17:46.593000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:17:46.593000000 Z
-    content_type_id: action
-    revision: 1
-  order: 4
-  description: Tie the performance management system and the data infrastructure together
-    so that the administration’s top goals are supported by regular, cross-agency
-    data capture
   type:
   - Infrastructure
   - Policy
   year: '2020'
 - sys:
+    id: 6pxRWt1JwliMN5bN4xQSjq
+    created_at: !ruby/object:DateTime 2020-06-23 12:17:46.593000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:09:58.092000000 Z
+    content_type_id: action
+    revision: 2
+  order: 4
+  description: Tie the performance management system and the data infrastructure together
+    so that the administration’s top goals are supported by regular, cross-agency
+    data capture
+  type:
+  - Policy
+  - Infrastructure
+  year: '2020'
+- sys:
     id: 4mP1kcInW4DLsii4s8f8re
     created_at: !ruby/object:DateTime 2020-06-23 12:18:10.882000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:18:10.882000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:10:14.403000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 5
   description: Expedite data sharing across and within agencies by creating formal,
     standardized, and easy to apply agreements that agencies can use to share data
@@ -325,9 +337,9 @@ action:
 - sys:
     id: 3M3bGVBWObO4vPMUDNbS0
     created_at: !ruby/object:DateTime 2020-06-23 12:18:31.544000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:18:31.544000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:10:25.373000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 6
   description: Provide technical assistance to agencies on an ongoing basis to support
     new data imperatives
@@ -337,121 +349,125 @@ action:
 - sys:
     id: 5fgRah0dhgqwf5EvoM9pvk
     created_at: !ruby/object:DateTime 2020-06-23 12:49:49.560000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:49:49.560000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:11:14.154000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 1
-  description: Hire a Chief Evaluation Officer or Chief Learning Officer to provide
-    leadership on an overall approach to evaluation and learning
+  description: Hire a [Chief Evaluation Officer](https://www.urban.org/sites/default/files/publication/98767/chief_evaluation_officers_1.pdf)
+    or Chief Learning Officer to provide leadership on an overall approach to [evaluation
+    and learning](https://www.povertyactionlab.org/sites/default/files/research-resources/2019/06/2016.08.31-Impact-Evaluation-Methods.pdf)
   type:
   - People
   year: '2020'
 - sys:
     id: 3lcKvXbS6cuCfVZmy84cn2
     created_at: !ruby/object:DateTime 2020-06-23 12:50:15.335000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:50:15.335000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:16:11.536000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
-  description: Build cross-department and cross-functional teams to ensure the right
-    breadth of perspective is leveraged to address top administration priorities
-  type:
-  - People
-  - Policy
+  description: Build [cross-department and cross-functional teams](https://www.osbm.nc.gov/management/governors-advisory-committee-performance-management)
+    to ensure the right breadth of perspective is leveraged to address top administration
+    priorities
   sub_description: Provide the appropriate level of authority, responsibility and
     resources to these leaders and teams so they can properly execute
+  type:
+  - Policy
+  - People
   year: '2020'
 - sys:
     id: 35yBTmaz9VBzDtCqeYXUUB
     created_at: !ruby/object:DateTime 2020-06-23 12:53:39.060000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:53:39.060000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:17:32.233000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 1
   description: Develop policies which promote and guide the use of data and evidence
     in program development and assessment, including the public release of reports
+  sub_description: Consider developing an explicit “[learning agenda](https://www.urban.org/sites/default/files/publication/97406/evidence_toolkit_learning_agendas_2.pdf)”
+    for the capture of data across programs, so that performance management efforts
+    go beyond just tracking outcomes to focus more broadly on learning and analysis;
+    identify ways to seek community input on the learning agenda so that it reflects
+    the needs of a diverse group of stakeholders
   type:
   - Policy
-  sub_description: Consider developing an explicit “learning agenda” for the capture
-    of data across programs, so that performance management efforts go beyond just
-    tracking outcomes to focus more broadly on learning and analysis; identify ways
-    to seek community input on the learning agenda so that it reflects the needs of
-    a diverse group of stakeholders
   year: '2020'
 - sys:
     id: 4WEDluZYsIAwbXK160i960
     created_at: !ruby/object:DateTime 2020-06-23 12:53:55.888000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:53:55.888000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:20:28.874000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
-  description: Build a program inventory of all efforts by area (e.g. criminal justice,
-    mental health, child welfare) to enable better comparison and evaluation
+  description: Build a [program inventory](https://www.pewtrusts.org/en/research-and-analysis/data-visualizations/2015/results-first-clearinghouse-database)
+    of all efforts by area (e.g. criminal justice, mental health, child welfare) to
+    enable better comparison and evaluation
   type:
   - Infrastructure
   year: '2020'
 - sys:
     id: 4TsaLT9AmkF9a82DPxpWk8
     created_at: !ruby/object:DateTime 2020-06-23 12:54:15.605000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:54:15.605000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:20:45.939000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 3
-  description: Create clear definitions and tiers of evidence (e.g. evidence-based
-    vs. data supported, etc.) to better communicate within departments, the public,
-    and the legislature about what is working and what is not
+  description: Create [clear definitions and tiers of evidence](http://results4america.org/wp-content/uploads/2016/11/ESSA-evidence-provisions-explainer-7.22.16-Update.pdf)
+    (e.g. evidence-based vs. data supported, etc.) to better communicate within departments,
+    the public, and the legislature about what is working and what is not
   type:
   - Policy
   year: '2020'
 - sys:
     id: 6laDWw89U3TErtpzvVlcvq
     created_at: !ruby/object:DateTime 2020-06-23 12:54:33.601000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:54:33.601000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:21:20.045000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 4
-  description: Engage outside experts, such as university based researchers, to enhance
-    internal capacity for research and evaluation of programs
+  description: Engage outside experts, such as [university-based researchers](http://nnerpp.rice.edu/kc_basics/),
+    to enhance internal capacity for research and [evaluation of programs](https://www.povertyactionlab.org/resource/administrative-steps-launching-randomized-evaluation-united-states)
   type:
   - People
   year: '2020'
 - sys:
     id: 5fRSyA2wS8W2AE6Mx5NzbZ
     created_at: !ruby/object:DateTime 2020-06-23 12:56:43.566000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:56:43.566000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:44:28.263000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 1
-  description: Develop a budget decision-making process that preferences requests
-    with evidence and/or data about quantifiable outcomes (i.e. not just counting
-    inputs and outputs)
+  description: Develop a budget decision-making process that preferences [requests
+    with evidence](http://www.lbo.ms.gov/pdfs/obrsforms/2021_budget_instructions.pdf#page=15)
+    and/or data about quantifiable outcomes (i.e. not just counting inputs and outputs)
+  sub_description: "- Consider a [rubric](https://leg.colorado.gov/sites/default/files/ebp_12-11-2018.pdf#page=14)
+    that increases the priority of a specific request based on the level of evidence
+    for the program, while also creating space for new programs that do not yet have
+    an evidence base, but do have strong data that demonstrates quantifiable outcomes"
   type:
   - Policy
-  sub_description: "- Consider a rubric that increases the priority of a specific
-    request based on the level of evidence for the program, while also creating space
-    for new programs that do not yet have an evidence base, but do have strong data
-    that demonstrates quantifiable outcomes"
   year: '2020'
 - sys:
     id: 431v9fRGBkVLZ3InGLL9mh
     created_at: !ruby/object:DateTime 2020-06-23 12:57:02.643000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:57:02.643000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:46:45.994000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
   description: Create a standard funding allocation to build the state’s capacity
-    to evaluate programs (e.g. 1% with a cap on the total amount); this is especially
-    relevant for new programs where it is important to design the evaluations and
-    metrics that will be used to measure the success of the initiative
+    to [evaluate programs](https://www.povertyactionlab.org/sites/default/files/research-resources/2019/06/real-world-challenges-to-randomization.pdf)
+    (e.g. 1% with a cap on the total amount); this is especially relevant for new
+    programs where it is important to [design the evaluations](https://www.povertyactionlab.org/sites/default/files/research-resources/2019/06/2016.08.31-Impact-Evaluation-Methods.pdf)
+    and metrics that will be used to measure the success of the initiative
   type:
   - Policy
   year: '2020'
 - sys:
     id: 1mZh9pZBIX47jrWbsYu3RU
     created_at: !ruby/object:DateTime 2020-06-23 12:57:19.225000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:57:19.225000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:46:08.447000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 3
   description: Ensure the new budget process is integrated into the broader systematic
     approach to managing results, so that priorities and learnings from different
@@ -462,22 +478,22 @@ action:
 - sys:
     id: 7dHrdbgoHQ96ci6s75fAdn
     created_at: !ruby/object:DateTime 2020-06-23 12:57:44.864000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 12:57:44.864000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:47:12.055000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 4
-  description: Engage with the legislature to refine the new budget process
+  description: Engage with the legislature to [refine the new budget process](https://drive.google.com/file/d/1zvmG4TwV57rViDIYRVWQ_hiVC-T14ARP/view)
+  sub_description: "- Clarify terms like “[evidence-based](https://results4america.org/wp-content/uploads/2019/02/What-Works-Legislation-2019-9-Ways-to-Make-Legislation-More-Evidence-Based.pdf#page=2)”
+    vs. “data informed” to ensure consistency and clear communication"
   type:
   - People
-  sub_description: "- Clarify terms like “evidence-based” vs. “data informed” to ensure
-    consistency and clear communication"
   year: '2020'
 - sys:
     id: 4pkONMiZyDVyuaXDuOgJr
     created_at: !ruby/object:DateTime 2020-06-23 13:02:44.328000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:02:44.328000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:47:31.972000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 1
   description: Identify top priorities where evidence-based investments can improve
     results in the short- and long-term
@@ -487,33 +503,35 @@ action:
 - sys:
     id: 1ov0gf4pm8l7Olw9WjpLHm
     created_at: !ruby/object:DateTime 2020-06-23 13:03:11.944000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:03:11.944000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:48:11.354000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
   description: Consider building momentum by starting with a handful of high potential
     use cases that demonstrate how improved use of data can deliver actionable insights
     that improve outcomes and equity
-  type:
-  - Policy
   sub_description: "- For the longer term, consider a more expansive learning agenda
     that addresses broader, more systemic challenges (e.g. education cost reduction,
     supporting those who are “high users” of multiple government services) that can
-    utilize innovative problem solving approaches, such as service matching improvements,
-    rapid-cycle evaluations, behavioral science, design thinking, agile project management,
-    and other cutting-edge public policy approaches"
+    utilize innovative problem solving approaches, such as [service matching improvements](https://govlab.hks.harvard.edu/blog/six-powerful-questions-every-government-ought-ask-diagnose-problems-social-service),
+    [rapid-cycle evaluations](https://www.povertyactionlab.org/initiative/state-and-local-innovation-initiative),
+    [behavioral science](https://www.bi.team/what-we-do/our-services/), design thinking,
+    agile project management, and other cutting-edge public policy approaches"
+  type:
+  - Policy
   year: '2020'
 - sys:
     id: 685zsjuo73iGOdhwD3jokQ
     created_at: !ruby/object:DateTime 2020-06-23 13:03:33.120000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:03:33.120000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:48:33.013000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 3
   description: Focus resources and energy on key areas (versus taking an approach
-    that prioritizes all activities at once), and work toward building momentum and
-    systems that will lay the groundwork for future related efforts (as opposed to
-    one off projects)
+    that prioritizes all activities at once), and [work toward building momentum and
+    systems](https://www.povertyactionlab.org/sites/default/files/files/2020/03/slii_south-carolina-case-study_2017.09.pdf)
+    that will lay the groundwork for future related efforts (as opposed to one off
+    projects)
   type:
   - Policy
   - People
@@ -521,84 +539,85 @@ action:
 - sys:
     id: 6S24CTTcRzO7IR161ARlPT
     created_at: !ruby/object:DateTime 2020-06-23 13:05:39.127000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:05:39.127000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:49:27.404000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 1
-  description: Incorporate cost-benefit analysis into the ongoing evaluation of programs
-  type:
-  - Policy
+  description: Incorporate [cost-benefit analysis](https://www.wsipp.wa.gov/TechnicalDocumentation/WsippBenefitCostTechnicalDocumentation.pdf)
+    into the ongoing evaluation of programs
   sub_description: |-
     - Consider providing centralized resources and guidance for cost-benefit efforts (e.g. through a university supported research center outside of the agencies) to provide more standardized, public, and rapid assessments
-    - As individual programs or interventions are evaluated make sure to consider the benefits that are accrued across each agency, and to the public more generally, versus just looking at one agency’s view of savings
+    - As [individual programs or interventions are evaluated](https://www.povertyactionlab.org/sites/default/files/research-resources/2019/06/2016.08.31-Impact-Evaluation-Methods.pdf) make sure to consider the benefits that are accrued across each agency, and to the public more generally, versus just looking at one agency’s view of savings
+  type:
+  - Policy
   year: '2020'
 - sys:
     id: uYiEroJ7Ymgo7EwTND4hu
     created_at: !ruby/object:DateTime 2020-06-23 13:06:03.037000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:06:03.037000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:51:14.546000000 Z
     content_type_id: action
-    revision: 1
+    revision: 4
   order: 2
   description: Build evidence and outcome requirements into programmatic efforts,
-    by using evidence of effectiveness (level of evidence or past performance) as
-    a factor in assessing grantee applicants
-  type:
-  - Policy
+    by [using evidence of effectiveness](https://docs.google.com/document/d/1lbeULUGXJxQ53pAPebjAHTRXWcaAILv3u7koi6BkxQA/edit)
+    (level of evidence or past performance) as a factor in assessing grantee applicants
   sub_description: |-
     - Consider offering more funding for state or local programs that are backed by proven results (policy)
-    - Consider creating a tiered approach that directs more funding to proven programs (versus established programs with no or limited results) while also supporting innovative programs that do not have a track record yet
+    - Consider creating a [tiered approach](https://results4america.org/wp-content/uploads/2019/02/What-Works-Legislation-2019-9-Ways-to-Make-Legislation-More-Evidence-Based.pdf#page=4) that directs more funding to proven programs (versus established programs with no or limited results) while also [supporting innovative programs](https://results4america.org/wp-content/uploads/2019/09/2020-Playbook-FINAL.pdf#page=12) that do not have a track record yet
+  type:
+  - Policy
   year: '2020'
 - sys:
     id: 40XPKzc3NXHHaxKHjCKZhM
     created_at: !ruby/object:DateTime 2020-06-23 13:06:27.549000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:06:27.549000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:51:59.578000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 3
   description: Adopt performance-based contracting with service providers
+  sub_description: |-
+    - Consider [shifting to contracts](https://results4america.org/what-works-toolkit/) that tie part of payments to specific, quantitative outcomes that directly benefit customers ([results-driven contracting](https://govlab.hks.harvard.edu/results-driven-contracting) or [Pay for Success](https://govlab.hks.harvard.edu/pay-success))
+    - Increase the use of [active contract management](https://govlab.hks.harvard.edu/active-contract-management), or [regular communication](https://results4america.org/rfi-guide/) with service providers based on performance indicators to monitor the progress of implementation, and identify corrective actions to support improvement
   type:
   - Policy
-  sub_description: |-
-    - Consider shifting to contracts that tie part of payments to specific, quantitative outcomes that directly benefit customers (results-driven contracting or Pay for Success)
-    - Increase the use of active contract management, or regular communication with service providers based on performance indicators to monitor the progress of implementation, and identify corrective actions to support improvement
   year: '2020'
 - sys:
     id: 4diKBrZWQDcUwHKUsvS5Zg
     created_at: !ruby/object:DateTime 2020-06-23 13:10:17.365000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:10:17.365000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 18:53:11.362000000 Z
     content_type_id: action
-    revision: 1
+    revision: 3
   order: 1
   description: Identify areas programs where results could be improved, including
     those that consistently do not achieve desired policy outcomes or equity goals
+  sub_description: "- Determine if program outcomes can be improved by using [evidence
+    of effectiveness to allocate funds](https://docs.google.com/document/d/1lbeULUGXJxQ53pAPebjAHTRXWcaAILv3u7koi6BkxQA/edit)
+    to more effective practices or providers\n- If improved results cannot be achieved
+    by using evidence of effectiveness then consider how to best redirect existing
+    funding to other programs, practices, or service providers that are more likely
+    to achieve the desired outcomes \n- Consider a measured but clear process that
+    is not automatic, but provides a rubric-based indication if a program is a candidate
+    to have its funding redirected (e.g. 3+ years of missed outcomes by 20% or more,
+    and no clear plan for remediation)\n- Assess the potential for agencies and programs
+    (given their mission, scale, and statutory requirements) to successfully redirect
+    funding when outcomes are not achieved; consider other options like a partnership
+    with outside experts to improve performance (or use of active contract management)
+    to drive continuous improvement with service providers and grantees"
   type:
   - Policy
-  sub_description: "- Determine if program outcomes can be improved by using evidence
-    of effectiveness to allocate funds to more effective practices or providers\n-
-    If improved results cannot be achieved by using evidence of effectiveness then
-    consider how to best redirect existing funding to other programs, practices, or
-    service providers that are more likely to achieve the desired outcomes \n- Consider
-    a measured but clear process that is not automatic, but provides a rubric-based
-    indication if a program is a candidate to have its funding redirected (e.g. 3+
-    years of missed outcomes by 20% or more, and no clear plan for remediation)\n-
-    Assess the potential for agencies and programs (given their mission, scale, and
-    statutory requirements) to successfully redirect funding when outcomes are not
-    achieved; consider other options like a partnership with outside experts to improve
-    performance (or use of active contract management) to drive continuous improvement
-    with service providers and grantees"
   year: '2020'
 - sys:
     id: 5VIYYzPAs2LLZEGJJ32dmE
     created_at: !ruby/object:DateTime 2020-06-23 13:10:52.215000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-23 13:10:52.215000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 17:57:04.193000000 Z
     content_type_id: action
-    revision: 1
+    revision: 2
   order: 2
   description: Create a clear incentive system to promote innovation in program development
     and overall operational improvement
-  type:
-  - Policy
   sub_description: |-
     - Consider allowing departments that shift funds away from non-performing programs to automatically keep a percentage of that original funding to spend on innovative programs, especially those that help community organizations build their evidence-base
     - Build a focus on innovation into the roles of key leaders, like the Chief Evaluation Officer or Chief Performance Officer, to allow for a broader and more integrated approach (people)
+  type:
+  - Policy
   year: '2020'

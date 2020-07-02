@@ -55,6 +55,11 @@ layout: default
           {{ page.rationale | markdownify }}
         </div>
       </div>
+      <div class="row align-center">
+        <div class="column large-11 read-more-wrapper">
+          <button class="read-more" aria-label="Read More Toggle"></button>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -126,7 +131,7 @@ layout: default
                     <!-- Leading issues -->
                     <div class="examples-wrapper leading-example">
                       <div class="row">
-                        <div class="description column large-12">
+                        <div class="description example-description column large-12">
                           {{ e.description | markdownify }}
                         </div>
                       </div>
@@ -168,11 +173,11 @@ layout: default
         {% for strategy in page.strategies %}
         <div class="row examples-grid__content-row time">
           <!-- content columns  -->
-          <div class="column examples-grid-column examples-grid__content-cell themes dark-blue">
+          <div class="column examples-grid-column examples-grid__content-cell themes strategies-time-dark dark-blue">
             <div class="theme-link strategies-text" href="{{ url | relative_url }}">{{ strategy.title }}:{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</div>
           </div>
 
-          <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable">
+          <div class="column examples-grid-column examples-grid__content-cell strategies strategies-time-light grey filterable">
             <div class="examples-wrapper leading-example">
               <div class="row">
                 <div class="description column large-12">
@@ -183,7 +188,7 @@ layout: default
             </div>
           </div>
 
-          <div class="column examples-grid-column examples-grid__content-cell strategies grey-2 filterable">
+          <div class="column examples-grid-column examples-grid__content-cell strategies strategies-time-light grey-2 filterable">
             <div class="examples-wrapper leading-example">
               <div class="row">
                 <div class="description column large-12">
@@ -194,7 +199,7 @@ layout: default
             </div>
           </div>
 
-          <div class="column examples-grid-column examples-grid__content-cell strategies grey-3 filterable">
+          <div class="column examples-grid-column examples-grid__content-cell strategies strategies-time-light grey-3 filterable">
             <div class="examples-wrapper leading-example">
               <div class="row">
                 <div class="description column large-12">

@@ -3,15 +3,20 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 22:49:32.649000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:03:02.788000000 Z
     content_type_id: indexPage
-    revision: 8
+    revision: 10
   year: '2020'
-  overview: |-
-    This *Blueprint for Delivering Results in State Government* is an implementation guide for Results for America’s [Invest in What Works State Standard of Excellence](https://2019state.results4america.org/) (State Standard). The State Standard sets a national standard for how state governments can use evidence and data to achieve better outcomes for their residents whereas the *Blueprint for Delivering Results in State Government* (Blueprint) provides state governments with specific implementation strategies and actions for consistently and effectively using evidence and data in budget, policy, and management decisions.
-
-
-    Taken together, the State Standard of Excellence and Blueprint provide state governments with a set ofcomprehensive resources to:
+  overview: "This *Blueprint for Delivering Results in State Government* is an implementation
+    guide for Results for America’s [Invest in What Works State Standard of Excellence](https://2019state.results4america.org/)
+    (State Standard). \n\nThe State Standard of Excellence sets a national benchmark
+    for how state governments can use evidence and data to achieve better outcomes
+    for their residents, whereas the Blueprint for Delivering Results in State Government
+    (Blueprint) provides state governments with specific implementation strategies
+    and actions for consistently and effectively using evidence and data in budget,
+    policy, and management decisions. \n\n\nTaken together, the State Standard of
+    Excellence and Blueprint provide state governments with a set ofcomprehensive
+    resources to:"
   roadmap_image:
     sys:
       id: 4udP4M1dqs3lWemK3A5JHx
@@ -41,26 +46,24 @@ indexPage:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/62suOa8qj8aeFN87La5ZuP/d07d803e3a77baea98a036d9698802f5/Overview3.png"
   investments: __Improve investments__ by using their evidence and data capacity to
-    spend taxpayer dollars on evidence-based solutions that achievebetter results
-    for their residents
-  overview2: This Blueprint is designed for state government leaders in governors
-    offices, state budget and policy offices, and within state agencies who are charged
-    with making their state’s critical budget, policy, and management decisions. The
-    Blueprint describes specific strategies, actions, resources, and examples of leading
-    practices to help state governments achieve excellence in the State Standard and
-    better outcomes for their residents.
+    invest taxpayer dollars in evidence-based solutions
+  overview2: This Blueprint is designed for state government leaders in governors’
+    offices, state budget offices, and within state agencies who are charged with
+    making their state’s critical budget, policy, and management decisions. The Blueprint
+    describes explicit Strategies, detailed Actions, useful resources, and specific
+    examples of leading practices to help state governments make progress on the State
+    Standard of Excellence and improve results for their residents.
   summary_of_strategies: "*The Blueprint is organized into the following Blueprint
-    Themes, each of which has accompanying Strategies that are aligned to specific
-    criteria in the State Standard. The Blueprint also recommends a series of accompanying
-    Actions for each of these Strategies and provides examples of how state governments
-    have implemented these approaches.*"
+    Themes, which are aligned with the State Standard of Excellence. Each Theme has
+    three related Strategies, detailed Actions for executing these Strategies, and
+    specific examples of how state governments have implemented these Actions.*"
   themes:
   - sys:
       id: 2UIJjDT50igsVZ3wI7MXKL
       created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-      updated_at: !ruby/object:DateTime 2020-06-29 16:52:30.528000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-02 20:06:25.414000000 Z
       content_type_id: theme
-      revision: 4
+      revision: 5
     title: Managing for Results
     order: 1
     icon:
@@ -74,12 +77,12 @@ indexPage:
     related_criteria: |-
       1. [Strategic goals](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html)
       2. [Performance management/continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)
-    rationale: 'Managing performance starts with understanding how the governor’s
+    rationale: "Managing performance starts with understanding how the governor’s
       administration defines success and builds the overarching system and culture
       to deliver that success. Without a set of goals and metrics, or strategic plans,
       to define the administration’s agenda, it is difficult to communicate to staff
-      within the agencies or the general public what the government aims to deliver.
-      An integrated system for reviewing performance goals and connecting decision-making
+      within the agencies or the general public what the government aims to deliver.\n\n\nAn
+      integrated system for reviewing performance goals and connecting decision-making
       across the major activities in an administration greatly increases the chances
       that key goals and metrics will be achieved, especially across issue areas that
       extend beyond traditional government agency and department siloes. Performance
@@ -91,7 +94,7 @@ indexPage:
       on results is difficult to sustain without a culture centered on data-driven
       and evidence-based policymaking. Policies and goals can be changed over time,
       but a state government culture that prioritizes the use of data and evidence
-      to deliver better results for residents creates lasting impact. '
+      to deliver better results for residents creates lasting impact. "
     strategies:
     - sys:
         id: ivyGZZW7cxscox0BITbRp

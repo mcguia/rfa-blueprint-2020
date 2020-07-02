@@ -3,9 +3,9 @@ theme:
 - sys:
     id: 2UIJjDT50igsVZ3wI7MXKL
     created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 16:52:30.528000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:06:25.414000000 Z
     content_type_id: theme
-    revision: 4
+    revision: 5
   title: Managing for Results
   order: 1
   icon:
@@ -19,24 +19,24 @@ theme:
   related_criteria: |-
     1. [Strategic goals](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html)
     2. [Performance management/continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)
-  rationale: 'Managing performance starts with understanding how the governor’s administration
+  rationale: "Managing performance starts with understanding how the governor’s administration
     defines success and builds the overarching system and culture to deliver that
     success. Without a set of goals and metrics, or strategic plans, to define the
     administration’s agenda, it is difficult to communicate to staff within the agencies
-    or the general public what the government aims to deliver. An integrated system
-    for reviewing performance goals and connecting decision-making across the major
-    activities in an administration greatly increases the chances that key goals and
-    metrics will be achieved, especially across issue areas that extend beyond traditional
-    government agency and department siloes. Performance management helps state governments
-    improve customer service, program performance, and outcomes for their residents.
-    This use of data to set goals and monitor performance can be an especially powerful
-    way to improve equity by focusing efforts on disadvantaged populations. Further
-    this transparency with the public and stakeholders places the focus on results,
-    rather than process. This emphasis on results is difficult to sustain without
-    a culture centered on data-driven and evidence-based policymaking. Policies and
-    goals can be changed over time, but a state government culture that prioritizes
-    the use of data and evidence to deliver better results for residents creates lasting
-    impact. '
+    or the general public what the government aims to deliver.\n\n\nAn integrated
+    system for reviewing performance goals and connecting decision-making across the
+    major activities in an administration greatly increases the chances that key goals
+    and metrics will be achieved, especially across issue areas that extend beyond
+    traditional government agency and department siloes. Performance management helps
+    state governments improve customer service, program performance, and outcomes
+    for their residents. This use of data to set goals and monitor performance can
+    be an especially powerful way to improve equity by focusing efforts on disadvantaged
+    populations. Further this transparency with the public and stakeholders places
+    the focus on results, rather than process. This emphasis on results is difficult
+    to sustain without a culture centered on data-driven and evidence-based policymaking.
+    Policies and goals can be changed over time, but a state government culture that
+    prioritizes the use of data and evidence to deliver better results for residents
+    creates lasting impact. "
   strategies:
   - sys:
       id: ivyGZZW7cxscox0BITbRp
@@ -164,9 +164,9 @@ theme:
 - sys:
     id: 6KhIXREPYNHwzix4sIrXY
     created_at: !ruby/object:DateTime 2020-06-23 12:21:09.323000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 16:53:43.703000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:06:47.851000000 Z
     content_type_id: theme
-    revision: 3
+    revision: 4
   title: Leveraging Data
   order: 2
   icon:
@@ -178,20 +178,11 @@ theme:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/7GGaE7SoPHD4xvFg323e0I/59ffc102c7fc6c81edf61e2a27fccfdf/LD2.png"
   related_criteria: "3. Data leadership\n4. Data policies/ agreements \n5. Data use"
-  rationale: 'The key to improving performance in government is to leverage data to
-    inform goals, measure progress, and learn lessons for future improvement. Appropriate
-    frameworks and talent (as well as easy ways to align and share data) make it possible
-    to comprehensively use data for improvement, research, and evaluation. This kind
-    of data use allows the building of knowledge about what works, for whom, and why
-    in ways that can allow governments to identify and reduce the systemic barriers
-    that produce inequality. In this way, governments have demonstrated the power
-    of unleashing administrative data, often supported through improved data linking
-    and sharing. While the technical components of linking data with the appropriate
-    privacy measures are absolutely paramount, qualified and empowered personnel play
-    a critical role in helping agencies leverage data to improve decisions while building
-    a data-centric culture across the state.
+  rationale: |
+    The key to improving performance in government is to leverage data to inform goals, measure progress, and learn lessons for future improvement. Appropriate frameworks and talent (as well as easy ways to align and share data) make it possible to comprehensively use data for improvement, research, and evaluation.
 
-    '
+
+    This kind of data use allows the building of knowledge about what works, for whom, and why in ways that can allow governments to identify and reduce the systemic barriers that produce inequality. In this way, governments have demonstrated the power of unleashing administrative data, often supported through improved data linking and sharing. While the technical components of linking data with the appropriate privacy measures are absolutely paramount, qualified and empowered personnel play a critical role in helping agencies leverage data to improve decisions while building a data-centric culture across the state.
   strategies:
   - sys:
       id: bxhhNAi32CY2GHsyYsALa
@@ -321,9 +312,9 @@ theme:
 - sys:
     id: 4X17IPn0Lofc9ReTsH1RVq
     created_at: !ruby/object:DateTime 2020-06-23 13:00:00.408000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 16:53:51.225000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:07:18.188000000 Z
     content_type_id: theme
-    revision: 3
+    revision: 4
   title: Building and Using Evidence
   order: 3
   icon:
@@ -340,20 +331,11 @@ theme:
     8. Evaluation resources
     9. Outcome data
     10. Evidence definitions and program inventory
-  rationale: Data is a key tool for performance management but it can also play a
-    valuable role in building longer term evidence about interventions that achieve
-    the best outcomes. In order to take full advantage of data, it is important to
-    have the evaluation infrastructure that allows empirical evidence to inform an
-    administration’s budget, management, and policy decisions. “Knowing what works”
-    in a particular context (and what to fund) requires research and evaluation capacity
-    both within and outside of government. Research and evaluation offices can conduct
-    evaluations, build lasting collaborative research partnerships, and provide expertise
-    on high-quality evidence-building activities. At their best, these evaluation
-    offices engage residents to identify key priorities, especially how governments
-    can build and use evidence to improve equity. Funding these capacities is essential
-    and can be done through set asides, carve outs in program funds, and even budget
-    line items. Embedding research infrastructure in government that is aligned with
-    budgeting processes allows states to move towards results-focused spending.
+  rationale: |-
+    Data is a key tool for performance management but it can also play a valuable role in building longer term evidence about interventions that achieve the best outcomes. In order to take full advantage of data, it is important to have the evaluation infrastructure that allows empirical evidence to inform an administration’s budget, management, and policy decisions.
+
+
+    “Knowing what works” in a particular context (and what to fund) requires research and evaluation capacity both within and outside of government. Research and evaluation offices can conduct evaluations, build lasting collaborative research partnerships, and provide expertise on high-quality evidence-building activities. At their best, these evaluation offices engage residents to identify key priorities, especially how governments can build and use evidence to improve equity. Funding these capacities is essential and can be done through set asides, carve outs in program funds, and even budget line items. Embedding research infrastructure in government that is aligned with budgeting processes allows states to move towards results-focused spending.
   strategies:
   - sys:
       id: 5oBFvSmuYPHbQi4Pby3NFW
@@ -477,9 +459,9 @@ theme:
 - sys:
     id: 6HBSprlKyuoPQjXqEJzFjz
     created_at: !ruby/object:DateTime 2020-06-23 13:11:52.358000000 Z
-    updated_at: !ruby/object:DateTime 2020-06-29 16:55:32.780000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-02 20:08:04.563000000 Z
     content_type_id: theme
-    revision: 3
+    revision: 4
   title: Investing for Results
   order: 4
   icon:
@@ -498,17 +480,17 @@ theme:
     15. Repurpose for results
   rationale: "Government spending is policy in action. Incorporating evidence and
     data into these spending decisions is the best way for state governments to make
-    improvements over the status quo, which too often reinforces historical inequality.
-    Rather than making spending decisions based on assumptions and hunches, leaders
-    and policymakers should spend resources on programs, interventions, and services
-    that have evidence of effectiveness. To improve results, government should shift
-    public resources to the most effective interventions in order to increase their
-    scale and impact. \n\nThere are a range of tools for making government spending
-    more evidence-based, from legislatively mandating public spending on evidence-based
-    interventions to using outcome-focused contracts. These tools can be used across
-    state government to shift funding away from strategies that fail to deliver the
-    desired outcomes and toward evidence-based interventions that achieve better results
-    for state residents. "
+    improvements over the status quo, which too often reinforces historical inequality.\n\nRather
+    than making spending decisions based on assumptions and hunches, leaders and policymakers
+    should spend resources on programs, interventions, and services that have evidence
+    of effectiveness. To improve results, government should shift public resources
+    to the most effective interventions in order to increase their scale and impact.
+    \n\nThere are a range of tools for making government spending more evidence-based,
+    from legislatively mandating public spending on evidence-based interventions to
+    using outcome-focused contracts. These tools can be used across state government
+    to shift funding away from strategies that fail to deliver the desired outcomes
+    and toward evidence-based interventions that achieve better results for state
+    residents. "
   strategies:
   - sys:
       id: 4N9zWgMXUwUaMm9jaIM3ZT

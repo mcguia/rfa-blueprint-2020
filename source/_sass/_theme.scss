@@ -38,3 +38,21 @@
     color: $blue;
   }
 }
+
+.example-description {
+  p {
+    padding-bottom: 0;
+  }
+}
+
+.content-section {
+  .row:not(:last-child) {
+    .strategies-time-dark {
+      border-bottom: 4px dotted white;
+    }
+
+    .strategies-time-light {
+      border-bottom: 4px dotted $dark-blue;
+    }
+  }
+}
