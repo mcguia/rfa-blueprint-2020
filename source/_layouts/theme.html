@@ -20,7 +20,7 @@ layout: default
   <section class="top-section">
     <div class="row align-center">
       <div class="column large-8 medium-8 small-12">
-          <div class="media-object" style="margin-bottom:3rem">
+          <div class="media-object">
             <div class="media-object-section">
               <div class="thumbnail">
                 <img class="theme-img" alt="Roadmap" src={{page.icon.url}} />
@@ -34,49 +34,6 @@ layout: default
     </div>
   </section>
 
-  <section class="table examples-grid">
-  <!-- examples-grid header -->
-  <div class="row examples-grid__header fixed-section ">
-    <div class="row examples-grid__header-row">
-      <!-- header columns  -->
-      <div class="column examples-grid-column examples-grid__header-cell title-leading dark-blue" style="width:70%;max-width:70%">Blueprint Strategies</div>
-      <div class="column examples-grid-column examples-grid__header-cell title-promising blue" style="width:30%;max-width:30%">Related State Standard of Excellence Criteria</div>
-    </div>
-  </div>
-</section>
-
-<section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper">
-
-
-  <div class="content-section">
-
-    <!-- grid content -->
-
-    <div class="row examples-grid__content-row criteria">
-      <!-- content columns  -->
-
-      <div class="column examples-grid-column examples-grid__content-cell strategies grey filterable" style="width:70%;max-width:70%">
-        <div class="examples-wrapper leading-example">
-          <div class="row">
-            <div class="description column large-12">
-              {% for strategy in page.strategies %}
-                <a href="#{{strategy.title | remove: " "}}">{{ strategy.short_description | markdownify }}</a>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column examples-grid-column examples-grid__content-cell criteria light-blue filterable" style="width:30%;max-width:30%">
-        <div class="examples-wrapper promising-example">
-          <div class="description column large-12">
-            {{ page.related_criteria | markdownify }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
   <section class="section section__explanation">
     <div class="row align-center">
       <div class="column large-10 markdown">
@@ -86,91 +43,90 @@ layout: default
     </div>
   </section>
 
+<div class="row align-center" style="margin-bottom: 3rem">
+  <div class="column large-10 markdown">
+    <h3 class="example__title--leading">Strategies</h3>
+  </div>
+  <div class="column large-12 markdown">
   {% for strategy in page.strategies %}
-    <section class="section section__description">
-      <div class="row align-center">
-        <div class="column large-10 markdown">
-          <h3 id="{{strategy.title | remove: " "}}">{{ strategy.title }}</h3> {{ strategy.short_description | markdownify }}
-        </div>
-      </div>
-    </section>
-    <section class="section section__actions" style="margin-bottom:3rem">
-      <div class="row align-center">
-        <div class="column large-10 markdown">
-          <h5>Actions:</h5>
-          <ul>
-          {% for action in strategy.actions %}
-            {% for a in site.data.contentful.action.action %}
-              {% if a.sys.id == action.sys.id %}
-                <li>{{ a.description | markdownify }}</li>
-                {% for t in a.type %}<span class="icon-{{t}}">{{t}}</span>{% endfor %}
-                {% if a.sub_description %}
-                  <li>{{ a.sub_description | markdownify }}</li>
+    <button class="accordion" id="{{strategy.title | remove: " "}}"><h5>{{ strategy.short_description | markdownify }}</h5></button>
+    <div class="panel">
+      <section class="section section__actions" style="margin-bottom:3rem">
+        <div class="row align-center">
+          <div class="column large-10 markdown">
+            <h5>Actions:</h5>
+            <ul>
+            {% for action in strategy.actions %}
+              {% for a in site.data.contentful.action.action %}
+                {% if a.sys.id == action.sys.id %}
+                  <li>{{ a.description | markdownify }}</li>
+                  {% for t in a.type %}<span class="icon-{{t}}">{{t}}</span>{% endfor %}
+                  {% if a.sub_description %}
+                    <li>{{ a.sub_description | markdownify }}</li>
+                  {% endif %}
                 {% endif %}
-              {% endif %}
+              {% endfor %}
             {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="table examples-grid">
+        <!-- examples-grid header -->
+        <div class="row examples-grid__header fixed-section " style="max-width:62.5rem">
+          <div class="row examples-grid__header-row">
+            <!-- header columns  -->
+            <div class="column examples-grid-column examples-grid__header-cell dark-blue">Blueprint Strategies in Practice</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper" style="margin-bottom:3rem">
+        <div class="content-section">
+
+          <!-- grid content -->
+          {% for example in strategy.examples %}
+          <div class="row examples-grid__content-row criteria" style="max-width:62.5rem">
+            <!-- content columns  -->
+              {% for e in site.data.contentful.example.example %}
+                {% if e.sys.id == example.sys.id %}
+                  <div class="column examples-grid-column examples-grid__content-cell light-green title" style="width:40%; max-width: 40%">
+                    <div class="media-object" style="justify-content:left">
+                      <div class="media-object-section">
+                        <div class="thumbnail">
+                          <img class="theme-img" alt="Roadmap" src={{page.icon.url}} />
+                        </div>
+                      </div>
+                      <div class="media-object-section main-section">
+                        <div class="theme-link">{{ e.state | markdownify }}</div>
+                        {{ e.url | markdownify }}
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                  <div class="column examples-grid-column examples-grid__content-cell light-green leading filterable" style="width:60%; max-width: 60%">
+                    <!-- Leading issues -->
+                    <div class="examples-wrapper leading-example">
+                      <div class="row">
+                        <div class="description column large-12">
+                          {{ e.description | markdownify }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
           {% endfor %}
-          </ul>
         </div>
-      </div>
-    </section>
-
-    <section class="table examples-grid">
-      <!-- examples-grid header -->
-      <div class="row examples-grid__header fixed-section " style="max-width:62.5rem">
-        <div class="row examples-grid__header-row">
-          <!-- header columns  -->
-          <div class="column examples-grid-column examples-grid__header-cell dark-blue">Blueprint Strategies in Practice</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="js-active-key slide-panel__wrapper--compact fixed-section-wrapper" style="margin-bottom:3rem">
-      <div class="content-section">
-
-        <!-- grid content -->
-        {% for example in strategy.examples %}
-        <div class="row examples-grid__content-row criteria" style="max-width:62.5rem">
-          <!-- content columns  -->
-            {% for e in site.data.contentful.example.example %}
-              {% if e.sys.id == example.sys.id %}
-                <div class="column examples-grid-column examples-grid__content-cell light-green title" style="width:40%; max-width: 40%">
-                  <div class="media-object" style="justify-content:left">
-                    <div class="media-object-section">
-                      <div class="thumbnail">
-                        <img class="theme-img" alt="Roadmap" src={{page.icon.url}} />
-                      </div>
-                    </div>
-                    <div class="media-object-section main-section">
-                      <div class="theme-link">{{ e.state | markdownify }}</div>
-                      {{ e.url | markdownify }}
-                    </div>
-                  </div>
-
-
-                </div>
-
-                <div class="column examples-grid-column examples-grid__content-cell light-green leading filterable" style="width:60%; max-width: 60%">
-                  <!-- Leading issues -->
-                  <div class="examples-wrapper leading-example">
-                    <div class="row">
-                      <div class="description column large-12">
-                        {{ e.description | markdownify }}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              {% endif %}
-            {% endfor %}
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-    <div class="row align-center">
-      <div class="column large-10 markdown">
-      <a href="#top">Back to Top</a>
-    </div></div>
+      </section>
+    </div>
     {% endfor %}
+    </div>
+  </div>
 
     <div class="row align-center">
       <div class="column large-10 markdown">
