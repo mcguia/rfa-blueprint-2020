@@ -46,9 +46,9 @@ example:
 - sys:
     id: ucc6rBMQEmWMIELGCNlcR
     created_at: !ruby/object:DateTime 2020-06-22 23:51:59.150000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 16:54:42.238000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 19:38:07.721000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -59,18 +59,18 @@ example:
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
   state: Colorado
   url: "[Governor's Dashboard](https://dashboard.state.co.us/default.htm)"
-  description: 'The Colorado Governor’s dashboard outlines strategic goals, metrics,
+  description: "The Colorado Governor’s dashboard outlines strategic goals, metrics,
     and performance plans which are directly linked to the governor’s annual budget
     request. Around each strategic area, the governor convened working groups of cabinet
     members to directly engage key leaders in managing progress towards each goal.
-    More information: 2019 State Standard of Excellence ([Criteria 1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#leading-example))'
+    \n__More information: 2019 State Standard of Excellence ([Criteria 1](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html#leading-example))__"
   year: '2020'
 - sys:
     id: 3DgAX2n4cme8Hpo4PxBe0E
     created_at: !ruby/object:DateTime 2020-06-22 23:57:30.817000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:36:53.422000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 19:34:19.782000000 Z
     content_type_id: example
-    revision: 3
+    revision: 4
   state_outline:
     sys:
       id: 6Y2G144sIfV9ViXDlnQNk0
@@ -81,10 +81,10 @@ example:
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
   state: Tennessee
   url: "[Transparent Tennessee](https://www.tn.gov/transparenttn/about-transparent-tennessee.html)"
-  description: 'Tennessee’s data and performance website, [Transparent Tennessee](https://www.tn.gov/transparenttn.html),
+  description: "Tennessee’s data and performance website, [Transparent Tennessee](https://www.tn.gov/transparenttn.html),
     has [statewide performance dashboards](https://www.tn.gov/transparenttn/governors-priorities/education-workforce-development.html),
     which are connected to each cabinet-level agency’s operational and strategic plan.
-    More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#tennessee))'
+    \n__More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#tennessee))__"
   year: '2020'
 - sys:
     id: 3FU1PWOrGBjxi1KTk206cP
@@ -133,9 +133,9 @@ example:
 - sys:
     id: 1Xozq1UHPcEWvJzS8Jsrh7
     created_at: !ruby/object:DateTime 2020-06-23 00:04:27.290000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:25:21.426000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 19:47:02.898000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 5pdnK5NPEzXytsgovQD4La
@@ -146,10 +146,10 @@ example:
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5pdnK5NPEzXytsgovQD4La/422e3da6938f2e4934c2c51689121079/Maryland.png"
   state: Maryland
   url: "[Managing for Results](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)"
-  description: "Maryland’s Managing for Results initiative publishes annual performance
-    reports and tracks agencies’ key goals, objectives, and performance measures,
-    which are supported by the Governor’s Improvement Office. \n\n__More information:
-    2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#maryland)).__"
+  description: "Maryland’s [Managing for Results initiative](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)
+    publishes annual performance reports and tracks agencies’ key goals, objectives,
+    and performance measures, which are supported by the Governor’s Improvement Office.
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#maryland)).__"
   year: '2020'
 - sys:
     id: 7hyLf1E1tbL1nWx7JVpZga
@@ -177,9 +177,9 @@ example:
 - sys:
     id: 7M4MsvA2Vphef5Xrb4ZhUz
     created_at: !ruby/object:DateTime 2020-06-23 00:06:15.793000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:25:01.643000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 19:45:09.375000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -189,19 +189,20 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
   state: Colorado
-  url: "[Colorado's Department of Human Services C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)"
-  description: "C-Stat is the Colorado Department of Human Services’ performance-based
-    analysis strategy that allows each program to focus on continuous improvement
-    and outcomes. The dashboard is supported by stat meetings where executive leadership
-    and staff analyze data to identify positive trends and opportunities for improvement.
-    \n\n__More information: 2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#colorado)).__"
+  url: "[Department of Human Services C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)"
+  description: "[C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat) is the Colorado
+    Department of Human Services’ performance-based analysis strategy that allows
+    each program to focus on continuous improvement and outcomes. The dashboard is
+    supported by stat meetings where executive leadership and staff analyze data to
+    identify positive trends and opportunities for improvement. \n\n__More information:
+    2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#colorado)).__"
   year: '2020'
 - sys:
     id: 5SUiKpJXbXcvnIgoMT4V89
     created_at: !ruby/object:DateTime 2020-06-23 12:08:23.276000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:27:59.181000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:03:19.627000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 7rvITYdRIj5MoUjnImFwoT
@@ -211,21 +212,23 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/7rvITYdRIj5MoUjnImFwoT/3e462c815efcc4b4cb67848353f2a514/California.png"
   state: California
-  url: California's Open Data Portal
-  description: "California’s statewide Open Data Policy encourages departments to
-    share data in standard and accessible formats through the California Open Data
-    Portal. As outlined in the California Open Data Handbook, the state’s open efforts
-    are designed to improve collaboration, expand transparency, encourage innovation,
-    and increase effectiveness. In addition, the state hosts CalData, a professional
+  url: Open Data
+  description: "California’s statewide [Open Data Policy](https://cdt.ca.gov/wp-content/uploads/2019/03/TL-19-01.pdf)
+    encourages departments to [share data](https://www.dgsapps.dgs.ca.gov/documents/sam/SamPrint/NEW/SAM_Master/SAM_Master_File/Chap5100/5160.1.pdf)
+    in standard and accessible formats through the [California Open Data Portal](https://www.dgsapps.dgs.ca.gov/documents/sam/SamPrint/NEW/SAM_Master/SAM_Master_File/Chap5100/5160.1.pdf).
+    As outlined in the [California Open Data Handbook](https://handbook.data.ca.gov/),
+    the state’s open efforts are designed to improve collaboration, expand transparency,
+    encourage innovation, and increase effectiveness. In addition, the state hosts
+    [CalData](https://www.govops.ca.gov/eureka-institute/ca-open-data/), a professional
     network for government officials and partners to promote the best uses of open
     data. \n\n__More information: 2019 State Standard of Excellence (Criteria 3).__"
   year: '2020'
 - sys:
     id: jhtU6flcizsMtJn5pEy1M
     created_at: !ruby/object:DateTime 2020-06-23 12:08:44.781000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:28:11.166000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:01:13.224000000 Z
     content_type_id: example
-    revision: 3
+    revision: 4
   state_outline:
     sys:
       id: zJEwIq9djAkipW6pdJTdI
@@ -236,20 +239,20 @@ example:
     url: "//images.ctfassets.net/xrxa0m8bxqnj/zJEwIq9djAkipW6pdJTdI/401125e8c4b028881b7e0466c58af42e/Ohio.png"
   state: Ohio
   url: InnovateOhio
-  description: "In 2019, Ohio’s governor signed Executive Order 2019-15D consolidating
-    state data systems into the InnovateOhio Platform, which uses data as “a shared
-    strategic asset” whose “value is multiplied when data sets are linked across programs
-    and organizations.” The executive order created a presumption of data sharing
-    between state agencies, except where a specific legal prohibition is identified
-    in writing. \n\n__More information: 2019 State Standard of Excellence (Criteria
-    5).__"
+  description: "In 2019, Ohio’s governor signed [Executive Order 2019-15D](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgovernor.ohio.gov%2Fwps%2Fportal%2Fgov%2Fgovernor%2Fmedia%2Fexecutive-orders%2F2019-15d&data=02%7C01%7CLaura.Pietenpol%40innovate.ohio.gov%7C2fbbdde921624514429208d72cb5dadd%7C50f8fcc494d84f0784eb36ed57c7c8a2%7C0%7C1%7C637027031886320122&sdata=rHaOC19CArNGbiHkkKpgJbxL%2B1WRHW0Gr5q3ds3kUtw%3D&reserved=0)
+    consolidating state data systems into the [InnovateOhio Platform](https://innovateohio.gov/wps/portal/gov/innovate/platform),
+    which uses data as “a shared strategic asset” whose “value is multiplied when
+    data sets are linked across programs and organizations.” The executive order created
+    a presumption of data sharing between state agencies, except where a specific
+    legal prohibition is identified in writing. \n\n__More information: 2019 State
+    Standard of Excellence (Criteria 5).__"
   year: '2020'
 - sys:
     id: S3qPuHpK4LtEuKj7vZZjB
     created_at: !ruby/object:DateTime 2020-06-23 12:09:11.725000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:25:26.462000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 19:54:26.971000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 6SRYqCBsVbnNixmXcTVLnG
@@ -259,9 +262,10 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6SRYqCBsVbnNixmXcTVLnG/095bca479d926b9c47cf87f04d99e1d5/Connecticut.png"
   state: Connecticut
-  url: Connecticut’s State Data Plan and Data Governance Framework
+  url: State Data Plan and Data Governance
   description: "Connecticut’s Chief Data Officer and individual agency data officers
-    are required to update the state data plan biennially. The plan contains 11 principles
+    are required to update the [state data plan](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en)
+    biennially. The plan contains [11 principles](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en#page=6)
     and accompanying practices that all agencies should adopt to improve their management,
     use, sharing, and analysis of data. \n\n__More information: 2019 State Standard
     of Excellence (Criteria 3).__"
@@ -269,9 +273,9 @@ example:
 - sys:
     id: 16w17gIaFIjoNOUxLrCykY
     created_at: !ruby/object:DateTime 2020-06-23 12:13:33.002000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:28:44.591000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-03 17:50:36.903000000 Z
     content_type_id: example
-    revision: 3
+    revision: 4
   state_outline:
     sys:
       id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -281,7 +285,7 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
   state: Indiana
-  url: Indiana's Chief Data Officer
+  url: Chief Data Officer
   description: "Created by a 2017 law, Indiana’s Chief Data Officer has the budget,
     staff, and authority to coordinate data analytics and data transparency for state
     agencies; advise state agencies regarding best practices for data maintenance,
@@ -291,9 +295,9 @@ example:
 - sys:
     id: 7CPnUuw55bItZxjHnOKOmR
     created_at: !ruby/object:DateTime 2020-06-23 12:14:05.230000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:23:29.406000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:20:02.715000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: CdDkYWaT5XRIqV3JKX333
@@ -303,21 +307,27 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/CdDkYWaT5XRIqV3JKX333/0951758ce57e49203e76741e8b907ca4/Kentucky.png"
   state: Kentucky
-  url: Kentucky Center for Statistics’ Data Governance
-  description: "By providing data sets, publishing reports, and fulfilling research
-    requests, the Kentucky Center for Statistics provides state-specific education
-    and workforce data insights with appropriate data privacy and data access controls.
-    With more than 40 staff members who are dedicated to data use and sharing, the
-    Center is run by an executive director with an oversight board composed of participating
-    state agencies. The Center has developed a research agenda for 2020-22. \n\n__More
-    information: 2019 State Standard of Excellence (Criteria 5).__"
+  url: Center for Statistics’ Data Governance
+  description: "By providing [data sets](https://kystats.ky.gov/Reports/Files), publishing
+    [reports](https://kystats.ky.gov/Reports/Reports), and fulfilling [research requests](https://kystats.ky.gov/Reports/DataRequest),
+    the [Kentucky Center for Statistics](http://kystats.ky.gov/) provides state-specific
+    education and workforce [data insights](https://kystats.ky.gov/About/History)
+    with appropriate [data privacy](https://kystats.ky.gov/About/Security) and [data
+    access](https://kystats.ky.gov/Content/DataAccessAndUsePolicy.pdf) controls. With
+    more than [40 staff members](https://kystats.ky.gov/About/Staff) who are [dedicated
+    to data use](https://kystats.ky.gov/About) and sharing, the Center is run by an
+    executive director with an oversight [board](https://kystats.ky.gov/About/Board)
+    composed of participating state agencies. The Center has developed a [research
+    agenda](https://kystats.ky.gov/Content/BoardDocs/Research%20Agenda%2020-22%20Final.pdf?v=20200406050900)
+    for 2020-22. \n\n__More information: 2019 State Standard of Excellence ([Criteria
+    5](https://2019state.results4america.org/state-standard-of-excellence/data-use.html#kentucky)).__"
   year: '2020'
 - sys:
     id: 78qS4xNfp17otvq0n0Aha9
     created_at: !ruby/object:DateTime 2020-06-23 12:14:44.590000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:22:04.531000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:14:57.392000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 6SRYqCBsVbnNixmXcTVLnG
@@ -327,19 +337,20 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6SRYqCBsVbnNixmXcTVLnG/095bca479d926b9c47cf87f04d99e1d5/Connecticut.png"
   state: Connecticut
-  url: Connecticut Chief Data Officer
-  description: "A 2018 Connecticut law established the statewide Chief Data Officer
-    and Connecticut Data Analysis Technology Advisory Board and required each state
-    agency to designate an agency data officer to manage high value data sets and
-    coordinate data-related activities with the state Chief Data Officer. \n\n__More
-    information: 2019 State Standard of Excellence (Criteria 3).__"
+  url: Chief Data Officer
+  description: "A [2018 Connecticut law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)
+    established the statewide [Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative)
+    and [Connecticut Data Analysis Technology Advisory Board](https://www.cga.ct.gov/gae/taskforce.asp?TF=20180726_Connecticut%20Data%20Analysis%20Technology%20Advisory%20Board)
+    and required each state agency to designate an agency data officer to manage high-value
+    data sets and coordinate data-related activities with the state Chief Data Officer.
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 3](https://2019state.results4america.org/state-standard-of-excellence/data-leadership.html)).__"
   year: '2020'
 - sys:
     id: 1cHVX6a09mDUCHBwc1GXoe
     created_at: !ruby/object:DateTime 2020-06-23 12:19:05.430000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:18:41.409000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:36:34.764000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -349,20 +360,21 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
   state: Indiana
-  url: Indiana Management Performance Hub
+  url: Management Performance Hub
   description: "Indiana Management Performance Hub is an integrated database that
-    brings together data from key policy issues related to opioids, education and
-    workforce development, medicaid, fiscal transparency, and other areas. According
-    to a 2018 annual report, the Hub has generated an estimated return on investment
-    of $40 million for the state. \n\n__More information: 2019 State Standard of Excellence
-    (Criteria 3).__"
+    brings together data from key policy issues related to [opioids](https://www.in.gov/mph/930.htm),
+    [education and workforce development](https://www.in.gov/mph/917.htm), [medicaid](https://www.in.gov/mph/931.htm),
+    [fiscal transparency](https://www.in.gov/mph/1070.htm), and [other areas](https://www.in.gov/mph/899.htm).
+    According to a 2018 [annual report](https://www.in.gov/mph/files/MPH-2018-Annual-Report.pdf),
+    the Hub has generated an estimated return on investment of $40 million for the
+    state. \n\n__More information: 2019 State Standard of Excellence ([Criteria 3](https://2019state.results4america.org/state-standard-of-excellence/data-use.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 3doeD0BPRYPVEYkZoqrRmV
     created_at: !ruby/object:DateTime 2020-06-23 12:19:34.023000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:17:14.121000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:34:27.760000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -374,17 +386,17 @@ example:
   state: Colorado
   url: Linked Information Network of Colorado
   description: "Colorado Governor’s Office and the Colorado Evaluation and Action
-    Lab (CEAL) co-designed the Linked Information Network of Colorado (LINC) to facilitate
-    data sharing for research and analytics purposes as a way to improve state policies
-    and programs. \n\n__More information: 2019 State Standard of Excellence (Criteria
-    5).__"
+    Lab (CEAL) co-designed the [Linked Information Network of Colorado](https://coloradolab.org/linc/)
+    (LINC) to facilitate data sharing for [research](https://coloradolab.org/projects/2020-projects/)
+    and analytics purposes as a way to improve state policies and programs. \n\n__More
+    information: 2019 State Standard of Excellence ([Criteria 5](https://2019state.results4america.org/state-standard-of-excellence/data-policies--agreements.html#colorado)).__"
   year: '2020'
 - sys:
     id: 3OLw0bi8N6sIZaoKUe0AQ5
     created_at: !ruby/object:DateTime 2020-06-23 12:20:04.491000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:15:52.883000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 20:32:47.413000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 4h0MIeVC19Fe44eZNAFxlw
@@ -394,18 +406,18 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/4h0MIeVC19Fe44eZNAFxlw/291d8d889c5ebae5d3f300926077494c/Washington.png"
   state: Washington
-  url: Washington’s Department of Social Services’s Integrated Client Database
+  url: Department of Social Services’s Integrated Client Database
   description: |-
-    The Washington State Department of Social and Health Services Research and Data Analysis Division maintains an Integrated Client Database with data from 10 state agencies, 40 separate data systems, and millions of individuals. RDA's integrated data environment has been used by the state’s Health Home Program to generate tens of millions of dollars in performance payments from the U.S Centers for Medicare and Medicaid Services, as a result of improved care management for persons dually enrolled in Medicare and Medicaid.
+    The Washington State Department of Social and Health Services [Research and Data Analysis Division](https://www.dshs.wa.gov/ffa/research-and-data-analysis) maintains an [Integrated Client Database](https://bit.ly/2YSUBAm) with data from 10 state agencies, 40 separate data systems, and millions of individuals. RDA's integrated data environment has been used by the state’s [Health Home Program](https://www.dshs.wa.gov/altsa/washington-health-home-program) to generate tens of millions of dollars in [performance payments](https://www.dshs.wa.gov/altsa/washington-health-home-program) from the U.S. Centers for Medicare and Medicaid Services, as a result of [improved care management](https://www.hca.wa.gov/about-hca/health-home-program-saves-more-100-million-medicare-program-over-three-years) for persons dually enrolled in Medicare and Medicaid.
 
-    __More information: 2019 State Standard of Excellence (Criteria 5).__
+    __More information: 2019 State Standard of Excellence ([Criteria 5](https://2019state.results4america.org/state-standard-of-excellence/data-use.html#washington)).__
   year: '2020'
 - sys:
     id: ghnTlGDGSNMCbfaeqeoQS
     created_at: !ruby/object:DateTime 2020-06-23 12:50:43.887000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:36:05.415000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 21:15:02.202000000 Z
     content_type_id: example
-    revision: 2
+    revision: 4
   state_outline:
     sys:
       id: 6Y2G144sIfV9ViXDlnQNk0
@@ -415,18 +427,18 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
   state: Tennessee
-  url: Tennessee Office of Evidence and Impact
-  description: Tennessee’s Office of Evidence and Impact, founded in 2019 supports
-    the state’s evidence-based budgeting and program inventories through evidence
-    reviews and technical assistance on developing evidence-building evaluations and
-    activities.
+  url: Office of Evidence and Impact
+  description: Tennessee’s [Office of Evidence and Impact](https://www.tn.gov/transparenttn/tennessee-program-inventory/about.html),
+    founded in 2019 supports the state’s [evidence-based budgeting](https://www.tn.gov/transparenttn/tennessee-program-inventory/evidence-based-budgeting.html)
+    and program inventories through evidence reviews and technical assistance on developing
+    evidence-building evaluations and activities.
   year: '2020'
 - sys:
     id: 3yfaicl2CZ6HmPZGHeTU7r
     created_at: !ruby/object:DateTime 2020-06-23 12:51:08.151000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:30:34.859000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 21:14:11.845000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: zJEwIq9djAkipW6pdJTdI
@@ -436,19 +448,19 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/zJEwIq9djAkipW6pdJTdI/401125e8c4b028881b7e0466c58af42e/Ohio.png"
   state: Ohio
-  url: Ohio Department of Education’s Office of Research, Evaluation and Advanced
-    Analytics
-  description: "The Director of the Ohio Department of Education’s Office of Research,
-    Evaluation and Advanced Analytics helps educational leaders across the state use
-    evidence through resources and a clearinghouse. \n\n__More information: 2019 State
-    Standard of Excellence (Criteria 6).__"
+  url: Office of Research, Evaluation and Advanced Analytics
+  description: "The Director of the Ohio Department of Education’s [Office of Research,
+    Evaluation and Advanced Analytics](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics)
+    helps educational leaders across the state use evidence through [resources](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics/5-Steps-to-Being-Empowered-by-Evidence)
+    and a [clearinghouse](https://essa.chrr.ohio-state.edu/home). \n\n__More information:
+    2019 State Standard of Excellence ([Criteria 6](https://2019state.results4america.org/state-standard-of-excellence/evaluation-leadership.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 5e8eV1BfsFB46oOGjaVeJX
     created_at: !ruby/object:DateTime 2020-06-23 12:51:32.366000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:30:48.837000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 21:12:34.565000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 3FagqqFcff0WAi9nWX3vpB
@@ -458,20 +470,20 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/3FagqqFcff0WAi9nWX3vpB/00817c18a9ce739839814d902691c504/Massachusetts.png"
   state: Massachusetts
-  url: Massachusetts Department of Elementary and Secondary Education’s Chief Strategy
-    and Research Officer
+  url: Chief Strategy and Research Officer
   description: "The Massachusetts Department of Elementary and Secondary Education’s
-    Office of Planning and Research is led by a Chief Strategy and Research Officer
+    [Office of Planning and Research](http://www.doe.mass.edu/research/) is led by
+    a [Chief Strategy and Research Officer](http://www.doe.mass.edu/research/contact.html)
     who is responsible for improving the use of data and research findings to influence
     policy and program decision-making. \n\n__More information: 2019 State Standard
-    of Excellence (Criteria 6).__"
+    of Excellence ([Criteria 6](https://2019state.results4america.org/state-standard-of-excellence/evaluation-leadership.html#massachusetts)).__"
   year: '2020'
 - sys:
     id: 3JxhbESm9p9VgL7JI0Pw9G
     created_at: !ruby/object:DateTime 2020-06-23 12:54:57.559000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:31:22.315000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 21:23:31.439000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 6Y2G144sIfV9ViXDlnQNk0
@@ -481,18 +493,18 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
   state: Tennessee
-  url: Tennessee Education Research Alliance
+  url: Education Research Alliance
   description: |-
-    The Tennessee Education Research Alliance (TERA) is a formal research partnership between the Tennessee Department of Education and Vanderbilt University’s Peabody College of Education. Led by seven full-time staff and guided by a steering committee and advisory council, the Department and the University have co-developed a research agenda that allows the University to conduct research on a variety of issues.
+    The [Tennessee Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php) (TERA) is a formal research partnership between the Tennessee Department of Education and Vanderbilt University’s Peabody College of Education. Led by seven full-time staff and guided by a steering committee and advisory council, the Department and the University have co-developed a [research agenda](https://peabody.vanderbilt.edu/TERA/research-agenda.php) that allows the University to [conduct research](https://peabody.vanderbilt.edu/TERA/professional_learning.php) on a variety of issues.
 
-    __More information: 2019 State Standard of Excellence (Criteria 7).__
+    __More information: 2019 State Standard of Excellence ([Criteria 7](https://2019state.results4america.org/state-standard-of-excellence/evaluation-policies.html#tennessee)).__
   year: '2020'
 - sys:
     id: 4ysmpdl4J9HPFVpy56WQJw
     created_at: !ruby/object:DateTime 2020-06-23 12:55:23.649000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:31:04.808000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 21:22:17.703000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 7rvITYdRIj5MoUjnImFwoT
@@ -502,23 +514,24 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/7rvITYdRIj5MoUjnImFwoT/3e462c815efcc4b4cb67848353f2a514/California.png"
   state: California
-  url: California Department of Social Services Evidence-Based Clearinghouse for Child
-    Welfare
-  description: "The California Department of Social Services created an Evidence-Based
-    Clearinghouse for Child Welfare, which allows child welfare providers and professionals
-    to identify, select, and implement evidence-based child welfare practices. In
-    addition, the Clearinghouse provides guidance and support for program implementation.
-    The Clearinghouse’s numerical rating scale categorizes programs into six tiers
-    of evidence and uses a relevance scale as a complement to the scientific rating
-    scale to demonstrate applicability for client populations. \n\n__More information:
-    2019 State Standard of Excellence (Criteria 10).__"
+  url: Evidence-Based Clearinghouse for Child Welfare
+  description: "The California Department of Social Services created an [Evidence-Based
+    Clearinghouse for Child Welfare](http://www.cebc4cw.org/), which [allows](https://www.cebc4cw.org/home/using-the-cebc/)
+    child welfare providers and professionals to identify, select, and implement evidence-based
+    child welfare practices. In addition, the Clearinghouse provides [guidance and
+    support for program implementation](http://www.cebc4cw.org/implementing-programs/).
+    The Clearinghouse’s numerical [rating scale](http://www.cebc4cw.org/home/how-are-programs-on-the-cebc-reviewed/)
+    categorizes programs into six tiers of evidence and uses a [relevance scale](http://www.cebc4cw.org/home/how-are-programs-on-the-cebc-reviewed/child-welfare-relevance-levels/)
+    as a complement to the scientific rating scale to demonstrate applicability for
+    client populations. \n\n__More information: 2019 State Standard of Excellence
+    ([Criteria 10](https://2019state.results4america.org/state-standard-of-excellence/evidence-definition-and-program-inventory.html)).__"
   year: '2020'
 - sys:
     id: 5Z37GmG5FqvKIuEMkQEJl4
     created_at: !ruby/object:DateTime 2020-06-23 12:55:44.414000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 16:56:47.639000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 21:20:18.380000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -528,23 +541,24 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
   state: Minnesota
-  url: Minnesota Management and Budget’s Evaluation Policy, Evidence Definitions,
-    and Clearinghouse
-  description: 'In partnership with The Pew Results First Initiative, Minnesota Management
-    and Budget inventoried nearly 500 publicly-funded interventions and rated their
-    evidence of effectiveness in a clearinghouse. To support the ongoing focus on
-    funding evidence-based programs and interventions, Minnesota Management and Budget
-    released an evaluation policy to govern evaluations, which specifically mandates
-    the release of all completed evaluation reports regardless of findings. Minnesota
-    Management and Budget also defines evidence for research, evaluation, and funding
-    purposes. More information: 2019 State Standard of Excellence (Criteria 7).'
+  url: Evaluation Policy, Evidence Definitions, and Clearinghouse
+  description: "In partnership with The Pew Results First Initiative, Minnesota Management
+    and Budget [inventoried](https://mn.gov/mmb/results-first/inventory/) nearly 500
+    publicly-funded interventions and rated their evidence of effectiveness in a clearinghouse.
+    To support the ongoing focus on funding evidence-based programs and interventions,
+    Minnesota Management and Budget released an [evaluation policy](https://www.dshs.wa.gov/altsa/washington-health-home-program)
+    to govern evaluations, which specifically mandates the release of all completed
+    evaluation reports regardless of findings. Minnesota Management and Budget also
+    [defines evidence](https://mn.gov/mmb/results-first/definitions-of-evidence/)
+    for research, evaluation, and funding purposes. \n\n__More information: 2019 State
+    Standard of Excellence ([Criteria 7](https://2019state.results4america.org/state-standard-of-excellence/evaluation-policies.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 4pOTiLxtc7GZBRLa5yRYJi
     created_at: !ruby/object:DateTime 2020-06-23 12:58:12.378000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:31:36.010000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 22:19:16.971000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 5QPUxPiLvLvGrpgum7Malc
@@ -554,20 +568,20 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5QPUxPiLvLvGrpgum7Malc/ae56034f8cfd709eee1537b6225e0edd/North-Carolina.png"
   state: North Carolina
-  url: North Carolina's Budget Office Reform
-  description: "In 2018, North Carolina redesigned its budget process to increase
-    the use of evidence-based decision-making. As a result, the 2019-2021 budget development
-    instructions require that agency requests “for new or expanded programs or services
-    must include evidence and research supporting the program’s effect on desired
-    outcomes.”  \n\n__More information: 2019 State Standard of Excellence (Criteria
-    9).__"
+  url: Budget Office Reform
+  description: "In 2018, North Carolina [redesigned its budget process](https://files.nc.gov/ncosbm/documents/files/memo20180531_OSBM_Reorganization.pdf)
+    to increase the use of evidence-based decision-making. As a result, the [2019-2021
+    budget development instructions](https://www.osbm.nc.gov/budget) require that
+    agency requests “for new or expanded programs or services must include evidence
+    and research supporting the program’s effect on desired outcomes.”  \n\n__More
+    information: 2019 State Standard of Excellence ([Criteria 9](https://2019state.results4america.org/state-standard-of-excellence/outcome-data.html#north-carolina)).__"
   year: '2020'
 - sys:
     id: 3ruwrptdviD2zfKVgrFPXJ
     created_at: !ruby/object:DateTime 2020-06-23 12:58:41.842000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:08:03.764000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 22:17:41.802000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -577,18 +591,18 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
   state: Minnesota
-  url: Minnesota Management and Budget Guidance for New and Expanded Programs
+  url: Guidance for New and Expanded Programs
   description: |-
-    Minnesota Management and Budget issued guidance on how to report outcome data. In addition, the state also used evidence to inform funding decisions resulting in $87 million in new or expanded evidence-based programming in the FY 2020-2021 budget.
+    Minnesota Management and Budget issued [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf) on how to report outcome data. In addition, the state also used evidence to [inform funding decisions](https://mn.gov/mmb/evidence/proposal/) resulting in [$87 million in new or expanded evidence-based programming](https://mn.gov/mmb-stat/2-gen/enacted-budget-ebp-investments.pdf) in the FY 2020-2021 budget.
 
-    __More information: 2019 State Standard of Excellence (Criteria 10).__
+    __More information: 2019 State Standard of Excellence ([Criteria 10](https://2019state.results4america.org/state-standard-of-excellence/evidence-definition-and-program-inventory.html#leading-example)).__
   year: '2020'
 - sys:
     id: 3SED6H70BYo1ehUbdwGTNv
     created_at: !ruby/object:DateTime 2020-06-23 12:59:01.238000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:35:35.188000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 22:14:48.539000000 Z
     content_type_id: example
-    revision: 2
+    revision: 4
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -598,19 +612,19 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
   state: Colorado
-  url: Colorado's Budget Instructions
-  description: Colorado’s FY 2020-2021 budget development instructions (pp. 10-12)
-    prioritize new program requests “based on the evidence and body of research supporting
-    the program’s effect on desired outcomes and proposed implementation plan.” In
-    the FY 2020-2021 budget cycle, the state applied an evidence continuum to budget
-    requests and used that criteria to inform resource allocation decisions.
+  url: Budget Instructions
+  description: Colorado’s FY 2020-2021 [budget development instructions](https://drive.google.com/open?id=12rEZIkt1bzBcvF_b89Ps7Z0IJRDNuq7P)
+    (pp. 10-12) prioritize new program requests “based on the evidence and body of
+    research supporting the program’s effect on desired outcomes and proposed implementation
+    plan.” In the FY 2020-2021 budget cycle, the state applied an [evidence continuum](https://bit.ly/3is7tVR)
+    to budget requests and used that criteria to inform resource allocation decisions.
   year: '2020'
 - sys:
     id: 3B181F7MBGFq6CLwqtMIhd
     created_at: !ruby/object:DateTime 2020-06-23 13:03:58.930000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:33:39.988000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:03:43.455000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -620,25 +634,18 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
   state: Indiana
-  url: Indiana’s Efforts to Lower Statewide Infant Mortality Rates
-  description: "To meet the governor’s goal of having the lowest infant mortality
-    rate in the Midwest, Indiana leveraged its Management Performance Hub, which facilitates
-    the linkage, storage, and analysis of administrative data. By linking data across
-    17 data sets, Management Performance Hub staff were able to better understand
-    and map mortality rates, discovering that a single high-risk subpopulation accounted
-    for only 1.6% of births statewide but 50% of infant deaths, and that inadequate
-    access to prenatal care accounted for 65% of infant deaths. This information drove
-    increased investment in a targeted strategy to identify those at-risk and connect
-    them with vital resources to reduce infant mortality. As a result, infant mortality
-    rate decreased significantly from 2017 to 2018 and is at its lowest since 2012.
-    \n\n__More information: Results for America blog.__"
+  url: Efforts to Lower Statewide Infant Mortality Rates
+  description: |-
+    To meet the [governor’s goal](https://www.indystar.com/story/news/politics/2020/01/15/indiana-state-of-the-state-gov-eric-holcomb-2020-speech-annotated/4432905002/) of having the lowest infant mortality rate in the Midwest, Indiana leveraged its [Management Performance Hub](https://www.in.gov/mph/), which facilitates the linkage, storage, and analysis of administrative data. By linking data across 17 data sets, Management Performance Hub staff were able to better [understand and map mortality rates](http://www.govtech.com/health/Indiana-Uses-Data-Analytics-to-Lower-Infant-Mortality-Child-Fatality.html), discovering that the infant mortality rate in Indiana is 7.3%, compared to the national rate of 5.8%, which accounts for 602 babies dying before their first birthdays in the state. This information drove increased investment in a targeted strategy to identify those at risk and connect them with vital resources to reduce infant mortality through an [innovative program](https://www.in.gov/isdh/28233.htm) focused on building a network of wraparound services for mothers and infants.  As a result, infant mortality rate [decreased significantly](https://www.indystar.com/story/news/politics/2020/01/15/indiana-state-of-the-state-gov-eric-holcomb-2020-speech-annotated/4432905002/) from 2017 to 2018 and is at its lowest since 2012. By 2019, the initiative had linked 44 de-identified maternal and infant health mortality data sets.
+
+    __More information: Results for America [blog](https://results4america.org/tools/states-leading-data-use-integration-see-significant-results/).__
   year: '2020'
 - sys:
     id: 3DggedgAlCq9l997dJGEW5
     created_at: !ruby/object:DateTime 2020-06-23 13:04:19.837000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:33:14.295000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:01:38.622000000 Z
     content_type_id: example
-    revision: 4
+    revision: 7
   state_outline:
     sys:
       id: 5pdnK5NPEzXytsgovQD4La
@@ -648,21 +655,24 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5pdnK5NPEzXytsgovQD4La/422e3da6938f2e4934c2c51689121079/Maryland.png"
   state: Maryland
-  url: Maryland's Office of Children
-  description: "The Maryland Governor’s Office for Children focuses on achieving the
-    governor’s child welfare goals. The Office incentivizes the use of data by requiring
-    at least three years of performance information from grant applicants and incorporates
-    evidence by allocating 10 points (out of 100) for evidence of effectiveness with
-    a bonus point to any applicant that proposes an evidence-based home visiting program
-    utilizing a model approved by the U.S. Department of Health and Human Services.
-    \n\n__More information: 2019 State Standard of Excellence (Criteria 12).__"
+  url: Maryland Governor's Office of Crime Prevention, Youth, and Victim Services
+  description: "The [Maryland Governor’s Office of Crime Prevention, Youth, and Victim
+    Services](https://goc.maryland.gov/role-and-history/) focuses on achieving the
+    governor’s child welfare [goals](https://goc.maryland.gov/overview/). The Office
+    incentivizes the use of data by requiring at least three years of performance
+    information from grant applicants and incorporates evidence by [allocating 10
+    points](https://goc.maryland.gov/wp-content/uploads/sites/8/2019/01/FY20-NOFA-Issued-12-31-2018-Revised-01-25-2018.docx.pdf#page=14)
+    (out of 100) for evidence of effectiveness with a bonus point to any applicant
+    who proposes an evidence-based home visiting program (utilizing a model approved
+    by the U.S. Department of Health and Human Services). \n\n__More information:
+    2019 State Standard of Excellence ([Criteria 12](https://2019state.results4america.org/state-standard-of-excellence/use-of-evidence-in-grant-programs.html#maryland)).__"
   year: '2020'
 - sys:
     id: 4ZV8BZ9tliOXcZQhe186Ux
     created_at: !ruby/object:DateTime 2020-06-23 13:04:42.903000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:32:54.834000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:00:00.795000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -672,24 +682,26 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
   state: Colorado
-  url: Colorado Governor's Office and Agencies Partner with External Research Lab
-  description: "The Colorado Governor’s Office and the Colorado Evaluation and Action
-    Lab (The Lab) co-designed the Linked Information Network of Colorado (LINC) to
-    facilitate data sharing for research and analytics purposes as a way to improve
-    state policies and programs. Using this data, the Lab and state agencies have
-    collaborated on projects to improve outcomes in areas such as child welfare, criminal
-    justice, health, education, economic opportunity, and workforce. LINC has also
-    issued a request for proposals that would provide funding for each of the Governor’s
-    Cabinet Groups, which support implementation of the governor’s strategic goals,
+  url: Governor's Office and Agencies Partner with External Research Lab
+  description: "The Colorado Governor’s Office and the [Colorado Evaluation and Action
+    Lab](https://coloradolab.org/) (The Lab) co-designed the [Linked Information Network
+    of Colorado](https://coloradolab.org/linc/) (LINC) to facilitate data sharing
+    for research and analytics purposes as a way to improve state policies and programs.
+    Using this data, the Lab and state agencies have collaborated on [projects](https://coloradolab.org/projects/2020-projects/)
+    to improve outcomes in areas such as child welfare, criminal justice, health,
+    education, economic opportunity, and workforce. LINC has also issued a [request
+    for proposals](https://coloradolab.org/blog-2019-05-31-linc-cabinet-planning-grant/)
+    that would provide funding for each of the Governor’s Cabinet Groups, which support
+    implementation of the governor’s [strategic goals](https://dashboard.state.co.us/learn-more.htm),
     to utilize LINC for high-priority cabinet business analytic needs in meeting these
-    goals. \n\n__More information: 2019 State Standard of Excellence (Criteria 5)__"
+    goals. \n\n__More information: 2019 State Standard of Excellence ([Criteria 5](https://2019state.results4america.org/state-standard-of-excellence/data-use.html#colorado)).__"
   year: '2020'
 - sys:
     id: 2GOBbgXrinUfXGxXR74ee0
     created_at: !ruby/object:DateTime 2020-06-23 13:06:49.562000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:32:26.357000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:16:19.178000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 4h0MIeVC19Fe44eZNAFxlw
@@ -699,19 +711,20 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/4h0MIeVC19Fe44eZNAFxlw/291d8d889c5ebae5d3f300926077494c/Washington.png"
   state: Washington
-  url: Washington State Institute for Public Policy’s Cost-Benefit Analyses
-  description: "The Washington State Institute for Public Policy (WSIPP) has published
-    hundreds of cost-benefit analyses in a wide variety of issue areas over the past
-    10 years. The WSIPP cost-benefit framework has been widely adopted by governments
-    across the country. \n\n__More information: 2019 State Standard of Excellence
-    (Criteria 11).__"
+  url: Institute for Public Policy’s Cost-Benefit Analyses
+  description: "The [Washington State Institute for Public Policy](https://www.wsipp.wa.gov/)
+    (WSIPP) has published hundreds of [cost-benefit analyses](http://www.wsipp.wa.gov/BenefitCost)
+    in a wide variety of issue areas over the past 10 years. The WSIPP [cost-benefit
+    framework](http://www.wsipp.wa.gov/TechnicalDocumentation/WsippBenefitCostTechnicalDocumentation.pdf)
+    has been widely adopted by governments across the country. \n\n__More information:
+    2019 State Standard of Excellence ([Criteria 11](https://2019state.results4america.org/state-standard-of-excellence/cost-benefit-analysis.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 4zkCAmorNkJM0R8ELeWEDS
     created_at: !ruby/object:DateTime 2020-06-23 13:07:14.818000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:32:07.332000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:12:53.448000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 6yER6nebIhxSU2UBDExIxn
@@ -721,19 +734,19 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6yER6nebIhxSU2UBDExIxn/38f7298b0ff38ca7681b31078ee44e96/Rhode-Island.png"
   state: Rhode Island
-  url: Rhode Island’s Active Contract Management Strategies and Results-Driven Contracting
+  url: Active Contract Management Strategies and Results-Driven Contracting
   description: "Rhode Island’s Department of Children, Youth, and Families relied
-    on active contract management strategies in restructuring 116 contracts (totaling
-    $90 million), which resulted in a reduction in the number of foster children in
-    groupcare and an expansion of foster care. \n\n__More information: 2019 State
-    Standard of Excellence (Criteria 14).__"
+    on [active contract management strategies](https://govlab.hks.harvard.edu/rhode-island-department-children-youth-and-families-performance-improvement)
+    in restructuring 116 contracts (totaling $90 million), which resulted in a reduction
+    in the number of foster children in groupcare and an expansion of foster care.
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 14](https://2019state.results4america.org/state-standard-of-excellence/contracting-for-outcomes.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 3xIwGtQQSmgzsFW2QJAaby
     created_at: !ruby/object:DateTime 2020-06-23 13:07:36.053000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:02:05.973000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:11:43.680000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 58dga69wUSEZJ3DYLfVgW2
@@ -743,20 +756,22 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/58dga69wUSEZJ3DYLfVgW2/aab95681d87f1959cbb09f543add121f/Nevada.png"
   state: Nevada
-  url: Nevada Department of Education’s Commitment to Funding Evidence-based Interventions
-  description: "Since 2017, the Nevada Department of Education has allocated 100%
-    of the state’s $8.5 million in federal Title I school improvement funds to districts
-    and schools for interventions backed by strong, moderate, or promising evidence
-    (using the top three tiers of evidence as defined by the federal Every Student
-    Succeeds Act (ESSA)). \n\n__More information: Results for America case study and
-    2019 State Standard of Excellence (Criteria 12).__"
+  url: Commitment to Funding Evidence-based Interventions
+  description: "Since 2017, the Nevada Department of Education has [allocated 100%
+    of the state’s $8.5 million](https://results4america.org/wp-content/uploads/2019/11/RFA-NV-ESSA-case-study.pdf)
+    in federal Title I school improvement funds to districts and schools for interventions
+    backed by strong, moderate, or promising evidence (using the top three tiers of
+    evidence as [defined](https://www2.ed.gov/policy/elsec/leg/essa/guidanceuseseinvestment.pdf#page=8)
+    by the federal Every Student Succeeds Act (ESSA)). \n\n__More information: Results
+    for America [case study](https://results4america.org/tools/evidence-skeptics-now-evidence-champions/?sf_paged=3)
+    and 2019 State Standard of Excellence ([Criteria 12](https://2019state.results4america.org/state-standard-of-excellence/use-of-evidence-in-grant-programs.html#leading-example)).__"
   year: '2020'
 - sys:
     id: 6h0IeBvKh7Jx1o08yOuzD3
     created_at: !ruby/object:DateTime 2020-06-23 13:11:13.893000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:00:41.242000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:22:44.572000000 Z
     content_type_id: example
-    revision: 4
+    revision: 6
   state_outline:
     sys:
       id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -766,21 +781,20 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
   state: Minnesota
-  url: Minnesota Department of Human Services’ Performance-Based Targets for Cash
-    Assistance Programs
+  url: Performance-Based Targets for Cash Assistance Programs
   description: "The Minnesota Department of Human Services requires counties that
-    do not meet the Self-Support Index performance targets to submit performance improvement
-    plans. In counties where “no improvement is shown by the end of the multi-year
-    plan, the county’s or tribe’s allocation must be decreased by 2.5 percent” as
-    required by law. \n\n__More information: 2019 State Standard of Excellence (Criteria
-    15).__"
+    do not meet the [Self-Support Index](https://www.leg.state.mn.us/docs/2016/other/160886.pdf)
+    performance targets to submit performance improvement plans. In counties where
+    “no improvement is shown by the end of the multi-year plan, the county’s or tribe’s
+    allocation must be decreased by 2.5 percent” as required by law. \n\n__More information:
+    2019 State Standard of Excellence ([Criteria 15](https://2019state.results4america.org/state-standard-of-excellence/repurpose-for-results.html#minnesota)).__"
   year: '2020'
 - sys:
     id: GDDgyApAxW6mVj1aG0N8V
     created_at: !ruby/object:DateTime 2020-06-23 13:11:35.598000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:34:47.376000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-05 23:21:48.127000000 Z
     content_type_id: example
-    revision: 3
+    revision: 5
   state_outline:
     sys:
       id: 61lAA2QrB7VXivRyXmbw14
@@ -790,11 +804,12 @@ example:
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/61lAA2QrB7VXivRyXmbw14/b1f9a7587b6c15ff0ef3b23cd7738fc9/Pennsylvania.png"
   state: Pennsylvania
-  url: Pennsylvania's Department of Corrections Performance-Based Contracts Policy
-  description: "Pennsylvania Department of Corrections has set performance targets
-    for its community corrections program through performance-based contracts. Providers
-    that meet recidivism prevention goals receive a 1% increase in their rate while
-    providers that fail to meet targets for two consecutive years can have their contracts
-    terminated. \n\n__More information: 2019 State Standard of Excellence (Criteria
-    15).__"
+  url: Performance-Based Contracts Policy
+  description: "Pennsylvania Department of Corrections has [set performance targets
+    for its community corrections program](http://www.media.pa.gov/pages/corrections_details.aspx?newsid=225)
+    through [performance-based contracts](https://www.cor.pa.gov/Initiatives/Documents/Justice%20Reinvestment%20Initiative/JRI%20-%20Phase%202%202016/Report%20-%20Justice%20Reinvestment%20in%20Pennsylvania%20-%20June%202017.pdf).
+    Providers that meet recidivism prevention goals receive a 1% increase in their
+    rate while providers that fail to meet targets for two consecutive years can have
+    their contracts terminated. \n\n__More information: 2019 State Standard of Excellence
+    ([Criteria 15](https://2019state.results4america.org/state-standard-of-excellence/repurpose-for-results.html#leading-example)).__"
   year: '2020'

@@ -232,6 +232,15 @@ a.internal-link-container {
       padding-bottom: 1rem;
     }
   }
+  &.criteria {
+    a {
+      color: #333;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
   .tooltip {
     &:before {
       content: '';

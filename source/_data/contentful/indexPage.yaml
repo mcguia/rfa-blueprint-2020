@@ -3,9 +3,9 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 15:32:43.578000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 12:01:23.797000000 Z
     content_type_id: indexPage
-    revision: 12
+    revision: 17
   year: '2020'
   overview: "This *Blueprint for Delivering Results in State Government* is an implementation
     guide for Results for America’s [Invest in What Works State Standard of Excellence](https://2019state.results4america.org/)
@@ -24,7 +24,7 @@ indexPage:
     title: Roadmap
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/4udP4M1dqs3lWemK3A5JHx/0946f6f06ffa0b2c76fca6afa693c028/Overview1.png"
-  roadmap: __Create a high-level roadmap__ for how they can increase their [capacity](https://2019state.results4america.org/downloads.html%23state-spotlights)
+  roadmap: __Create a high-level roadmap__ for how they can increase their capacity
     to use evidence and data in their decision-making
   capacity_image:
     sys:
@@ -53,17 +53,13 @@ indexPage:
     describes explicit Strategies, detailed Actions, useful resources, and specific
     examples of leading practices to help state governments make progress on the State
     Standard of Excellence and improve results for their residents.
-  summary_of_strategies: "*The Blueprint is organized into the following Blueprint
-    Themes, which are aligned with the State Standard of Excellence. Each Theme has
-    three related Strategies, detailed Actions for executing these Strategies, and
-    specific examples of how state governments have implemented these Actions.*"
   themes:
   - sys:
       id: 2UIJjDT50igsVZ3wI7MXKL
       created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-02 20:06:25.414000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 01:05:28.057000000 Z
       content_type_id: theme
-      revision: 5
+      revision: 8
     title: Managing for Results
     order: 1
     icon:
@@ -75,11 +71,12 @@ indexPage:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/39XMRrBsHdlLSoc7xAp1qd/fc05a7b32a1db8cff1006765fa1f1859/MFR5.png"
     related_criteria: |-
-      1. [Strategic goals](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html)
-      2. [Performance management/continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)
+      [1. Strategic goals](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html)
+
+      [2. Performance management/continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)
     rationale: "Managing performance starts with understanding how the governor’s
       administration defines success and builds the overarching system and culture
-      to deliver that success. Without a set of goals and metrics, or strategic plans,
+      to deliver that success. Without a set of goals and metrics (or strategic plans)
       to define the administration’s agenda, it is difficult to communicate to staff
       within the agencies or the general public what the government aims to deliver.\n\n\nAn
       integrated system for reviewing performance goals and connecting decision-making
@@ -89,12 +86,12 @@ indexPage:
       management helps state governments improve customer service, program performance,
       and outcomes for their residents. This use of data to set goals and monitor
       performance can be an especially powerful way to improve equity by focusing
-      efforts on disadvantaged populations. Further this transparency with the public
-      and stakeholders places the focus on results, rather than process. This emphasis
-      on results is difficult to sustain without a culture centered on data-driven
-      and evidence-based policymaking. Policies and goals can be changed over time,
-      but a state government culture that prioritizes the use of data and evidence
-      to deliver better results for residents creates lasting impact. "
+      efforts on communities of color. Further, transparency with the public and stakeholders
+      places the focus on results, rather than process. This emphasis on results is
+      difficult to sustain without a culture centered on data-driven and evidence-based
+      policymaking. Policies and goals can be changed over time, but a state government
+      culture that prioritizes the use of data and evidence to deliver better results
+      for residents creates lasting impact. "
     strategies:
     - sys:
         id: ivyGZZW7cxscox0BITbRp
@@ -107,8 +104,8 @@ indexPage:
       support. Here are some sample wins, though there are many other types of achievements
       that states could use to mark their progress.*"
     quick_wins: |-
-      - Hire/designate a Chief Performance Officer to ensure the governor’s goals are results-driven with metrics, outcomes, and deliverables (such as [Connecticut’s Chief Performance Officer](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2019/04-2019/Governor-Lamont-Launches-Statewide-Performance-and-Results-Agenda))
-      - Create a public dashboard to show progress toward meeting strategic goals (see [Colorado Governor’s Dashboard](https://dashboard.state.co.us/default.htm))
+      - Hire/designate a Chief Performance Officer to ensure the governor’s goals are results-driven with metrics, outcomes, and deliverables
+      - Create a public dashboard to show progress towards meeting strategic goals (see [Colorado Governor’s Dashboard](https://dashboard.state.co.us/default.htm))
       - Identify and engage key agency leaders in statewide performance management and align agency goals with dashboard
     mid_term_wins: "- Build a performance team to support a cross-agency performance
       management system for strategic goals \n- Ensure statewide strategic and performance
@@ -118,9 +115,185 @@ indexPage:
       goals"
     long_term_wins: |-
       - Normalize performance management and strategic planning through executive action (see the executive order that established [Results Washington](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf))
-      - Leverage the annual budget process to align governor’s priorities with budget development (such as the Colorado [State Measurement for Accountability, Responsive, and Transparent Government Act](https://operations.colorado.gov/performance-management#https://drive.google.com/file/d/16Zk7X2XyM4nhv2CjOtcyWJflcxL74JjN/view))
+      - Leverage the annual budget process to align governor’s priorities with budget development (such as the Colorado [State Measurement for Accountability, Responsive, and Transparent Government Act](https://operations.colorado.gov/performance-management))
       - Convene leadership and performance teams for regular public stat meetings (such as Results Washington [Results Reviews](https://results.wa.gov/measuring-progress/results-reviews))
       - Leverage performance management data and continuous improvement insights to inform research and learning agendas
+    year: '2020'
+  - sys:
+      id: 6KhIXREPYNHwzix4sIrXY
+      created_at: !ruby/object:DateTime 2020-06-23 12:21:09.323000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 01:05:03.687000000 Z
+      content_type_id: theme
+      revision: 9
+    title: Leveraging Data
+    order: 2
+    icon:
+      sys:
+        id: 7GGaE7SoPHD4xvFg323e0I
+        created_at: !ruby/object:DateTime 2020-06-29 16:53:01.049000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 16:53:01.049000000 Z
+      title: LD
+      description: 
+      url: "//images.ctfassets.net/xrxa0m8bxqnj/7GGaE7SoPHD4xvFg323e0I/59ffc102c7fc6c81edf61e2a27fccfdf/LD2.png"
+    related_criteria: |-
+      [3. Data leadership](https://2019state.results4america.org/state-standard-of-excellence/data-leadership.html)
+
+      [4. Data policies/agreements ](https://2019state.results4america.org/state-standard-of-excellence/data-policies--agreements.html)
+
+      [5. Data use](https://2019state.results4america.org/state-standard-of-excellence/data-use.html)
+    rationale: |
+      The key to improving performance in government is to leverage data to inform goals, measure progress, and learn lessons for future improvement. Appropriate frameworks, easy ways to align data, and talent make it possible to comprehensively use data for improvement, research, and evaluation.
+
+
+      This type of data use creates the foundation of knowledge about what works, for whom, and why in ways that can allow governments to identify and reduce the systemic barriers that produce inequality. In this manner, governments have demonstrated the power of unleashing administrative data, often supported through improved data linking and sharing. While the technical components of linking data with the appropriate privacy measures are absolutely paramount, qualified and empowered personnel play a critical role in helping agencies leverage data to improve decisions while building a data-centric culture across the state.
+    strategies:
+    - sys:
+        id: bxhhNAi32CY2GHsyYsALa
+    - sys:
+        id: 3yI8zfPlQi84oq5lR4zvfi
+    - sys:
+        id: 3bgPcMLG9iNwpHGBjFKiNy
+    wins_description: "*By following the actions above and building over time, states
+      should aim to achieve wins along the way to galvanize internal and external
+      support. Here are some sample wins, though there are many other types of achievements
+      that states could use to mark their progress.*"
+    quick_wins: "- Create a vision for leveraging data as a strategic asset (such
+      as [Connecticut’s State Data Plan](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en)
+      created by the [Chief Data Officer](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm))
+      \n- Create data-sharing protocols to reduce barriers to sharing between state
+      agencies and with external partners such as other governments, nongovernmental
+      entities, research institutions ([see Colorado’s LINC data collaborative](https://coloradolab.org/linc/))\n-
+      Make data [open by default](https://www.data.gov/open-gov/), publicly available,
+      and downloadable on dashboards to encourage data usage (see Ohio’s [fiscal transparency
+      efforts](https://sunlightfoundation.com/2015/10/08/ohios-online-checkbook-goes-local/))\n-
+      Improve data linkages across programs to better define problems and achieve
+      solutions (see Indiana’s [Management Performance Hub](https://www.in.gov/mph/899.htm)
+      for examples)"
+    mid_term_wins: |-
+      - Develop a data governance framework to further codify practices and build momentum (see Connecticut’s State Data Plan with its [11 principles](https://bit.ly/2VJklNT) and California’s [Open Data Handbook](https://handbook.data.ca.gov/))
+      - Leverage data analytics for programmatic decisions, service delivery, and policymaking, including the creation of research agendas (see North Carolina’s [center](https://it.nc.gov/services/nc-gdac) to leverage data analytics and Kentucky’s [KYSTATS](https://kystats.ky.gov/Content/BoardDocs/Research%20Agenda%2020-22%20Final.pdf?v=20200406050900) that has a multi-year research agenda)
+      - Build external partnerships to advance data integration and expand technical capacity of agencies (see [Colorado’s LINC data collaborative](https://coloradolab.org/linc/))
+    long_term_wins: |-
+      - Leverage integrated data to enhance service delivery and identify cost-savings (see Washington’s integrated database which led to [savings in Medicare spending](https://www.hca.wa.gov/about-hca/health-home-program-saves-more-100-million-medicare-program-over-three-years))
+      - Implement a comprehensive data strategy that is updated regularly (such as [Connecticut’s](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en) State Data Plan, which is updated biennially as required by [law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)).
+      - Invest in data analytics capacities and teams in agencies (see Washington’s State Department of Social and Health Services’ [data analytics division](https://www.dshs.wa.gov/ffa/research-and-data-analysis/rdas-organization))
+    year: '2020'
+  - sys:
+      id: 4X17IPn0Lofc9ReTsH1RVq
+      created_at: !ruby/object:DateTime 2020-06-23 13:00:00.408000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 01:04:49.916000000 Z
+      content_type_id: theme
+      revision: 8
+    title: Building and Using Evidence
+    order: 3
+    icon:
+      sys:
+        id: 3kU8BBHWW7ZMaWs8ky8dqY
+        created_at: !ruby/object:DateTime 2020-06-29 16:53:33.328000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 16:53:33.328000000 Z
+      title: BUE
+      description: 
+      url: "//images.ctfassets.net/xrxa0m8bxqnj/3kU8BBHWW7ZMaWs8ky8dqY/75ffdc88080fccf85e7dfc7516d11ed9/BUE2.png"
+    related_criteria: |-
+      [6. Evaluation leadership](https://2019state.results4america.org/state-standard-of-excellence/evaluation-leadership.html)
+
+      [7. Evaluation policies](https://2019state.results4america.org/state-standard-of-excellence/evaluation-policies.html)
+
+      [8. Evaluation resources](https://2019state.results4america.org/state-standard-of-excellence/evaluation-resources.html)
+
+      [9. Outcome data](https://2019state.results4america.org/state-standard-of-excellence/outcome-data.html)
+
+      [10. Evidence definitions and program inventory](https://2019state.results4america.org/state-standard-of-excellence/evidence-definition-and-program-inventory.html)
+    rationale: |-
+      Data is a key tool for performance management but it can also play a valuable role in building longer term evidence about interventions that achieve the best outcomes. In order to take full advantage of data, it is important to have the evaluation infrastructure that allows empirical evidence to inform an administration’s budget, management, and policy decisions.
+
+
+      “Knowing what works” in a particular context (and what to fund) requires research and evaluation capacity both within and outside of government. Research and evaluation offices can conduct evaluations, build lasting collaborative research partnerships, and provide expertise on high-quality evidence-building activities. At their best, these evaluation offices engage residents to identify key priorities, especially how governments can build and use evidence to improve equity. Funding these capacities is essential and can be done through set asides, carve-outs in program funds, and even budget line items. Embedding research infrastructure in government that is aligned with budgeting processes allows states to move towards results-focused spending.
+    strategies:
+    - sys:
+        id: 5oBFvSmuYPHbQi4Pby3NFW
+    - sys:
+        id: 3C8W8cacjEAwumCDDQ1Eut
+    - sys:
+        id: 5hK3qSoKsGNLJZ6nMUEIro
+    wins_description: "*By following the actions above and building over time, states
+      should aim to achieve wins along the way to galvanize internal and external
+      support. Here are some sample wins, though there are many other types of achievements
+      that states could use to mark their progress.*"
+    quick_wins: |-
+      - Broadly adopted [evidence definitions](https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2017/11/a-common-language-for-evidence-based-programming) across state government (such as in [Colorado](https://bit.ly/3f1hMOU))
+      - Designate/hire a chief evaluation officer to lead and coordinate evaluation activities (such as in [Minnesota](https://mn.gov/mmb/results-first/about/cdeo.jsp))
+      - Develop a clear structure for coordinating evaluation and evidence activities across agencies, which could include the state legislature (See [Alabama’s Commission on Evaluation Services](https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2017/11/a-common-language-for-evidence-based-programming))
+    mid_term_wins: |-
+      - Create learning agendas (statewide and at agencies)
+      - Develop an evaluation policy aligned with evidence definitions (see Minnesota Management and Budget’s [evaluation policy](https://mn.gov/mmb-stat/results-first/evaluation-policy.pdf))
+      - Build relationships with institutions and organizations that can provide external research capacity (such as the research-practice partnership model of the [Tennessee Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php))
+      - Make evidence and evaluations publicly available through a clearinghouse or inventory (such as the [California Evidence-Based Clearinghouse for Child Welfare](http://www.cebc4cw.org/))
+    long_term_wins: |-
+      - Create a strong state evaluation culture with centralized, agency, and external capacity (see State Education Agencies in [Mississippi](https://mdek12.org/OTSS/ORD/Dynamic-Framework), [Ohio](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics), and [Massachusetts](http://www.doe.mass.edu/research/), which have created research and evaluation offices to lead and coordinate evaluation activities)
+      - Use tiered evidence structures that build evidence and encourage innovation (see the [Education Innovation and Research program](https://results4america.org/tools/doubling-reach-education-innovation-research-program-improved-learning-50000-students/) from the U.S Department of Education)
+      - Require evidence of effectiveness in [budget proposals](https://www.pewtrusts.org/-/media/assets/2016/07/aguidetoevidencebasedbudgetdevelopment.pdf), especially for newly proposed programs (see Minnesota Management and Budget [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf) on making evidence-based budget proposals)
+    year: '2020'
+  - sys:
+      id: 6HBSprlKyuoPQjXqEJzFjz
+      created_at: !ruby/object:DateTime 2020-06-23 13:11:52.358000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 00:56:52.006000000 Z
+      content_type_id: theme
+      revision: 8
+    title: Investing for Results
+    order: 4
+    icon:
+      sys:
+        id: 71dSJERvLE6KjHf0W735oP
+        created_at: !ruby/object:DateTime 2020-06-29 16:54:22.579000000 Z
+        updated_at: !ruby/object:DateTime 2020-06-29 16:54:22.579000000 Z
+      title: IFR
+      description: 
+      url: "//images.ctfassets.net/xrxa0m8bxqnj/71dSJERvLE6KjHf0W735oP/2165bb36d20ac4f018f4ec4aae528651/IFR2.png"
+    related_criteria: |-
+      [11. Cost-benefit analysis](https://2019state.results4america.org/state-standard-of-excellence/cost-benefit-analysis.html)
+
+      [12. Use of evidence in grant programs](https://2019state.results4america.org/state-standard-of-excellence/use-of-evidence-in-grant-programs.html)
+
+      [13. Innovation](https://2019state.results4america.org/state-standard-of-excellence/innovation.html)
+
+      [14. Contracting for outcomes](https://2019state.results4america.org/state-standard-of-excellence/contracting-for-outcomes.html)
+
+      [15. Repurpose for results](https://2019state.results4america.org/state-standard-of-excellence/repurpose-for-results.html)
+    rationale: "Government spending is policy in action. Incorporating evidence and
+      data into these spending decisions is the best way for state governments to
+      make improvements over the status quo, which too often reinforces historical
+      inequality.\n\nRather than making spending decisions based on assumptions and
+      hunches, leaders and policymakers should spend resources on programs, interventions,
+      and services that have evidence of effectiveness. To improve results, government
+      should shift public resources to the most effective interventions in order to
+      increase their scale and impact. \n\nThere are a range of tools for making government
+      spending more evidence-based, from legislatively mandating public spending on
+      evidence-based interventions to using outcome-focused contracts. These tools
+      can be used across state government to shift funding away from strategies that
+      fail to deliver the desired outcomes and towards evidence-based interventions
+      that achieve better results for state residents. "
+    strategies:
+    - sys:
+        id: 4N9zWgMXUwUaMm9jaIM3ZT
+    - sys:
+        id: 7HwpHGaxA54j4ClNIHhyr3
+    - sys:
+        id: 5GbeQ4iZKxUegPq6vmHHTp
+    wins_description: "*By following the actions above and building over time, states
+      should aim to achieve wins along the way to galvanize internal and external
+      support. Here are some sample wins, though there are many other types of achievements
+      that states could use to mark their progress.*"
+    quick_wins: |-
+      - Develop guidance on the use of evidence-based interventions (see Ohio Office of Criminal Justice Services’ list of  recommended [Evidence-Based Programs and Practices](https://www.ocjs.ohio.gov/ebp.stm))
+      - Start using evidence of effectiveness to allocate funds in small number of areas with strong evidence base or in high-priority strategic areas (see Nevada’s [use of evidence](https://results4america.org/wp-content/uploads/2019/11/RFA-NV-ESSA-case-study.pdf) in its Title I education programs)
+    mid_term_wins: |-
+      - Show improved results through use of evidence of effectiveness in grant programs and expand to additional programs (see how [New Mexico](https://www.pewtrusts.org/en/research-and-analysis/fact-sheets/2014/05/20/the-pewmacarthur-results-first-initiative-in-new-mexico) funded more evidence-based programs and how the [Nevada Department of Education](https://results4america.org/tools/evidence-skeptics-now-evidence-champions/) is seeing promising results)
+      - Operate innovation challenges or fund tiered evidence frameworks  to expand promising practices while growing the evidence base
+      - Identify contracts that could be [improved through data-driven and results-focused contracting](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2019/03/how-evidence-can-inform-contracting-for-state-local-governments) strategies (such as Rhode Island Department of Children, Youth, and Families use of [active contract management strategies](https://govlab.hks.harvard.edu/rhode-island-department-children-youth-and-families-performance-improvement))
+    long_term_wins: |-
+      - Demonstrate significant improvements in major programs by using evidence of effectiveness
+      - Budget for evaluations to identify more effective approaches by using a set-aside or carve-out of programs funds for evaluation activities (see Colorado’s [$500,000 evaluation fund](https://sites.google.com/state.co.us/research-evidence/implementation-and-evaluation-grant?authuser=0))
     year: '2020'
   conclusion: |-
     The shift from “business as usual” to delivering real results is an iterative process that requires strong leadership and intentional action to build a culture of data and evidence use. The strategies outlined in this Blueprint allow state governments to build the infrastructure and capacity they need to become learning organizations that continuously work to improve results. This detailed implementation guide demonstrates how governors and their staff can consistently use evidence and data in budget, policy, and management decisions to achieve improved outcomes for their residents.

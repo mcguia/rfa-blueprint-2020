@@ -1,0 +1,26 @@
+---
+layout: default
+title: Acknowledgements
+description:
+seo_image_path: #'/images/media/filename.jpg'
+---
+{%assign acknowledgements = site.data.contentful.acknowledgementsPage.acknowledgementsPage[0] %}
+<main role="main" id="acknowledgements">
+  <section class="top-section">
+    <div class="row align-center">
+      <div class="column large-8 medium-8 small-12">
+        <h2>Acknowledgements</h2>
+      </div>
+    </div>
+    <div class="button-container button-container--align-left row">
+      <a tabindex="0" class="button button--index" href="{{'/' | relative_url}}"><span>Back to<br>Blueprint Summary</span></a>
+    </div>
+  </section>
+  <section class="standard-downloads-section">
+    <div class="row align-center">
+      <div class="column large-10 markdown">
+        {{ acknowledgements.acknowledgements | markdownify }}
+      </div>
+    </div>
+  </section>
+</main>
