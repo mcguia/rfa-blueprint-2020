@@ -127,6 +127,9 @@
       flex: 1 1 100%;
     }
   }
+  &.modal-themes {
+    justify-content: flex-start;
+  }
 }
 
 // launch material icon in header and title column

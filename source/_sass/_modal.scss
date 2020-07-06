@@ -80,6 +80,7 @@ button.key-modal__open {
 
 .modal__content {
   padding: 0;
+  max-height: 88vh;
   
   .row {
     margin: 0;
@@ -123,11 +124,17 @@ button.key-modal__open {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    @include breakpoint($small-only) {
+      font-size: 1.2rem;
+    }
   }
 
   .state-img {
     max-width: 120px;
     display: block;
     margin: 0 auto;
+    @include breakpoint($small-only) {
+      max-width: 100%;
+    }
   }
 }

@@ -24,7 +24,7 @@
       }
       &:hover {
         background-color: $blue;
-        color: white;
+        color: white!important;
       }
       &--large:before {
         content: "Download State Standard Criteria Questions";
