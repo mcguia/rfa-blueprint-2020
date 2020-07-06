@@ -22,6 +22,7 @@
     margin: auto;
     padding: 22px;
     @include breakpoint($small-only) {
+      width: 30%;
       padding: 15px;
     }
   }

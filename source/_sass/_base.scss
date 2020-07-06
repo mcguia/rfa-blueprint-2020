@@ -25,12 +25,18 @@ body {
 
   a, li {
     font-size: 1.2rem;
+    @include breakpoint($small-only) {
+      font-size: 1rem;
+    }
   }
   li {
     padding-left: 5px;
   }
   ul,ol {
     padding-inline-start: 30px;
+    @include breakpoint($small-only) {
+      padding-inline-start: 10px;
+    }
   }
   table {
     font-family: stevie-sans, sans-serif;

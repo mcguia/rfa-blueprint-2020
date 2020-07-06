@@ -34,6 +34,10 @@
   font-weight: 500;
   text-transform: uppercase;
 
+  @include breakpoint($small-only) {
+    font-size: 0.8rem;
+  }
+
   &:hover {
     color: $blue;
   }
@@ -57,6 +61,17 @@
 
     .strategies-time-light {
       border-bottom: 4px dotted $dark-blue;
+    }
+  }
+  @include breakpoint($small-only) {
+    .row {
+      .strategies-time-dark {
+        border-bottom: 4px dotted white;
+      }
+
+      .strategies-time-light {
+        border-bottom: 4px dotted $dark-blue;
+      }
     }
   }
   .strategies-time-light li, .wins li {

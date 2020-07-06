@@ -57,9 +57,9 @@ indexPage:
   - sys:
       id: 2UIJjDT50igsVZ3wI7MXKL
       created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 01:05:28.057000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 12:46:57.111000000 Z
       content_type_id: theme
-      revision: 8
+      revision: 9
     title: Managing for Results
     order: 1
     icon:
@@ -73,7 +73,7 @@ indexPage:
     related_criteria: |-
       [1. Strategic goals](https://2019state.results4america.org/state-standard-of-excellence/strategic-goals.html)
 
-      [2. Performance management/continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)
+      [2. Performance management / continuous improvement](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html)
     rationale: "Managing performance starts with understanding how the governor’s
       administration defines success and builds the overarching system and culture
       to deliver that success. Without a set of goals and metrics (or strategic plans)
@@ -122,9 +122,9 @@ indexPage:
   - sys:
       id: 6KhIXREPYNHwzix4sIrXY
       created_at: !ruby/object:DateTime 2020-06-23 12:21:09.323000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 01:05:03.687000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 12:47:16.193000000 Z
       content_type_id: theme
-      revision: 9
+      revision: 10
     title: Leveraging Data
     order: 2
     icon:
@@ -138,7 +138,7 @@ indexPage:
     related_criteria: |-
       [3. Data leadership](https://2019state.results4america.org/state-standard-of-excellence/data-leadership.html)
 
-      [4. Data policies/agreements ](https://2019state.results4america.org/state-standard-of-excellence/data-policies--agreements.html)
+      [4. Data policies / agreements ](https://2019state.results4america.org/state-standard-of-excellence/data-policies--agreements.html)
 
       [5. Data use](https://2019state.results4america.org/state-standard-of-excellence/data-use.html)
     rationale: |

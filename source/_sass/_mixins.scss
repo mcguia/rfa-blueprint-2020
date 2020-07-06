@@ -45,3 +45,9 @@ hr.hr--long {
   border-radius: 5px;
   border: none;
 }
+
+.small-padding-0 {
+  @include breakpoint($small-only) {
+    padding: 0;
+  }
+}

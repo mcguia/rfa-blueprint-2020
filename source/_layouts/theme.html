@@ -19,14 +19,14 @@ layout: default
 <main role="main" class="criteria">
   <section class="top-section">
     <div class="row align-center" style="max-width:85rem;align-items:center">
-        <div class="column large-2 criteria__nav--previous">
+        <div class="column small-3 criteria__nav--previous">
          {% unless currentOrder == 1%}
            {% assign previous_url = previousTheme[0].title | replace: "/", "0000" | slugify | remove: "0000" | append: '.html' | prepend: '/theme/' | relative_url %}
            <a class="top-theme-arrow" href="{{previous_url}}" ><i class="material-icons">arrow_back</i>{{ previousTheme[0].title }}</a>
          {%endunless%}
        </div>
 
-        <div class="column large-8">
+        <div class="column small-6">
         <div class="media-object">
           <div class="media-object-section">
             <div class="thumbnail">
@@ -39,7 +39,7 @@ layout: default
         </div>
         </div>
 
-        <div class="column large-2 criteria__nav--next">
+        <div class="column small-3 criteria__nav--next">
          {% unless currentOrder == lastOrder %}
            {% assign next_url = nextTheme[0].title | replace: "/", "0000" | slugify | remove: "0000" | append: '.html' | prepend: '/theme/' | relative_url %}
            <a class="top-theme-arrow" href="{{next_url}}">{{ nextTheme[0].title }}<i class="material-icons">arrow_forward</i></a>
@@ -67,10 +67,10 @@ layout: default
   </section>
 
 <div class="row align-center" style="margin-bottom: 3rem">
-  <div class="column large-11 markdown">
+  <div class="column small-11 markdown">
     <h3 class="example__title--leading">Strategies</h3>
   </div>
-  <div class="column large-12 markdown">
+  <div class="column small-12 small-padding-0 markdown">
   {% for strategy in page.strategies %}
     <button class="accordion" id="{{strategy.title | remove: " "}}"><h5>{{strategy.title}}: {{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</h5><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
     <div class="panel">
@@ -97,8 +97,8 @@ layout: default
 
       <section class="table examples-grid">
         <!-- examples-grid header -->
-        <div class="row examples-grid__header fixed-section " style="max-width:62.5rem">
-          <div class="row examples-grid__header-row">
+        <div class="row examples-grid__header fixed-section blueprint-example" style="max-width:62.5rem">
+          <div class="row examples-grid__header-row blueprint-example">
             <!-- header columns  -->
             <div class="column examples-grid-column examples-grid__header-cell dark-blue">Blueprint Strategies in Practice</div>
           </div>
@@ -110,7 +110,7 @@ layout: default
 
           <!-- grid content -->
           {% for example in strategy.examples %}
-          <div class="row examples-grid__content-row criteria" style="max-width:62.5rem">
+          <div class="row examples-grid__content-row blueprint-example" style="max-width:62.5rem">
             <!-- content columns  -->
               {% for e in site.data.contentful.example.example %}
                 {% if e.sys.id == example.sys.id %}
@@ -176,11 +176,11 @@ layout: default
         {% for strategy in page.strategies %}
         <div class="row examples-grid__content-row time">
           <!-- content columns  -->
-          <div class="column examples-grid-column examples-grid__content-cell themes strategies-time-dark dark-blue">
+          <div class="column examples-grid-column examples-grid__content-cell title-strategies strategies-time-dark dark-blue">
             <div class="theme-link strategies-text" href="{{ url | relative_url }}">{{ strategy.title }}:{{ strategy.short_description | slice: 3, strategy.short_description.size | markdownify }}</div>
           </div>
 
-          <div class="column examples-grid-column examples-grid__content-cell strategies strategies-time-light grey filterable">
+          <div class="column examples-grid-column examples-grid__content-cell time-strategies strategies-time-light grey filterable">
             <div class="examples-wrapper leading-example">
               <div class="row">
                 <div class="description column large-12">
@@ -191,7 +191,7 @@ layout: default
             </div>
           </div>
 
-          <div class="column examples-grid-column examples-grid__content-cell strategies strategies-time-light grey-2 filterable">
+          <div class="column examples-grid-column examples-grid__content-cell time-strategies strategies-time-light grey-2 filterable">
             <div class="examples-wrapper leading-example">
               <div class="row">
                 <div class="description column large-12">
@@ -202,7 +202,7 @@ layout: default
             </div>
           </div>
 
-          <div class="column examples-grid-column examples-grid__content-cell strategies strategies-time-light grey-3 filterable">
+          <div class="column examples-grid-column examples-grid__content-cell time-strategies strategies-time-light grey-3 filterable">
             <div class="examples-wrapper leading-example">
               <div class="row">
                 <div class="description column large-12">

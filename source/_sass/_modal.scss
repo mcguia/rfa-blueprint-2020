@@ -108,6 +108,11 @@ button.key-modal__open {
 .colorado-modal {
   background-color: #d8f0df;
 
+  @include breakpoint($small-only) {
+    width: 100%;
+    left: 35%;
+  }
+
   .modal__content:last-child {
     padding-bottom: 0;
   }
