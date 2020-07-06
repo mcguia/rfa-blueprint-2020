@@ -98,7 +98,7 @@ button.key-modal__open {
   color: #333;
 }
 
-.light-green-2 {
+.light-green, .light-green-2 {
   background-color: #d8f0df;
 }
 
@@ -107,7 +107,7 @@ button.key-modal__open {
 }
 .colorado-modal {
   background-color: #d8f0df;
-  
+
   .modal__content:last-child {
     padding-bottom: 0;
   }

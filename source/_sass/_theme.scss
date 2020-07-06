@@ -45,6 +45,10 @@
   }
 }
 
+.strategies-time-header {
+  border-bottom: 4px dotted white;
+}
+
 .content-section {
   .row:not(:last-child) {
     .strategies-time-dark {
@@ -53,6 +57,12 @@
 
     .strategies-time-light {
       border-bottom: 4px dotted $dark-blue;
+    }
+  }
+  .strategies-time-light li, .wins li {
+    line-height: 1.5;
+    a {
+      color: $hyperlink-orange;
     }
   }
 }

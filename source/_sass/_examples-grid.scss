@@ -139,18 +139,6 @@ a.internal-link-container {
     text-decoration: none;
     @extend .u-transition;
   }
-  &:after {
-    @extend .u-material-icons;
-    content: 'arrow_forward';
-    padding: 0 5px;
-    font-size: 1.2rem;
-    vertical-align: -3px;
-    display: inline;
-    @include breakpoint($small-only) {
-      font-size: 0.8rem;
-      vertical-align: -2px;
-    }
-  }
 }
 .title-leading {
   .external-link-container {
@@ -193,13 +181,13 @@ a.internal-link-container {
     @for $i from 2 through 7 {
       &:nth-child(#{$i}) {
         .light-grey {
-          background-color: darken(#fafafa, ($i - 1) * 4%);
+          background-color: darken(#fafafa, ($i - 1) * 3%);
         }
         .grey {
-         background-color: darken(#e7ecf0, ($i - 1) * 4%); 
+         background-color: darken(#e6ecf0, ($i - 1) * 3.5%); 
         }
         .light-blue {
-          background-color: darken(#cae9f2, ($i - 1) * 4%);
+          background-color: darken(#cce4eb, ($i - 1) * 3.5%);
         }
         .light-green {
           background-color: lighten(#d8f0df, ($i - 1) * 3%);
@@ -326,6 +314,11 @@ a.internal-link-container {
       p:first-child {
         padding-top: 0;
         margin-top: 0;
+      }
+      .read-more {
+        color: #f77c50;
+        font-weight: 500;
+        font-size: 1.1rem;
       }
       @include breakpoint($medium-only) {
         display: none;

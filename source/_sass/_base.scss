@@ -11,13 +11,18 @@ body {
     }
     a {
       color: $hyperlink-orange;
-      text-decoration: none;
-      &:hover {
-        color: $blue;
-        @extend .u-transition;
-      }
     }
   }
+  a {
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+      color: $blue!important;
+      text-decoration: none;
+      @extend .u-transition;
+    }
+  }
+
   a, li {
     font-size: 1.2rem;
   }
