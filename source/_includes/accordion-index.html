@@ -1,0 +1,48 @@
+<button class="accordion"><h5>How to Use this Blueprint for Delivering Results in State Government</h5><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
+<div class="panel">
+  {{ page.how_to_use_this_blueprint | markdownify }}
+  <div class="media-object" style="justify-content:left">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img class="accordion-lever" alt="People" src="{{'/images/People.png' | relative_url }}" />
+      </div>
+    </div>
+    <div class="media-object-section main-section">
+      <h5>People</h5>
+    </div>
+  </div>
+  {{ page.people | markdownify }}
+   <div class="media-object" style="justify-content:left">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img class="accordion-lever" alt="Policies" src="{{'/images/Policies.png' | relative_url}}" />
+      </div>
+    </div>
+    <div class="media-object-section main-section">
+      <h5>Policy</h5>
+    </div>
+  </div>
+  {{ page.policy | markdownify }}
+
+   <div class="media-object" style="justify-content:left">
+    <div class="media-object-section">
+      <div class="thumbnail">
+        <img class="accordion-lever" alt="Infrastructure" src="{{'/images/Infrastructure.png' | relative_url}}" />
+      </div>
+    </div>
+    <div class="media-object-section main-section">
+      <h5>Infrastructure</h5>
+    </div>
+  </div>
+  {{ page.infrastructure | markdownify }}
+</div>
+
+<button class="accordion"><h5>Blueprint Development</h5><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
+<div class="panel">
+  {{ page.blueprint_development | markdownify }}
+</div>
+
+<button class="accordion"><h5>Examples of Prioritizing Evidence of Effectiveness in Government Grant Programs</h5><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
+<div class="panel">
+  {{ page.examples_of_prioritizing | markdownify }}
+</div>

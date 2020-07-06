@@ -152,6 +152,20 @@ a.external-link-container {
     }
   }
 }
+.external-link-container {
+  a:after {
+    @extend .u-material-icons;
+    content: 'launch';
+    padding: 0 5px;
+    font-size: 1.2rem;
+    vertical-align: -3px;
+    display: inline;
+    @include breakpoint($small-only) {
+      font-size: 0.8rem;
+      vertical-align: -2px;
+    }
+  }
+}
 a.internal-link-container {
   p {
     color: inherit;

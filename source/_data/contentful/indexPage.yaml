@@ -3,9 +3,9 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 12:01:23.797000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 17:16:50.004000000 Z
     content_type_id: indexPage
-    revision: 17
+    revision: 20
   year: '2020'
   overview: "This *Blueprint for Delivering Results in State Government* is an implementation
     guide for Results for America’s [Invest in What Works State Standard of Excellence](https://2019state.results4america.org/)
@@ -295,6 +295,43 @@ indexPage:
       - Demonstrate significant improvements in major programs by using evidence of effectiveness
       - Budget for evaluations to identify more effective approaches by using a set-aside or carve-out of programs funds for evaluation activities (see Colorado’s [$500,000 evaluation fund](https://sites.google.com/state.co.us/research-evidence/implementation-and-evaluation-grant?authuser=0))
     year: '2020'
+  how_to_use_this_blueprint: 'The Blueprint contains Strategies -- and specific accompanying
+    Actions -- that provide a practical way for state governments to more effectively
+    achieve results by increasing their evidence and data capacity. However, it is
+    worth noting that this capacity building is an iterative process and that each
+    state’s process will not necessarily be linear. As such, to help state leaders
+    identify the necessary resources for each Action, the Blueprint denotes which
+    of the following common levers is associated with the implementation of the Action:'
+  people: People are the backbone of state government. To effectively invest in what
+    works, state governments need both strong leadership (with the right talent in
+    the right positions) and broad adoption of data and evidence by staff at all levels.
+    By building capacity from leadership to frontline staff, state governments can
+    create a true evidence-based culture that achieves better results.
+  policy: Policy drives action in state government. In order to execute activities
+    consistently and effectively, state governments need clear policies that are appropriately
+    communicated across stakeholder communities. Clear policies on data and evidence
+    can align people around common goals and precipitate the appropriate infrastructure
+    needed to support progress.
+  infrastructure: Appropriate systems, structures, and tools allow state government
+    employees to fully carry out their responsibilities. Infrastructure can be key
+    for increasing *and* sustaining evidence-based policy capacity through means such
+    as data systems, governance structures, and evaluation tools.
+  blueprint_development: The Blueprint was developed with the assistance of senior
+    staff from a bipartisan group of governors offices as part of the [What Works
+    Bootcamps](https://results4america.org/what-works-bootcamps/) training series
+    hosted by Results for America and the National Governors Association to help advance
+    evidence-based policymaking in state governments. Through a series of in-depth,
+    facilitated learning sessions in 2019 and 2020, senior staff from more than a
+    dozen governors offices contributed their expertise to developing this Blueprint.
+    As such, this Blueprint is a practical guide that reflects the collective experience
+    of many of the country’s most effective state government leaders.
+  examples_of_prioritizing: "This table provides specific examples of how governments
+    have prioritized evidence of effectiveness in their grantmaking decisions. Using
+    evidence of effectiveness means shifting taxpayer dollars to programs that have
+    been proven to be effective through strong evaluations or based on their past
+    performance. \n\nOf note, the term “grant programs” as used below includes all
+    types of government spending on human services programs, including grants, contracts,
+    cooperative agreements, and other programmatic expenditures."
   conclusion: |-
     The shift from “business as usual” to delivering real results is an iterative process that requires strong leadership and intentional action to build a culture of data and evidence use. The strategies outlined in this Blueprint allow state governments to build the infrastructure and capacity they need to become learning organizations that continuously work to improve results. This detailed implementation guide demonstrates how governors and their staff can consistently use evidence and data in budget, policy, and management decisions to achieve improved outcomes for their residents.
 

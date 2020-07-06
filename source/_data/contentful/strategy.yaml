@@ -266,9 +266,9 @@ strategy:
 - sys:
     id: 4E0DMB679ccWVBlhhbnJAf
     created_at: !ruby/object:DateTime 2020-06-23 00:06:23.264000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 16:29:41.384000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 16:37:06.182000000 Z
     content_type_id: strategy
-    revision: 4
+    revision: 5
   title: Strategy C
   short_description: C. Promote a __culture of using data and evidence__ to deliver
     results for customers.
@@ -342,26 +342,27 @@ strategy:
     year: '2020'
   examples:
   - sys:
-      id: 1Xozq1UHPcEWvJzS8Jsrh7
-      created_at: !ruby/object:DateTime 2020-06-23 00:04:27.290000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 19:47:02.898000000 Z
+      id: 7M4MsvA2Vphef5Xrb4ZhUz
+      created_at: !ruby/object:DateTime 2020-06-23 00:06:15.793000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-05 19:45:09.375000000 Z
       content_type_id: example
-      revision: 5
+      revision: 6
     state_outline:
       sys:
-        id: 5pdnK5NPEzXytsgovQD4La
-        created_at: !ruby/object:DateTime 2020-07-02 22:25:18.707000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-02 22:25:18.707000000 Z
-      title: Maryland
+        id: 5G3SktGT23s5j26ZxyDcmV
+        created_at: !ruby/object:DateTime 2020-07-02 22:24:57.373000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-02 22:24:57.373000000 Z
+      title: Colorado
       description: 
-      url: "//images.ctfassets.net/xrxa0m8bxqnj/5pdnK5NPEzXytsgovQD4La/422e3da6938f2e4934c2c51689121079/Maryland.png"
-    state: Maryland
-    url: "[Managing for Results](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)"
-    description: "Maryland’s [Managing for Results initiative](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)
-      publishes annual performance reports and tracks agencies’ key goals, objectives,
-      and performance measures, which are supported by the Governor’s Improvement
-      Office. \n\n__More information: 2019 State Standard of Excellence ([Criteria
-      2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#maryland)).__"
+      url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
+    state: Colorado
+    url: "[Department of Human Services C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)"
+    description: "[C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat) is the Colorado
+      Department of Human Services’ performance-based analysis strategy that allows
+      each program to focus on continuous improvement and outcomes. The dashboard
+      is supported by stat meetings where executive leadership and staff analyze data
+      to identify positive trends and opportunities for improvement. \n\n__More information:
+      2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#colorado)).__"
     year: '2020'
   - sys:
       id: 7hyLf1E1tbL1nWx7JVpZga
@@ -388,27 +389,26 @@ strategy:
       through this model. '
     year: '2020'
   - sys:
-      id: 7M4MsvA2Vphef5Xrb4ZhUz
-      created_at: !ruby/object:DateTime 2020-06-23 00:06:15.793000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 19:45:09.375000000 Z
+      id: 1Xozq1UHPcEWvJzS8Jsrh7
+      created_at: !ruby/object:DateTime 2020-06-23 00:04:27.290000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-05 19:47:02.898000000 Z
       content_type_id: example
-      revision: 6
+      revision: 5
     state_outline:
       sys:
-        id: 5G3SktGT23s5j26ZxyDcmV
-        created_at: !ruby/object:DateTime 2020-07-02 22:24:57.373000000 Z
-        updated_at: !ruby/object:DateTime 2020-07-02 22:24:57.373000000 Z
-      title: Colorado
+        id: 5pdnK5NPEzXytsgovQD4La
+        created_at: !ruby/object:DateTime 2020-07-02 22:25:18.707000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-02 22:25:18.707000000 Z
+      title: Maryland
       description: 
-      url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
-    state: Colorado
-    url: "[Department of Human Services C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)"
-    description: "[C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat) is the Colorado
-      Department of Human Services’ performance-based analysis strategy that allows
-      each program to focus on continuous improvement and outcomes. The dashboard
-      is supported by stat meetings where executive leadership and staff analyze data
-      to identify positive trends and opportunities for improvement. \n\n__More information:
-      2019 State Standard of Excellence ([Criteria 2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#colorado)).__"
+      url: "//images.ctfassets.net/xrxa0m8bxqnj/5pdnK5NPEzXytsgovQD4La/422e3da6938f2e4934c2c51689121079/Maryland.png"
+    state: Maryland
+    url: "[Managing for Results](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)"
+    description: "Maryland’s [Managing for Results initiative](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)
+      publishes annual performance reports and tracks agencies’ key goals, objectives,
+      and performance measures, which are supported by the Governor’s Improvement
+      Office. \n\n__More information: 2019 State Standard of Excellence ([Criteria
+      2](https://2019state.results4america.org/state-standard-of-excellence/performance-management--continuous-improvement.html#maryland)).__"
     year: '2020'
   beginning_description: |-
     - Communicate values clearly (using mantras such as "use data to learn" or "prioritize customers")
@@ -422,9 +422,9 @@ strategy:
 - sys:
     id: bxhhNAi32CY2GHsyYsALa
     created_at: !ruby/object:DateTime 2020-06-23 12:10:12.695000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 20:06:12.559000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 16:33:00.621000000 Z
     content_type_id: strategy
-    revision: 4
+    revision: 6
   title: Strategy D
   short_description: D. Develop the vision, framework, and governance for effectively
     __collecting and using data__ across state agencies to improve programs and operations.
@@ -480,9 +480,9 @@ strategy:
   - sys:
       id: S3qPuHpK4LtEuKj7vZZjB
       created_at: !ruby/object:DateTime 2020-06-23 12:09:11.725000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 19:54:26.971000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:24:40.455000000 Z
       content_type_id: example
-      revision: 6
+      revision: 7
     state_outline:
       sys:
         id: 6SRYqCBsVbnNixmXcTVLnG
@@ -492,7 +492,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/6SRYqCBsVbnNixmXcTVLnG/095bca479d926b9c47cf87f04d99e1d5/Connecticut.png"
     state: Connecticut
-    url: State Data Plan and Data Governance
+    url: "[State Data Plan and Data Governance](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en)"
     description: "Connecticut’s Chief Data Officer and individual agency data officers
       are required to update the [state data plan](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en)
       biennially. The plan contains [11 principles](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en#page=6)
@@ -527,9 +527,9 @@ strategy:
   - sys:
       id: 5SUiKpJXbXcvnIgoMT4V89
       created_at: !ruby/object:DateTime 2020-06-23 12:08:23.276000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:03:19.627000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:32:57.050000000 Z
       content_type_id: example
-      revision: 5
+      revision: 7
     state_outline:
       sys:
         id: 7rvITYdRIj5MoUjnImFwoT
@@ -539,7 +539,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/7rvITYdRIj5MoUjnImFwoT/3e462c815efcc4b4cb67848353f2a514/California.png"
     state: California
-    url: Open Data
+    url: Open Data Portal
     description: "California’s statewide [Open Data Policy](https://cdt.ca.gov/wp-content/uploads/2019/03/TL-19-01.pdf)
       encourages departments to [share data](https://www.dgsapps.dgs.ca.gov/documents/sam/SamPrint/NEW/SAM_Master/SAM_Master_File/Chap5100/5160.1.pdf)
       in standard and accessible formats through the [California Open Data Portal](https://www.dgsapps.dgs.ca.gov/documents/sam/SamPrint/NEW/SAM_Master/SAM_Master_File/Chap5100/5160.1.pdf).
@@ -561,9 +561,9 @@ strategy:
 - sys:
     id: 3yI8zfPlQi84oq5lR4zvfi
     created_at: !ruby/object:DateTime 2020-06-23 12:15:38.632000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 20:21:38.113000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 16:28:14.480000000 Z
     content_type_id: strategy
-    revision: 4
+    revision: 5
   title: Strategy E
   short_description: E. Build __talent__ in the governor's office and agencies to
     advance the state’s vision for collecting and using data.
@@ -626,9 +626,9 @@ strategy:
   - sys:
       id: 78qS4xNfp17otvq0n0Aha9
       created_at: !ruby/object:DateTime 2020-06-23 12:14:44.590000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:14:57.392000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:28:39.599000000 Z
       content_type_id: example
-      revision: 6
+      revision: 7
     state_outline:
       sys:
         id: 6SRYqCBsVbnNixmXcTVLnG
@@ -638,7 +638,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/6SRYqCBsVbnNixmXcTVLnG/095bca479d926b9c47cf87f04d99e1d5/Connecticut.png"
     state: Connecticut
-    url: Chief Data Officer
+    url: "[Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative)"
     description: "A [2018 Connecticut law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)
       established the statewide [Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative)
       and [Connecticut Data Analysis Technology Advisory Board](https://www.cga.ct.gov/gae/taskforce.asp?TF=20180726_Connecticut%20Data%20Analysis%20Technology%20Advisory%20Board)
@@ -650,9 +650,9 @@ strategy:
   - sys:
       id: 7CPnUuw55bItZxjHnOKOmR
       created_at: !ruby/object:DateTime 2020-06-23 12:14:05.230000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:20:02.715000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:28:56.022000000 Z
       content_type_id: example
-      revision: 6
+      revision: 7
     state_outline:
       sys:
         id: CdDkYWaT5XRIqV3JKX333
@@ -662,7 +662,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/CdDkYWaT5XRIqV3JKX333/0951758ce57e49203e76741e8b907ca4/Kentucky.png"
     state: Kentucky
-    url: Center for Statistics’ Data Governance
+    url: "[Center for Statistics’](https://kcews.ky.gov/) Data Governance"
     description: "By providing [data sets](https://kystats.ky.gov/Reports/Files),
       publishing [reports](https://kystats.ky.gov/Reports/Reports), and fulfilling
       [research requests](https://kystats.ky.gov/Reports/DataRequest), the [Kentucky
@@ -680,9 +680,9 @@ strategy:
   - sys:
       id: 16w17gIaFIjoNOUxLrCykY
       created_at: !ruby/object:DateTime 2020-06-23 12:13:33.002000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-03 17:50:36.903000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:29:07.986000000 Z
       content_type_id: example
-      revision: 4
+      revision: 6
     state_outline:
       sys:
         id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -692,7 +692,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
     state: Indiana
-    url: Chief Data Officer
+    url: "[Chief Data Officer](https://www.in.gov/omb/2345.htm)"
     description: "Created by a 2017 law, Indiana’s Chief Data Officer has the budget,
       staff, and authority to coordinate data analytics and data transparency for
       state agencies; advise state agencies regarding best practices for data maintenance,
@@ -814,9 +814,9 @@ strategy:
   - sys:
       id: 3OLw0bi8N6sIZaoKUe0AQ5
       created_at: !ruby/object:DateTime 2020-06-23 12:20:04.491000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:32:47.413000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:33:25.752000000 Z
       content_type_id: example
-      revision: 6
+      revision: 7
     state_outline:
       sys:
         id: 4h0MIeVC19Fe44eZNAFxlw
@@ -826,7 +826,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/4h0MIeVC19Fe44eZNAFxlw/291d8d889c5ebae5d3f300926077494c/Washington.png"
     state: Washington
-    url: Department of Social Services’s Integrated Client Database
+    url: Department of Social Services’s [Integrated Client Database](https://www.dshs.wa.gov/sites/default/files/SESA/rda/documents/research-11-205.pdf)
     description: |-
       The Washington State Department of Social and Health Services [Research and Data Analysis Division](https://www.dshs.wa.gov/ffa/research-and-data-analysis) maintains an [Integrated Client Database](https://bit.ly/2YSUBAm) with data from 10 state agencies, 40 separate data systems, and millions of individuals. RDA's integrated data environment has been used by the state’s [Health Home Program](https://www.dshs.wa.gov/altsa/washington-health-home-program) to generate tens of millions of dollars in [performance payments](https://www.dshs.wa.gov/altsa/washington-health-home-program) from the U.S. Centers for Medicare and Medicaid Services, as a result of [improved care management](https://www.hca.wa.gov/about-hca/health-home-program-saves-more-100-million-medicare-program-over-three-years) for persons dually enrolled in Medicare and Medicaid.
 
@@ -835,9 +835,9 @@ strategy:
   - sys:
       id: 3doeD0BPRYPVEYkZoqrRmV
       created_at: !ruby/object:DateTime 2020-06-23 12:19:34.023000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:34:27.760000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:33:36.657000000 Z
       content_type_id: example
-      revision: 5
+      revision: 6
     state_outline:
       sys:
         id: 5G3SktGT23s5j26ZxyDcmV
@@ -847,7 +847,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
     state: Colorado
-    url: Linked Information Network of Colorado
+    url: "[Linked Information Network of Colorado](https://coloradolab.org/linc/)"
     description: "Colorado Governor’s Office and the Colorado Evaluation and Action
       Lab (CEAL) co-designed the [Linked Information Network of Colorado](https://coloradolab.org/linc/)
       (LINC) to facilitate data sharing for [research](https://coloradolab.org/projects/2020-projects/)
@@ -857,9 +857,9 @@ strategy:
   - sys:
       id: 1cHVX6a09mDUCHBwc1GXoe
       created_at: !ruby/object:DateTime 2020-06-23 12:19:05.430000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:36:34.764000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:33:48.461000000 Z
       content_type_id: example
-      revision: 6
+      revision: 7
     state_outline:
       sys:
         id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -869,7 +869,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
     state: Indiana
-    url: Management Performance Hub
+    url: "[Management Performance Hub](https://www.in.gov/mph/index.htm)"
     description: "Indiana Management Performance Hub is an integrated database that
       brings together data from key policy issues related to [opioids](https://www.in.gov/mph/930.htm),
       [education and workforce development](https://www.in.gov/mph/917.htm), [medicaid](https://www.in.gov/mph/931.htm),
@@ -1077,9 +1077,9 @@ strategy:
   - sys:
       id: 5Z37GmG5FqvKIuEMkQEJl4
       created_at: !ruby/object:DateTime 2020-06-23 12:55:44.414000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 21:20:18.380000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:35:06.646000000 Z
       content_type_id: example
-      revision: 5
+      revision: 6
     state_outline:
       sys:
         id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -1089,7 +1089,9 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
     state: Minnesota
-    url: Evaluation Policy, Evidence Definitions, and Clearinghouse
+    url: "[Evaluation Policy](https://mn.gov/mmb-stat/results-first/evaluation-policy.pdf),
+      [Evidence Definitions](https://mn.gov/mmb/results-first/definitions-of-evidence/),
+      and [Clearinghouse](https://mn.gov/mmb/results-first/inventory/)"
     description: "In partnership with The Pew Results First Initiative, Minnesota
       Management and Budget [inventoried](https://mn.gov/mmb/results-first/inventory/)
       nearly 500 publicly-funded interventions and rated their evidence of effectiveness
@@ -1104,9 +1106,9 @@ strategy:
   - sys:
       id: 4ysmpdl4J9HPFVpy56WQJw
       created_at: !ruby/object:DateTime 2020-06-23 12:55:23.649000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 21:22:17.703000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:34:39.734000000 Z
       content_type_id: example
-      revision: 5
+      revision: 6
     state_outline:
       sys:
         id: 7rvITYdRIj5MoUjnImFwoT
@@ -1116,7 +1118,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/7rvITYdRIj5MoUjnImFwoT/3e462c815efcc4b4cb67848353f2a514/California.png"
     state: California
-    url: Evidence-Based Clearinghouse for Child Welfare
+    url: "[Evidence-Based Clearinghouse for Child Welfare](http://www.cebc4cw.org/)"
     description: "The California Department of Social Services created an [Evidence-Based
       Clearinghouse for Child Welfare](http://www.cebc4cw.org/), which [allows](https://www.cebc4cw.org/home/using-the-cebc/)
       child welfare providers and professionals to identify, select, and implement
@@ -1131,9 +1133,9 @@ strategy:
   - sys:
       id: 3JxhbESm9p9VgL7JI0Pw9G
       created_at: !ruby/object:DateTime 2020-06-23 12:54:57.559000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 21:23:31.439000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:34:27.996000000 Z
       content_type_id: example
-      revision: 5
+      revision: 6
     state_outline:
       sys:
         id: 6Y2G144sIfV9ViXDlnQNk0
@@ -1143,7 +1145,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
     state: Tennessee
-    url: Education Research Alliance
+    url: "[Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php)"
     description: |-
       The [Tennessee Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php) (TERA) is a formal research partnership between the Tennessee Department of Education and Vanderbilt University’s Peabody College of Education. Led by seven full-time staff and guided by a steering committee and advisory council, the Department and the University have co-developed a [research agenda](https://peabody.vanderbilt.edu/TERA/research-agenda.php) that allows the University to [conduct research](https://peabody.vanderbilt.edu/TERA/professional_learning.php) on a variety of issues.
 
@@ -1232,9 +1234,9 @@ strategy:
   - sys:
       id: 3SED6H70BYo1ehUbdwGTNv
       created_at: !ruby/object:DateTime 2020-06-23 12:59:01.238000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 22:14:48.539000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:35:35.358000000 Z
       content_type_id: example
-      revision: 4
+      revision: 5
     state_outline:
       sys:
         id: 5G3SktGT23s5j26ZxyDcmV
@@ -1244,7 +1246,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
     state: Colorado
-    url: Budget Instructions
+    url: "[Budget Instructions](https://drive.google.com/open?id=12rEZIkt1bzBcvF_b89Ps7Z0IJRDNuq7P)"
     description: Colorado’s FY 2020-2021 [budget development instructions](https://drive.google.com/open?id=12rEZIkt1bzBcvF_b89Ps7Z0IJRDNuq7P)
       (pp. 10-12) prioritize new program requests “based on the evidence and body
       of research supporting the program’s effect on desired outcomes and proposed
@@ -1255,9 +1257,9 @@ strategy:
   - sys:
       id: 3ruwrptdviD2zfKVgrFPXJ
       created_at: !ruby/object:DateTime 2020-06-23 12:58:41.842000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 22:17:41.802000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 16:35:26.891000000 Z
       content_type_id: example
-      revision: 6
+      revision: 7
     state_outline:
       sys:
         id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -1267,7 +1269,7 @@ strategy:
       description: 
       url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
     state: Minnesota
-    url: Guidance for New and Expanded Programs
+    url: "[Guidance for New and Expanded Programs](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf)"
     description: |-
       Minnesota Management and Budget issued [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf) on how to report outcome data. In addition, the state also used evidence to [inform funding decisions](https://mn.gov/mmb/evidence/proposal/) resulting in [$87 million in new or expanded evidence-based programming](https://mn.gov/mmb-stat/2-gen/enacted-budget-ebp-investments.pdf) in the FY 2020-2021 budget.
 
