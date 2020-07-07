@@ -3,9 +3,9 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-07 20:00:01.207000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 20:38:27.795000000 Z
     content_type_id: indexPage
-    revision: 24
+    revision: 26
   year: '2020'
   overview: "The Results for *America’s Blueprint for Delivering Results in State
     Government* is designed to provide state government leaders with the information
@@ -19,7 +19,7 @@ indexPage:
     outcomes for their residents, whereas the Blueprint for Delivering Results in
     State Government (Blueprint) provides state governments with specific implementation
     strategies and actions for consistently and effectively using evidence and data
-    to get better results..\n\nTaken together, the State Standard of Excellence and
+    to get better results.\n\nTaken together, the State Standard of Excellence and
     Blueprint provide state governments with a set of comprehensive resources to:"
   roadmap_image:
     sys:
@@ -59,9 +59,9 @@ indexPage:
   - sys:
       id: 2UIJjDT50igsVZ3wI7MXKL
       created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 19:20:53.450000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:21:55.592000000 Z
       content_type_id: theme
-      revision: 10
+      revision: 11
     title: Managing for Results
     order: 1
     icon:
@@ -121,6 +121,14 @@ indexPage:
       - Convene leadership and performance teams for regular public stat meetings (such as Results Washington [Results Reviews](https://results.wa.gov/measuring-progress/results-reviews))
       - Leverage performance management data and continuous improvement insights to inform research and learning agendas
     year: '2020'
+    theme_pdf:
+      sys:
+        id: 7GEwbuST6J6QyELyBZCRWZ
+        created_at: !ruby/object:DateTime 2020-07-07 22:04:15.839000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-07 22:04:29.835000000 Z
+      title: Managing for Results
+      description: 
+      url: "//assets.ctfassets.net/xrxa0m8bxqnj/7GEwbuST6J6QyELyBZCRWZ/ec3f1add610e0695ab2d9a736175f9bd/Blueprint_Managing_for_Results.pdf"
   - sys:
       id: 6KhIXREPYNHwzix4sIrXY
       created_at: !ruby/object:DateTime 2020-06-23 12:21:09.323000000 Z
@@ -183,9 +191,9 @@ indexPage:
   - sys:
       id: 4X17IPn0Lofc9ReTsH1RVq
       created_at: !ruby/object:DateTime 2020-06-23 13:00:00.408000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 01:04:49.916000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:22:09.433000000 Z
       content_type_id: theme
-      revision: 8
+      revision: 9
     title: Building and Using Evidence
     order: 3
     icon:
@@ -236,6 +244,14 @@ indexPage:
       - Use tiered evidence structures that build evidence and encourage innovation (see the [Education Innovation and Research program](https://results4america.org/tools/doubling-reach-education-innovation-research-program-improved-learning-50000-students/) from the U.S Department of Education)
       - Require evidence of effectiveness in [budget proposals](https://www.pewtrusts.org/-/media/assets/2016/07/aguidetoevidencebasedbudgetdevelopment.pdf), especially for newly proposed programs (see Minnesota Management and Budget [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf) on making evidence-based budget proposals)
     year: '2020'
+    theme_pdf:
+      sys:
+        id: 4FHLf7NFv7c82QT8pEagy7
+        created_at: !ruby/object:DateTime 2020-07-07 22:04:49.371000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-07 22:04:49.371000000 Z
+      title: Building and Using Evidence
+      description: 
+      url: "//assets.ctfassets.net/xrxa0m8bxqnj/4FHLf7NFv7c82QT8pEagy7/498febcfa5a203bff4d2f65bb067a586/Blueprint_Building_Using_Evidence.pdf"
   - sys:
       id: 6HBSprlKyuoPQjXqEJzFjz
       created_at: !ruby/object:DateTime 2020-06-23 13:11:52.358000000 Z
@@ -331,9 +347,7 @@ indexPage:
     provides specific examples of how governments have prioritized evidence of effectiveness
     in their grantmaking decisions. Using evidence of effectiveness means shifting
     taxpayer dollars to programs that have been proven to be effective through strong
-    evaluations or based on their past performance. \n\nOf note, the term “grant programs”
-    as used below includes all types of government spending on human services programs,
-    including grants, contracts, cooperative agreements, and other programmatic expenditures."
+    evaluations or based on their past performance."
   conclusion: |-
     The shift from “business as usual” to delivering real results is an iterative process that requires strong leadership and intentional action to build a culture of data and evidence use. The strategies outlined in this Blueprint allow state governments to build the infrastructure and capacity they need to become learning organizations that continuously work to improve results. This detailed implementation guide demonstrates how governors and their staff can consistently use evidence and data in budget, policy, and management decisions to achieve improved outcomes for their residents.
 

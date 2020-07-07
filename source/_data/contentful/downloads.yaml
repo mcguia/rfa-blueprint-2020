@@ -3,9 +3,9 @@ downloads:
 - sys:
     id: 7eFDwRNFRXWwLQQ9mv65lq
     created_at: !ruby/object:DateTime 2020-07-07 17:56:17.037000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-07 19:58:43.728000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 22:13:16.791000000 Z
     content_type_id: downloads
-    revision: 4
+    revision: 6
   blueprint:
     sys:
       id: 3km1sODxZxnvb29bDvRoPu
@@ -22,3 +22,4 @@ downloads:
     title: Prioritizing Evidence of Effectiveness chart July 2020
     description: 
     url: "//assets.ctfassets.net/xrxa0m8bxqnj/3d13siTYAhsepkWWewBqtT/46b7dd7c81210fbb92740136c5cfbb95/Prioritizing_Evidence_of_Effectiveness_chart_July_2020.pdf"
+  press_release_url: https://results4america.org/press-releases/results-for-america-releases-a-new-blueprint-for-delivering-results-in-state-governments

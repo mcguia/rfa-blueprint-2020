@@ -3,9 +3,9 @@ theme:
 - sys:
     id: 2UIJjDT50igsVZ3wI7MXKL
     created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 19:20:53.450000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 22:21:55.592000000 Z
     content_type_id: theme
-    revision: 10
+    revision: 11
   title: Managing for Results
   order: 1
   icon:
@@ -42,9 +42,9 @@ theme:
   - sys:
       id: ivyGZZW7cxscox0BITbRp
       created_at: !ruby/object:DateTime 2020-06-22 23:53:22.593000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 19:38:23.155000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:27:52.244000000 Z
       content_type_id: strategy
-      revision: 6
+      revision: 8
     title: Strategy A
     short_description: A. Establish public, customer oriented, measurable __strategic
       goals and metrics__ that reflect the governor’s (or agency's) priorities.
@@ -74,9 +74,9 @@ theme:
   - sys:
       id: 1rsiz3Q2oIYsjNKXGiAuRl
       created_at: !ruby/object:DateTime 2020-06-23 00:00:07.118000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 19:37:02.726000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:27:35.958000000 Z
       content_type_id: strategy
-      revision: 6
+      revision: 8
     title: Strategy B
     short_description: B. Create a __systematic approach to managing performance__
       that aligns budget, policy, and legislative activities to advance the governor’s
@@ -109,9 +109,9 @@ theme:
   - sys:
       id: 4E0DMB679ccWVBlhhbnJAf
       created_at: !ruby/object:DateTime 2020-06-23 00:06:23.264000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 16:37:06.182000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:27:26.046000000 Z
       content_type_id: strategy
-      revision: 5
+      revision: 7
     title: Strategy C
     short_description: C. Promote a __culture of using data and evidence__ to deliver
       results for customers.
@@ -162,6 +162,14 @@ theme:
     - Convene leadership and performance teams for regular public stat meetings (such as Results Washington [Results Reviews](https://results.wa.gov/measuring-progress/results-reviews))
     - Leverage performance management data and continuous improvement insights to inform research and learning agendas
   year: '2020'
+  theme_pdf:
+    sys:
+      id: 7GEwbuST6J6QyELyBZCRWZ
+      created_at: !ruby/object:DateTime 2020-07-07 22:04:15.839000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:04:29.835000000 Z
+    title: Managing for Results
+    description: 
+    url: "//assets.ctfassets.net/xrxa0m8bxqnj/7GEwbuST6J6QyELyBZCRWZ/ec3f1add610e0695ab2d9a736175f9bd/Blueprint_Managing_for_Results.pdf"
 - sys:
     id: 6KhIXREPYNHwzix4sIrXY
     created_at: !ruby/object:DateTime 2020-06-23 12:21:09.323000000 Z
@@ -193,9 +201,9 @@ theme:
   - sys:
       id: bxhhNAi32CY2GHsyYsALa
       created_at: !ruby/object:DateTime 2020-06-23 12:10:12.695000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 16:33:00.621000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:27:16.126000000 Z
       content_type_id: strategy
-      revision: 6
+      revision: 8
     title: Strategy D
     short_description: D. Develop the vision, framework, and governance for effectively
       __collecting and using data__ across state agencies to improve programs and
@@ -225,9 +233,9 @@ theme:
   - sys:
       id: 3yI8zfPlQi84oq5lR4zvfi
       created_at: !ruby/object:DateTime 2020-06-23 12:15:38.632000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 16:28:14.480000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:27:06.820000000 Z
       content_type_id: strategy
-      revision: 5
+      revision: 7
     title: Strategy E
     short_description: E. Build __talent__ in the governor's office and agencies to
       advance the state’s vision for collecting and using data.
@@ -259,9 +267,9 @@ theme:
   - sys:
       id: 3bgPcMLG9iNwpHGBjFKiNy
       created_at: !ruby/object:DateTime 2020-06-23 12:20:54.872000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:33:11.206000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:26:56.348000000 Z
       content_type_id: strategy
-      revision: 5
+      revision: 7
     title: Strategy F
     short_description: F. Establish a roadmap for __more integrated data usage__ that
       links program data across state activities through better process and technology,
@@ -326,9 +334,9 @@ theme:
 - sys:
     id: 4X17IPn0Lofc9ReTsH1RVq
     created_at: !ruby/object:DateTime 2020-06-23 13:00:00.408000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 01:04:49.916000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 22:22:09.433000000 Z
     content_type_id: theme
-    revision: 8
+    revision: 9
   title: Building and Using Evidence
   order: 3
   icon:
@@ -358,9 +366,9 @@ theme:
   - sys:
       id: 5oBFvSmuYPHbQi4Pby3NFW
       created_at: !ruby/object:DateTime 2020-06-23 12:52:14.097000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 20:46:20.254000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:26:44.921000000 Z
       content_type_id: strategy
-      revision: 4
+      revision: 6
     title: Strategy G
     short_description: G. Create __leadership structures__ to effectively build and
       use evidence across state programs and departments.
@@ -389,9 +397,9 @@ theme:
   - sys:
       id: 3C8W8cacjEAwumCDDQ1Eut
       created_at: !ruby/object:DateTime 2020-06-23 12:55:53.500000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 21:24:25.417000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:26:34.779000000 Z
       content_type_id: strategy
-      revision: 4
+      revision: 6
     title: Strategy H
     short_description: H. Build the __infrastructure to evaluate state programs__
       through evaluation policies, evidence definitions, program inventories and funding
@@ -426,12 +434,12 @@ theme:
   - sys:
       id: 5hK3qSoKsGNLJZ6nMUEIro
       created_at: !ruby/object:DateTime 2020-06-23 12:59:30.183000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 22:19:38.061000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:26:23.801000000 Z
       content_type_id: strategy
-      revision: 3
+      revision: 5
     title: Strategy I
-    short_description: 'I. Position the __budget__ as a key tool to build state evaluation
-      capacity and apply that capacity to focus resources on evidence-based investments. '
+    short_description: I. Position the __budget__ as a key tool to build state evaluation
+      capacity and apply that capacity to focus resources on evidence-based investments.
     actions:
     - sys:
         id: 5fRSyA2wS8W2AE6Mx5NzbZ
@@ -475,6 +483,14 @@ theme:
     - Use tiered evidence structures that build evidence and encourage innovation (see the [Education Innovation and Research program](https://results4america.org/tools/doubling-reach-education-innovation-research-program-improved-learning-50000-students/) from the U.S Department of Education)
     - Require evidence of effectiveness in [budget proposals](https://www.pewtrusts.org/-/media/assets/2016/07/aguidetoevidencebasedbudgetdevelopment.pdf), especially for newly proposed programs (see Minnesota Management and Budget [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf) on making evidence-based budget proposals)
   year: '2020'
+  theme_pdf:
+    sys:
+      id: 4FHLf7NFv7c82QT8pEagy7
+      created_at: !ruby/object:DateTime 2020-07-07 22:04:49.371000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:04:49.371000000 Z
+    title: Building and Using Evidence
+    description: 
+    url: "//assets.ctfassets.net/xrxa0m8bxqnj/4FHLf7NFv7c82QT8pEagy7/498febcfa5a203bff4d2f65bb067a586/Blueprint_Building_Using_Evidence.pdf"
 - sys:
     id: 6HBSprlKyuoPQjXqEJzFjz
     created_at: !ruby/object:DateTime 2020-06-23 13:11:52.358000000 Z
@@ -518,9 +534,9 @@ theme:
   - sys:
       id: 4N9zWgMXUwUaMm9jaIM3ZT
       created_at: !ruby/object:DateTime 2020-06-23 13:04:52.618000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 22:57:41.658000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:26:04.765000000 Z
       content_type_id: strategy
-      revision: 4
+      revision: 6
     title: Strategy J
     short_description: J. Prioritize __key areas__ for analysis and improvement based
       on statewide goals.
@@ -549,9 +565,9 @@ theme:
   - sys:
       id: 7HwpHGaxA54j4ClNIHhyr3
       created_at: !ruby/object:DateTime 2020-06-23 13:08:11.015000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-05 23:16:51.522000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 22:25:54.357000000 Z
       content_type_id: strategy
-      revision: 5
+      revision: 7
     title: Strategy K
     short_description: K. Use data-driven tools and methods to __preference evidence__
       by spending on the most effective and cost-efficient programs and initiatives.

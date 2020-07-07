@@ -3,9 +3,9 @@ acknowledgementsPage:
 - sys:
     id: VDBnBqWNLn2JsHGdXMAD8
     created_at: !ruby/object:DateTime 2020-07-06 12:01:45.477000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 19:01:41.284000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 20:39:57.047000000 Z
     content_type_id: acknowledgementsPage
-    revision: 3
+    revision: 5
   acknowledgements: "Results for America gratefully acknowledges all of the individuals
     and organizations who contributed their insight, advice, and expertise throughout
     the development of The Blueprint for Delivering Results in State Government. The
@@ -18,92 +18,94 @@ acknowledgementsPage:
     \n\nThe following individuals provided exceptional feedback  about how to make
     the Blueprint a useful tool for state governments: __Michael Bonino-Britsch__,
     Policy Analyst, Economic Opportunity, National Governors Association; __Alyssa
-    Doom__, Associate Manager, The Pew Charitable Trusts; and __Tyler Kleykamp__,
-    Director, State Chief Data Officers Network, Beeck Center for Social Impact +
-    Innovation, Georgetown University. \n\nTo the participants in the Results for
-    America and National Governors Association What Works Bootcamps, a thank you to:
-    \n__Mohit Agrawal__, Deputy Policy Director, Governor’s Office, State of Connecticut;
-    __Erin Bailey__, Executive Director, Minnesota’s Children’s Cabinet, State of
-    Minnesota; __Pete Bernardy__, Chief Data and Evaluation Officer, State of Minnesota;
-    __Christine Bezanson__, Director, Results Washington, State of Washington; __Joy
-    Bonaguro__, Chief Data Officer, California Government Operations Agency, State
-    of California; __Inger Brinck__, former Director, Results Washington, State of
-    Washington; __Danielle Cerny__, Chief Performance Officer, Governor’s Office,
-    State of Rhode Island; __Joseph Codega__, Chief Economic and Policy Analyst, Rhode
-    Island Office of Management and Budget, State of Rhode Island; __Justin Cohan-Shapiro__,
-    Senior Advisor on Performance Management, Governor’s Office, State of California;
-    __Allison Cordell__, Director, Governor's Office of Performance Improvement, State
-    of Maryland; __Jonathan Dach__, Policy Director and Deputy Chief of Staff Governor’s
-    Office, State of Connecticut; __Joshua Davis__, Chief Financial Officer, North
-    Carolina Department of Natural and Cultural Resources, State of North Carolina;
-    __Duncan Evans__, Budget Manager, Governor’s Office of Management and Budget,
-    State of Utah; __Scott Gaul__, Chief Data Officer, Office of Policy and Management,
-    State of Connecticut; __Tony Gherardini__, former Director of Operations and Cabinet
-    Affairs, Governor’s Office, State of Colorado; __Adam Jarvis__, Deputy Director,
-    Customer Focused Government, State of Tennessee; __Frank Kohstall__, Chief Data
-    Advocate, InnovateOhio, State of Ohio; __Patrick Lally__, Senior Executive Director,
-    Governor’s Coordinating Offices, State of Maryland; __Christin Lotz__, Director,
-    Office of Evidence and Impact, Department of Finance and Administration, State
-    of Tennessee; __Mike Morello__, former Director, Governor’s Office of Performance
-    Improvement, State of Maryland; __Jenni Owen__, Director of Strategic Partnerships,
-    Governor’s Officer, State of North Carolina; __Mandeep Kaundal__, Deputy Director,
-    Results Washington, State of Washington; __Laura Pietenpol__, Director of Operations,
-    InnovateOhio, State of Ohio; __Hana Sayeed__, Strategy & Operations Manager, Office
-    of Operations, Governor’s Office, State of Colorado; __Rachel Stone__, Chief Data
-    Officer, Governor’s Office of Management and Budget, State of Utah; __Aaron Ray__,
-    Deputy Director for Education, Workforce, and Environment, Governor's Office of
-    State Planning and Budgeting, State of Colorado; __Kristin Walker__, Deputy Director
-    of State Budget, North Carolina Office of State Budget and Management, State of
-    North Carolina; __Seth Walter__, Budget & Policy Analyst, Governor's Office of
-    State Planning and Budgeting, State of Colorado; __Heather Velasquez__, Deputy
-    Director of Operations and Cabinet Affairs, Governor’s Office, State of Colorado;
-    __Mike Wilkening__, Special Advisor on Innovation and Digital Services, Governor’s
-    Office, State of California;and __Jonathan Womer__, Director, Rhode Island Office
-    of Management and Budget, State of Rhode Island.\n\nResults for America would
-    also like to thank the members of its [State Standard of Excellence Advisory Committee](https://results4america.org/results-america-federal-state-standard-excellence-advisory-committees/)
-    who provided guidance and feedback on the Blueprint; all of this work is possible
-    because of their continued commitment to making state governments as effective
-    and efficient as possible. \n\nThe Committee includes the following individuals:
-    __Cecilia Muñoz__, State Standard of Excellence Advisory Committee Co-Chair, Vice
-    President, Public Interest Technology and Local Initiatives, New America; __John
-    Hicks__, former State Standard of Excellence Advisory Committee Co-Chair, former
-    Executive Director, National Association of State Budget Officers (NASBO); __Plinio
-    Ayala__, President and CEO, Per Scholas; __Scott Kleiman__, Program Director,
-    Harvard Kennedy School Government Performance Lab; __Bethanne Barnes__, Director,
-    Division of Data and Improvement, Office of Planning, Research, and Evaluation,
-    Administration for Children and Families, U.S. Department of Health and Human
-    Services; __Mary Ann Bates__, Executive Director, The Abdul Latif Jameel Poverty
-    Action Lab North America (J-PAL NA); __Jennifer Bell-Ellwanger__, CEO and President,
-    Data Quality Campaign (DQC); __Beth Blauer__, Executive Director, Johns Hopkins
-    Center for Government Excellence; __Yvette Chocolaad__, Policy Director, National
-    Association of State Workforce Agencies (NASWA); __Sara Dube__, Director, The
-    Pew Results First Initiative, The Pew Charitable Trusts; __Dale Erquiaga__, former
-    President and CEO, Communities in Schools (CIS) National; __Della Jenkins__, Executive
-    Director, Actionable Intelligence for Social Policy (AISP); __John Kamensky__,
-    Senior Fellow, IBM Center for the Business of Government; __Chris Kingsley__,
-    Senior Associate, Data Initiatives, Annie E. Casey Foundation; __Candice McQueen__,
-    CEO, National Institute for Excellence in Teaching; __Daro Mott__, Vice President
-    of Process Improvement and Execution, Farm Credit Mid-America; __Christopher Ruszkowski__,
-    Distinguished Policy Fellow, Hoover Institution, Stanford University; __Shrupti
-    Shah__, Managing Director of GovLab, Deloitte; __Martin Simon__, Division Director,
-    NGA Economic Opportunity, National Governors Association for Best Practices, National
-    Governors Association (NGA); __Christian Soura__, Vice President, Policy & Finance,
-    South Carolina Hospital Association; __Monica Taylor__, Senior Program Director
-    of School Leadership, Teacher Workforce and Continuous Improvement, Council of
-    Chief State School Officers (CCSSO); __Vivian Tseng__, Senior Vice President,
-    Programs, William T. Grant Foundation; __Kathryn Vesey White__, Director of Budget
-    Process Studies, National Association of State Budget Officers (NASBO); __Dr.
-    Garrett Warfield__, Head of Research and Evaluation, Year Up; and __J.B. Wogan__,
-    Senior Manager, Strategic Communications, Mathematica Policy Research.\n\nThe
-    following Results for America team members provided valuable input and feedback
-    in the development and execution of the Blueprint: __Sophie Bergmann__, Program
-    Associate; __Zachary Coile__, Vice President, Strategic Communications; __Edward
-    Flanagan__, Intern, State and Federal Policy; __Jeanine Forsythe__, Vice President,
-    Strategic Partnerships; __Jed Herrmann__, Vice President, State and Federal Policy
-    Implementation; __Josh Inaba__, Manager,  State and Federal Policy; __Maia Jachimowicz__,
-    Vice President, Evidence-Based Policy Implementation; __Sara Kerr__, Vice President,
-    Education Policy Implementation; __David Medina__, COO and Co-Founder; __Akshay
-    Mody__, Intern, State and Federal Policy; __Jack Monahan__, Team Assistant; __Celeste
+    Doom__, Associate Manager, The Pew Results First Initiative, The Pew Charitable
+    Trusts; and __Tyler Kleykamp__, Director, State Chief Data Officers Network, Beeck
+    Center for Social Impact + Innovation, Georgetown University. \n\nTo the participants
+    in the Results for America and National Governors Association What Works Bootcamps,
+    a thank you to: \n__Mohit Agrawal__, Deputy Policy Director, Governor’s Office,
+    State of Connecticut; Erin Bailey, Executive Director, Minnesota’s Children’s
+    Cabinet, State of Minnesota; __Pete Bernardy__, Chief Data and Evaluation Officer,
+    State of Minnesota; __Christine Bezanson__, Director, Results Washington, State
+    of Washington; __Joy Bonaguro__, Chief Data Officer, California Government Operations
+    Agency, State of California; __Inger Brinck__, former Director, Results Washington,
+    State of Washington; __Danielle Cerny__, Chief Performance Officer, Governor’s
+    Office, State of Rhode Island; __Joseph Codega__, Chief Economic and Policy Analyst,
+    Rhode Island Office of Management and Budget, State of Rhode Island; __Justin
+    Cohan-Shapiro__, Senior Advisor on Performance Management, Governor’s Office,
+    State of California; __Allison Cordell__, Director, Governor's Office of Performance
+    Improvement, State of Maryland; __Jonathan Dach__, Policy Director and Deputy
+    Chief of Staff Governor’s Office, State of Connecticut; __Joshua Davis__, Chief
+    Financial Officer, North Carolina Department of Natural and Cultural Resources,
+    State of North Carolina; __Duncan Evans__, Budget Manager, Governor’s Office of
+    Management and Budget, State of Utah; __Scott Gaul__, Chief Data Officer, Office
+    of Policy and Management, State of Connecticut; __Tony Gherardini__, former Director
+    of Operations and Cabinet Affairs, Governor’s Office, State of Colorado; __Adam
+    Jarvis__, Deputy Director, Customer Focused Government, State of Tennessee; __Frank
+    Kohstall__, Chief Data Advocate, InnovateOhio, State of Ohio; __Patrick Lally__,
+    Senior Executive Director, Governor’s Coordinating Offices, State of Maryland;
+    __Christin Lotz__, Director, Office of Evidence and Impact, Department of Finance
+    and Administration, State of Tennessee; __Mike Morello__, former Director, Governor’s
+    Office of Performance Improvement, State of Maryland; __Jenni Owen__, Director
+    of Strategic Partnerships, Governor’s Officer, State of North Carolina; __Mandeep
+    Kaundal__, Deputy Director, Results Washington, State of Washington; __Laura Pietenpol__,
+    Director of Operations, InnovateOhio, State of Ohio; __Hana Sayeed__, Strategy
+    & Operations Manager, Governor’s Office of Operations, State of Colorado; __Rachel
+    Stone__, Chief Data Officer, Governor’s Office of Management and Budget, State
+    of Utah; __Aaron Ray__, Deputy Director for Education, Workforce, and Environment,
+    Governor's Office of State Planning and Budgeting, State of Colorado; __Kristin
+    Walker__, Deputy Director of State Budget, North Carolina Office of State Budget
+    and Management, State of North Carolina; __Seth Walter__, Budget & Policy Analyst,
+    Governor's Office of State Planning and Budgeting, State of Colorado; __Heather
+    Velasquez__, Deputy Director of Operations and Cabinet Affairs, Governor’s Office,
+    State of Colorado; __Mike Wilkening__, Special Advisor on Innovation and Digital
+    Services, Governor’s Office, State of California; and __Jonathan Womer__, Director,
+    Rhode Island Office of Management and Budget, State of Rhode Island.\n\nResults
+    for America would also like to thank the members of its State Standard of Excellence
+    Advisory Committee who provided guidance and feedback on the Blueprint; all of
+    this work is possible because of their continued commitment to making state governments
+    as effective and efficient as possible. \n\nThe Committee includes the following
+    individuals: __Cecilia Muñoz__, State Standard of Excellence Advisory Committee
+    Co-Chair, Vice President, Public Interest Technology and Local Initiatives, New
+    America; __John Hicks__, former State Standard of Excellence Advisory Committee
+    Co-Chair, former Executive Director, National Association of State Budget Officers
+    (NASBO); __Plinio Ayala__, President and CEO, Per Scholas; __Scott Kleiman__,
+    Managing Director, Harvard Kennedy School Government Performance Lab; __Bethanne
+    Barnes__, Director, Division of Data and Improvement, Office of Planning, Research,
+    and Evaluation, Administration for Children and Families, U.S. Department of Health
+    and Human Services; __Mary Ann Bates__, Executive Director, The Abdul Latif Jameel
+    Poverty Action Lab North America (J-PAL NA); __Jennifer Bell-Ellwanger__, President
+    and CEO, Data Quality Campaign (DQC); __Beth Blauer__, Executive Director, Johns
+    Hopkins Center for Government Excellence and Centers for Civic Impact; __Yvette
+    Chocolaad__, Policy Director, National Association of State Workforce Agencies
+    (NASWA); __Sara Dube__, Project Director, The Pew Results First Initiative, The
+    Pew Charitable Trusts;  Dale Erquiaga, former President and CEO, Communities in
+    Schools (CIS) National; __Della Jenkins__, Executive Director, Actionable Intelligence
+    for Social Policy (AISP); __John Kamensky__, Senior Fellow, IBM Center for the
+    Business of Government; __Chris Kingsley__, Senior Associate, Data Initiatives,
+    Annie E. Casey Foundation; __Candice McQueen__, CEO, National Institute for Excellence
+    in Teaching; __Daro Mott__, Vice President of Process Improvement and Execution,
+    Farm Credit Mid-America; __Denice Ross__, Senior Fellow, National Conference on
+    Citizenship; __Christopher Ruszkowski__, Distinguished Policy Fellow, Hoover Institution,
+    Stanford University; __Shrupti Shah__, Managing Director of GovLab, Deloitte;
+    Martin Simon, Division Director, NGA Economic Opportunity, National Governors
+    Association for Best Practices, National Governors Association (NGA); __Christian
+    Soura__, Vice President, Policy & Finance, South Carolina Hospital Association;
+    __Monica Taylor__, Senior Program Director of School Leadership, Teacher Workforce
+    and Continuous Improvement, Council of Chief State School Officers (CCSSO); __Vivian
+    Tseng__, Senior Vice President, Program, William T. Grant Foundation; __Kathryn
+    Vesey White__, Director of Budget Process Studies, National Association of State
+    Budget Officers (NASBO); __Garrett Warfield__, Chief Research Officer, Year Up;
+    __J.B. Wogan__, Senior Manager, Strategic Communications, Mathematica Policy Research;
+    and __David Yokum__, Director, The Policy Lab at Brown University.\n\nThe following
+    Results for America team members provided valuable input and feedback in the development
+    and execution of the Blueprint: __Sophie Bergmann__, Program Associate; __Zachary
+    Coile__, Vice President, Strategic Communications; __Edward Flanagan__, Intern,
+    State and Federal Policy; __Jeanine Forsythe__, Vice President, Strategic Partnerships;
+    __Jed Herrmann__, Vice President,State and Federal Policy Implementation; __Josh
+    Inaba__, Manager,  State and Federal Policy; __Maia Jachimowicz__, Vice President,
+    Evidence-Based Policy Implementation; __Sara Kerr__, Vice President, Education
+    Policy Implementation; __David Medina__, COO and Co-Founder; __Akshay Mody__,
+    Intern, State and Federal Policy; __Jack Monahan__, Team Assistant; __Celeste
     Richie__, Vice President, Workforce Development; __Quinn Stevenson__, Program
     Assistant; __Kate Tromble__, Vice President, Federal Policy; and __Laney Umland__,
-    Program Associate. "
+    Program Associate."

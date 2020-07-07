@@ -18,6 +18,13 @@
     color: #fff;
     margin: 0;
     width: 100%;
+
+    &.strategies-row {
+      max-width: 25%;
+      @include breakpoint($small-only) {
+        max-width: none;
+      }
+    }
   }
   .examples-grid__filter-row {
     padding: 10px;
@@ -74,20 +81,15 @@
   @include breakpoint($small-only) {
     padding: 0.5rem;
   }
-  .theme-link {
-    margin-bottom: 2rem;
-    @include breakpoint($small-only) {
-      margin-bottom: 0;
-    }
+  &.time-strategies {
+    padding: 1rem;
   }
-  &.themes,
-  &.title-strategies, {
+  &.themes {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   &.themes,
-  &.title-strategies,
   &.title-criteria {
     width: 20%;
     max-width: 20%;
@@ -245,6 +247,13 @@ a.internal-link-container {
   @include breakpoint($large) {
     padding: 2rem 2rem 2rem 2rem;
   }
+  &.title-strategies {
+    padding: 1.5rem;
+    max-width: 25%;
+    @include breakpoint($small-only) {
+      max-width: none;
+    }
+  }
   &.themes,
   &.title-strategies {
     .theme-link {
@@ -268,6 +277,8 @@ a.internal-link-container {
     .strategies-text > p {
       color: #fff;
       font-weight: 400;
+      padding: 0;
+      margin-bottom: 0;
     }
   }
   &.strategies {
@@ -368,7 +379,6 @@ a.internal-link-container {
     }
     .description {
       font-size: 1.06rem;
-      padding-bottom: 15px;
       @include breakpoint($small-only) {
         font-size: .8rem;
       }
