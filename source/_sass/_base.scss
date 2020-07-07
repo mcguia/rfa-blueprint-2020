@@ -31,6 +31,9 @@ body {
   }
   li {
     padding-left: 5px;
+    a {
+      color: $hyperlink-orange;
+    }
   }
   ul,ol {
     padding-inline-start: 30px;
@@ -65,6 +68,7 @@ footer {
   }
   background-color: $light-gray;
   a {
+    font-size: 0.9rem;
     color: $main-dark-gray;
     text-decoration: none;
     &:hover {

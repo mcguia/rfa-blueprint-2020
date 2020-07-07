@@ -3,9 +3,9 @@ example:
 - sys:
     id: 6IVylyPiMZsXIm8bSfWHCO
     created_at: !ruby/object:DateTime 2020-06-22 23:48:27.505000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:27:47.847000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:46:21.332000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 1SgL4J1Qg9kyhKG79HLuo2
@@ -14,7 +14,7 @@ example:
     title: Vermont
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/1SgL4J1Qg9kyhKG79HLuo2/a1b641fcab4e2aa1bd988448bf34fd32/Vermont.png"
-  state: Vermont
+  state: VERMONT
   url: "[State Strategic Plan 2018–2023 (FY2019–FY2023)](https://strategicplan.vermont.gov/sites/strategicplan/files/documents/Theme-plans/Strategic%20Plans%20All%20Agencies%20by%20Theme%20v1.3new_wCover.pdf)"
   description: "An [executive order](https://governor.vermont.gov/sites/scott/files/documents/EO1Strategic%20Goals.FINALpdf2.pdf)
     mandated the creation of Vermont’s statewide strategic goals. Vermont has published
@@ -26,9 +26,9 @@ example:
 - sys:
     id: 1tBrMxEAc82J8W8tHrSQhV
     created_at: !ruby/object:DateTime 2020-06-22 23:51:20.945000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:31:15.242000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:46:06.332000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 4h0MIeVC19Fe44eZNAFxlw
@@ -37,7 +37,7 @@ example:
     title: Washington
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/4h0MIeVC19Fe44eZNAFxlw/291d8d889c5ebae5d3f300926077494c/Washington.png"
-  state: Washington
+  state: WASHINGTON
   url: "[Results Washington](https://results.wa.gov)"
   description: "The Governor’s dashboard on Results Washington publicly lists statewide
     strategic goals, outcome measures, and live progress towards meeting these goals.
@@ -46,9 +46,9 @@ example:
 - sys:
     id: ucc6rBMQEmWMIELGCNlcR
     created_at: !ruby/object:DateTime 2020-06-22 23:51:59.150000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 19:38:07.721000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:45:51.800000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -57,7 +57,7 @@ example:
     title: Colorado
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
-  state: Colorado
+  state: COLORADO
   url: "[Governor's Dashboard](https://dashboard.state.co.us/default.htm)"
   description: "The Colorado Governor’s dashboard outlines strategic goals, metrics,
     and performance plans which are directly linked to the governor’s annual budget
@@ -68,9 +68,9 @@ example:
 - sys:
     id: 3DgAX2n4cme8Hpo4PxBe0E
     created_at: !ruby/object:DateTime 2020-06-22 23:57:30.817000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 19:34:19.782000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:47:09.578000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 6Y2G144sIfV9ViXDlnQNk0
@@ -79,7 +79,7 @@ example:
     title: Tennessee
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
-  state: Tennessee
+  state: TENNESSEE
   url: "[Transparent Tennessee](https://www.tn.gov/transparenttn/about-transparent-tennessee.html)"
   description: "Tennessee’s data and performance website, [Transparent Tennessee](https://www.tn.gov/transparenttn.html),
     has [statewide performance dashboards](https://www.tn.gov/transparenttn/governors-priorities/education-workforce-development.html),
@@ -89,9 +89,9 @@ example:
 - sys:
     id: 3FU1PWOrGBjxi1KTk206cP
     created_at: !ruby/object:DateTime 2020-06-22 23:58:30.223000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-02 22:27:32.681000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:46:57.429000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -100,7 +100,7 @@ example:
     title: Colorado
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
-  state: Colorado
+  state: COLORADO
   url: "[Colorado Governor's Budget Request](https://drive.google.com/drive/folders/10H70tFEGOJg_b2EPtdhpEA0xbfK4rCOc)"
   description: "The Governor’s budget request aligns the Governor’s priorities with
     the budgeting process and cycle. This is supported by the [Colorado State Measurement
@@ -111,9 +111,9 @@ example:
 - sys:
     id: 346GEVqblIiW0VWvCWeTPv
     created_at: !ruby/object:DateTime 2020-06-22 23:59:25.307000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 17:32:13.263000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:46:44.089000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 4h0MIeVC19Fe44eZNAFxlw
@@ -122,7 +122,7 @@ example:
     title: Washington
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/4h0MIeVC19Fe44eZNAFxlw/291d8d889c5ebae5d3f300926077494c/Washington.png"
-  state: Washington
+  state: WASHINGTON
   url: "[Results Washington Results Review](https://results.wa.gov/measuring-progress/results-reviews)"
   description: "The Washington Governor and state leadership convene monthly [Results
     Reviews](https://results.wa.gov/measuring-progress/results-reviews) meetings on
@@ -133,9 +133,9 @@ example:
 - sys:
     id: 1Xozq1UHPcEWvJzS8Jsrh7
     created_at: !ruby/object:DateTime 2020-06-23 00:04:27.290000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 19:47:02.898000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:48:00.539000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 5pdnK5NPEzXytsgovQD4La
@@ -144,7 +144,7 @@ example:
     title: Maryland
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5pdnK5NPEzXytsgovQD4La/422e3da6938f2e4934c2c51689121079/Maryland.png"
-  state: Maryland
+  state: MARYLAND
   url: "[Managing for Results](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)"
   description: "Maryland’s [Managing for Results initiative](https://dbm.maryland.gov/Pages/ManagingResultsMaryland.aspx)
     publishes annual performance reports and tracks agencies’ key goals, objectives,
@@ -154,9 +154,9 @@ example:
 - sys:
     id: 7hyLf1E1tbL1nWx7JVpZga
     created_at: !ruby/object:DateTime 2020-06-23 00:05:34.495000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-03 16:52:44.247000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:47:44.903000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 6yER6nebIhxSU2UBDExIxn
@@ -165,7 +165,7 @@ example:
     title: Rhode-Island
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6yER6nebIhxSU2UBDExIxn/38f7298b0ff38ca7681b31078ee44e96/Rhode-Island.png"
-  state: Rhode Island
+  state: RHODE ISLAND
   url: "[Government Innovation League](https://www.innovate.ri.gov/innovation-league)"
   description: 'The Rhode Island Governor’s Office and [The Policy Lab at Brown University](https://thepolicylab.brown.edu/)
     partnered to launch the [Government Innovation League](https://www.innovate.ri.gov/innovation-league),
@@ -177,9 +177,9 @@ example:
 - sys:
     id: 7M4MsvA2Vphef5Xrb4ZhUz
     created_at: !ruby/object:DateTime 2020-06-23 00:06:15.793000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 19:45:09.375000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:47:28.427000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -188,7 +188,7 @@ example:
     title: Colorado
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
-  state: Colorado
+  state: COLORADO
   url: "[Department of Human Services C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat)"
   description: "[C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat) is the Colorado
     Department of Human Services’ performance-based analysis strategy that allows
@@ -200,9 +200,9 @@ example:
 - sys:
     id: 5SUiKpJXbXcvnIgoMT4V89
     created_at: !ruby/object:DateTime 2020-06-23 12:08:23.276000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:32:57.050000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:43:01.703000000 Z
     content_type_id: example
-    revision: 7
+    revision: 8
   state_outline:
     sys:
       id: 7rvITYdRIj5MoUjnImFwoT
@@ -211,7 +211,7 @@ example:
     title: California
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/7rvITYdRIj5MoUjnImFwoT/3e462c815efcc4b4cb67848353f2a514/California.png"
-  state: California
+  state: CALIFORNIA
   url: Open Data Portal
   description: "California’s statewide [Open Data Policy](https://cdt.ca.gov/wp-content/uploads/2019/03/TL-19-01.pdf)
     encourages departments to [share data](https://www.dgsapps.dgs.ca.gov/documents/sam/SamPrint/NEW/SAM_Master/SAM_Master_File/Chap5100/5160.1.pdf)
@@ -221,14 +221,14 @@ example:
     encourage innovation, and increase effectiveness. In addition, the state hosts
     [CalData](https://www.govops.ca.gov/eureka-institute/ca-open-data/), a professional
     network for government officials and partners to promote the best uses of open
-    data. \n\n__More information: 2019 State Standard of Excellence (Criteria 3).__"
+    data. \n\n__More information: 2019 State Standard of Excellence ([Criteria 4](https://bit.ly/3iy7Dv1)).__"
   year: '2020'
 - sys:
     id: jhtU6flcizsMtJn5pEy1M
     created_at: !ruby/object:DateTime 2020-06-23 12:08:44.781000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 20:01:13.224000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:42:23.668000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: zJEwIq9djAkipW6pdJTdI
@@ -237,7 +237,7 @@ example:
     title: Ohio
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/zJEwIq9djAkipW6pdJTdI/401125e8c4b028881b7e0466c58af42e/Ohio.png"
-  state: Ohio
+  state: OHIO
   url: InnovateOhio
   description: "In 2019, Ohio’s governor signed [Executive Order 2019-15D](https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgovernor.ohio.gov%2Fwps%2Fportal%2Fgov%2Fgovernor%2Fmedia%2Fexecutive-orders%2F2019-15d&data=02%7C01%7CLaura.Pietenpol%40innovate.ohio.gov%7C2fbbdde921624514429208d72cb5dadd%7C50f8fcc494d84f0784eb36ed57c7c8a2%7C0%7C1%7C637027031886320122&sdata=rHaOC19CArNGbiHkkKpgJbxL%2B1WRHW0Gr5q3ds3kUtw%3D&reserved=0)
     consolidating state data systems into the [InnovateOhio Platform](https://innovateohio.gov/wps/portal/gov/innovate/platform),
@@ -245,14 +245,14 @@ example:
     data sets are linked across programs and organizations.” The executive order created
     a presumption of data sharing between state agencies, except where a specific
     legal prohibition is identified in writing. \n\n__More information: 2019 State
-    Standard of Excellence (Criteria 5).__"
+    Standard of Excellence ([Criteria 5](https://bit.ly/2ZFCqNS)).__"
   year: '2020'
 - sys:
     id: S3qPuHpK4LtEuKj7vZZjB
     created_at: !ruby/object:DateTime 2020-06-23 12:09:11.725000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:24:40.455000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:40:00.214000000 Z
     content_type_id: example
-    revision: 7
+    revision: 8
   state_outline:
     sys:
       id: 6SRYqCBsVbnNixmXcTVLnG
@@ -261,21 +261,21 @@ example:
     title: Connecticut
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6SRYqCBsVbnNixmXcTVLnG/095bca479d926b9c47cf87f04d99e1d5/Connecticut.png"
-  state: Connecticut
+  state: CONNECTICUT
   url: "[State Data Plan and Data Governance](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en)"
   description: "Connecticut’s Chief Data Officer and individual agency data officers
     are required to update the [state data plan](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en)
     biennially. The plan contains [11 principles](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en#page=6)
     and accompanying practices that all agencies should adopt to improve their management,
     use, sharing, and analysis of data. \n\n__More information: 2019 State Standard
-    of Excellence (Criteria 3).__"
+    of Excellence ([Criteria 3](https://2019state.results4america.org/state-standard-of-excellence/data-leadership.html)).__"
   year: '2020'
 - sys:
     id: 16w17gIaFIjoNOUxLrCykY
     created_at: !ruby/object:DateTime 2020-06-23 12:13:33.002000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:29:07.986000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:43:43.439000000 Z
     content_type_id: example
-    revision: 6
+    revision: 8
   state_outline:
     sys:
       id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -284,20 +284,21 @@ example:
     title: Indiana
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
-  state: Indiana
+  state: INDIANA
   url: "[Chief Data Officer](https://www.in.gov/omb/2345.htm)"
-  description: "Created by a 2017 law, Indiana’s Chief Data Officer has the budget,
-    staff, and authority to coordinate data analytics and data transparency for state
-    agencies; advise state agencies regarding best practices for data maintenance,
-    security, and privacy; and oversee the Indiana Management Performance Hub. \n\n__More
-    information: 2019 State Standard of Excellence (Criteria 3).__"
+  description: "Created by a [2017 law](http://iga.in.gov/legislative/2017/bills/house/1470#document-af23f3bf),
+    Indiana’s [Chief Data Officer](https://bit.ly/3eSU9YI) has the budget, staff,
+    and authority to coordinate data analytics and data transparency for state agencies;
+    advise state agencies regarding best practices for data maintenance, security,
+    and privacy; and oversee the Indiana [Management Performance Hub](https://www.in.gov/mph/index.htm).
+    \n\n__More information: 2019 State Standard of Excellence ([Criteria 3](https://bit.ly/3ixdpNA)).__"
   year: '2020'
 - sys:
     id: 7CPnUuw55bItZxjHnOKOmR
     created_at: !ruby/object:DateTime 2020-06-23 12:14:05.230000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:28:56.022000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:43:26.905000000 Z
     content_type_id: example
-    revision: 7
+    revision: 8
   state_outline:
     sys:
       id: CdDkYWaT5XRIqV3JKX333
@@ -306,7 +307,7 @@ example:
     title: Kentucky
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/CdDkYWaT5XRIqV3JKX333/0951758ce57e49203e76741e8b907ca4/Kentucky.png"
-  state: Kentucky
+  state: KENTUCKY
   url: "[Center for Statistics’](https://kcews.ky.gov/) Data Governance"
   description: "By providing [data sets](https://kystats.ky.gov/Reports/Files), publishing
     [reports](https://kystats.ky.gov/Reports/Reports), and fulfilling [research requests](https://kystats.ky.gov/Reports/DataRequest),
@@ -325,9 +326,9 @@ example:
 - sys:
     id: 78qS4xNfp17otvq0n0Aha9
     created_at: !ruby/object:DateTime 2020-06-23 12:14:44.590000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:28:39.599000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:38:35.160000000 Z
     content_type_id: example
-    revision: 7
+    revision: 9
   state_outline:
     sys:
       id: 6SRYqCBsVbnNixmXcTVLnG
@@ -336,10 +337,10 @@ example:
     title: Connecticut
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6SRYqCBsVbnNixmXcTVLnG/095bca479d926b9c47cf87f04d99e1d5/Connecticut.png"
-  state: Connecticut
-  url: "[Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative)"
+  state: COLORADO
+  url: "[Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Data-and-Analytics-Policy/Chief-Data-Officer)"
   description: "A [2018 Connecticut law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)
-    established the statewide [Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Chief-Data-Officer/Connecticut-Open-Data-Initiative)
+    established the statewide [Chief Data Officer](https://portal.ct.gov/OPM/Secr-General/Data-and-Analytics-Policy/Chief-Data-Officer)
     and [Connecticut Data Analysis Technology Advisory Board](https://www.cga.ct.gov/gae/taskforce.asp?TF=20180726_Connecticut%20Data%20Analysis%20Technology%20Advisory%20Board)
     and required each state agency to designate an agency data officer to manage high-value
     data sets and coordinate data-related activities with the state Chief Data Officer.
@@ -415,9 +416,9 @@ example:
 - sys:
     id: ghnTlGDGSNMCbfaeqeoQS
     created_at: !ruby/object:DateTime 2020-06-23 12:50:43.887000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 21:15:02.202000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:03:42.533000000 Z
     content_type_id: example
-    revision: 4
+    revision: 5
   state_outline:
     sys:
       id: 6Y2G144sIfV9ViXDlnQNk0
@@ -426,7 +427,7 @@ example:
     title: Tennessee
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
-  state: Tennessee
+  state: TENNESSEE
   url: Office of Evidence and Impact
   description: Tennessee’s [Office of Evidence and Impact](https://www.tn.gov/transparenttn/tennessee-program-inventory/about.html),
     founded in 2019 supports the state’s [evidence-based budgeting](https://www.tn.gov/transparenttn/tennessee-program-inventory/evidence-based-budgeting.html)
@@ -436,9 +437,9 @@ example:
 - sys:
     id: 3yfaicl2CZ6HmPZGHeTU7r
     created_at: !ruby/object:DateTime 2020-06-23 12:51:08.151000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 21:14:11.845000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:02:45.663000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: zJEwIq9djAkipW6pdJTdI
@@ -447,7 +448,7 @@ example:
     title: Ohio
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/zJEwIq9djAkipW6pdJTdI/401125e8c4b028881b7e0466c58af42e/Ohio.png"
-  state: Ohio
+  state: OHIO
   url: Office of Research, Evaluation and Advanced Analytics
   description: "The Director of the Ohio Department of Education’s [Office of Research,
     Evaluation and Advanced Analytics](http://education.ohio.gov/Topics/Research-Evaluation-and-Advanced-Analytics)
@@ -458,9 +459,9 @@ example:
 - sys:
     id: 5e8eV1BfsFB46oOGjaVeJX
     created_at: !ruby/object:DateTime 2020-06-23 12:51:32.366000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 21:12:34.565000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:02:30.840000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 3FagqqFcff0WAi9nWX3vpB
@@ -469,7 +470,7 @@ example:
     title: Massachusetts
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/3FagqqFcff0WAi9nWX3vpB/00817c18a9ce739839814d902691c504/Massachusetts.png"
-  state: Massachusetts
+  state: MASSACHUSETTS
   url: Chief Strategy and Research Officer
   description: "The Massachusetts Department of Elementary and Secondary Education’s
     [Office of Planning and Research](http://www.doe.mass.edu/research/) is led by
@@ -481,9 +482,9 @@ example:
 - sys:
     id: 3JxhbESm9p9VgL7JI0Pw9G
     created_at: !ruby/object:DateTime 2020-06-23 12:54:57.559000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:34:27.996000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:06:06.590000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 6Y2G144sIfV9ViXDlnQNk0
@@ -492,7 +493,7 @@ example:
     title: Tennessee
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6Y2G144sIfV9ViXDlnQNk0/a803906f2ef0b049c16c5c0062db702f/Tennessee.png"
-  state: Tennessee
+  state: TENNESSEE
   url: "[Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php)"
   description: |-
     The [Tennessee Education Research Alliance](https://peabody.vanderbilt.edu/research/tnedresearchalliance/index.php) (TERA) is a formal research partnership between the Tennessee Department of Education and Vanderbilt University’s Peabody College of Education. Led by seven full-time staff and guided by a steering committee and advisory council, the Department and the University have co-developed a [research agenda](https://peabody.vanderbilt.edu/TERA/research-agenda.php) that allows the University to [conduct research](https://peabody.vanderbilt.edu/TERA/professional_learning.php) on a variety of issues.
@@ -502,9 +503,9 @@ example:
 - sys:
     id: 4ysmpdl4J9HPFVpy56WQJw
     created_at: !ruby/object:DateTime 2020-06-23 12:55:23.649000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:34:39.734000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:05:50.532000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 7rvITYdRIj5MoUjnImFwoT
@@ -513,7 +514,7 @@ example:
     title: California
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/7rvITYdRIj5MoUjnImFwoT/3e462c815efcc4b4cb67848353f2a514/California.png"
-  state: California
+  state: CALIFORNIA
   url: "[Evidence-Based Clearinghouse for Child Welfare](http://www.cebc4cw.org/)"
   description: "The California Department of Social Services created an [Evidence-Based
     Clearinghouse for Child Welfare](http://www.cebc4cw.org/), which [allows](https://www.cebc4cw.org/home/using-the-cebc/)
@@ -529,9 +530,9 @@ example:
 - sys:
     id: 5Z37GmG5FqvKIuEMkQEJl4
     created_at: !ruby/object:DateTime 2020-06-23 12:55:44.414000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:35:06.646000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:05:34.203000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -540,7 +541,7 @@ example:
     title: Minnesota
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
-  state: Minnesota
+  state: MINNESOTA
   url: "[Evaluation Policy](https://mn.gov/mmb-stat/results-first/evaluation-policy.pdf),
     [Evidence Definitions](https://mn.gov/mmb/results-first/definitions-of-evidence/),
     and [Clearinghouse](https://mn.gov/mmb/results-first/inventory/)"
@@ -558,9 +559,9 @@ example:
 - sys:
     id: 4pOTiLxtc7GZBRLa5yRYJi
     created_at: !ruby/object:DateTime 2020-06-23 12:58:12.378000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 22:19:16.971000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:06:58.750000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 5QPUxPiLvLvGrpgum7Malc
@@ -569,7 +570,7 @@ example:
     title: North-Carolina
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5QPUxPiLvLvGrpgum7Malc/ae56034f8cfd709eee1537b6225e0edd/North-Carolina.png"
-  state: North Carolina
+  state: NORTH CAROLINA
   url: Budget Office Reform
   description: "In 2018, North Carolina [redesigned its budget process](https://files.nc.gov/ncosbm/documents/files/memo20180531_OSBM_Reorganization.pdf)
     to increase the use of evidence-based decision-making. As a result, the [2019-2021
@@ -581,9 +582,9 @@ example:
 - sys:
     id: 3ruwrptdviD2zfKVgrFPXJ
     created_at: !ruby/object:DateTime 2020-06-23 12:58:41.842000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:35:26.891000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:06:43.615000000 Z
     content_type_id: example
-    revision: 7
+    revision: 8
   state_outline:
     sys:
       id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -592,7 +593,7 @@ example:
     title: Minnesota
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
-  state: Minnesota
+  state: MINNESOTA
   url: "[Guidance for New and Expanded Programs](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf)"
   description: |-
     Minnesota Management and Budget issued [guidance](https://mn.gov/mmb/assets/RBA-Instructions-Accessible_tcm1059-244343.pdf) on how to report outcome data. In addition, the state also used evidence to [inform funding decisions](https://mn.gov/mmb/evidence/proposal/) resulting in [$87 million in new or expanded evidence-based programming](https://mn.gov/mmb-stat/2-gen/enacted-budget-ebp-investments.pdf) in the FY 2020-2021 budget.
@@ -602,9 +603,9 @@ example:
 - sys:
     id: 3SED6H70BYo1ehUbdwGTNv
     created_at: !ruby/object:DateTime 2020-06-23 12:59:01.238000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 16:35:35.358000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:06:29.717000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -613,7 +614,7 @@ example:
     title: Colorado
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
-  state: Colorado
+  state: COLORADO
   url: "[Budget Instructions](https://drive.google.com/open?id=12rEZIkt1bzBcvF_b89Ps7Z0IJRDNuq7P)"
   description: Colorado’s FY 2020-2021 [budget development instructions](https://drive.google.com/open?id=12rEZIkt1bzBcvF_b89Ps7Z0IJRDNuq7P)
     (pp. 10-12) prioritize new program requests “based on the evidence and body of
@@ -624,9 +625,9 @@ example:
 - sys:
     id: 3B181F7MBGFq6CLwqtMIhd
     created_at: !ruby/object:DateTime 2020-06-23 13:03:58.930000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:03:43.455000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:13:25.252000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 2Ptiy6YJ3yBj3ZbMZOtrFG
@@ -635,7 +636,7 @@ example:
     title: Indiana
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2Ptiy6YJ3yBj3ZbMZOtrFG/4b401f31a1c94ffbb62d11cc163555e3/Indiana.png"
-  state: Indiana
+  state: INDIANA
   url: Efforts to Lower Statewide Infant Mortality Rates
   description: |-
     To meet the [governor’s goal](https://www.indystar.com/story/news/politics/2020/01/15/indiana-state-of-the-state-gov-eric-holcomb-2020-speech-annotated/4432905002/) of having the lowest infant mortality rate in the Midwest, Indiana leveraged its [Management Performance Hub](https://www.in.gov/mph/), which facilitates the linkage, storage, and analysis of administrative data. By linking data across 17 data sets, Management Performance Hub staff were able to better [understand and map mortality rates](http://www.govtech.com/health/Indiana-Uses-Data-Analytics-to-Lower-Infant-Mortality-Child-Fatality.html), discovering that the infant mortality rate in Indiana is 7.3%, compared to the national rate of 5.8%, which accounts for 602 babies dying before their first birthdays in the state. This information drove increased investment in a targeted strategy to identify those at risk and connect them with vital resources to reduce infant mortality through an [innovative program](https://www.in.gov/isdh/28233.htm) focused on building a network of wraparound services for mothers and infants.  As a result, infant mortality rate [decreased significantly](https://www.indystar.com/story/news/politics/2020/01/15/indiana-state-of-the-state-gov-eric-holcomb-2020-speech-annotated/4432905002/) from 2017 to 2018 and is at its lowest since 2012. By 2019, the initiative had linked 44 de-identified maternal and infant health mortality data sets.
@@ -645,9 +646,9 @@ example:
 - sys:
     id: 3DggedgAlCq9l997dJGEW5
     created_at: !ruby/object:DateTime 2020-06-23 13:04:19.837000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:01:38.622000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:12:31.497000000 Z
     content_type_id: example
-    revision: 7
+    revision: 8
   state_outline:
     sys:
       id: 5pdnK5NPEzXytsgovQD4La
@@ -656,7 +657,7 @@ example:
     title: Maryland
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5pdnK5NPEzXytsgovQD4La/422e3da6938f2e4934c2c51689121079/Maryland.png"
-  state: Maryland
+  state: MARYLAND
   url: Maryland Governor's Office of Crime Prevention, Youth, and Victim Services
   description: "The [Maryland Governor’s Office of Crime Prevention, Youth, and Victim
     Services](https://goc.maryland.gov/role-and-history/) focuses on achieving the
@@ -672,9 +673,9 @@ example:
 - sys:
     id: 4ZV8BZ9tliOXcZQhe186Ux
     created_at: !ruby/object:DateTime 2020-06-23 13:04:42.903000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:00:00.795000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:12:18.836000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 5G3SktGT23s5j26ZxyDcmV
@@ -683,7 +684,7 @@ example:
     title: Colorado
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/5G3SktGT23s5j26ZxyDcmV/c4b9d9e15b03c701374c55a9e2e4e36b/Colorado.png"
-  state: Colorado
+  state: COLORADO
   url: Governor's Office and Agencies Partner with External Research Lab
   description: "The Colorado Governor’s Office and the [Colorado Evaluation and Action
     Lab](https://coloradolab.org/) (The Lab) co-designed the [Linked Information Network
@@ -701,9 +702,9 @@ example:
 - sys:
     id: 2GOBbgXrinUfXGxXR74ee0
     created_at: !ruby/object:DateTime 2020-06-23 13:06:49.562000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:16:19.178000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:14:10.116000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 4h0MIeVC19Fe44eZNAFxlw
@@ -712,7 +713,7 @@ example:
     title: Washington
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/4h0MIeVC19Fe44eZNAFxlw/291d8d889c5ebae5d3f300926077494c/Washington.png"
-  state: Washington
+  state: WASHINGTON
   url: Institute for Public Policy’s Cost-Benefit Analyses
   description: "The [Washington State Institute for Public Policy](https://www.wsipp.wa.gov/)
     (WSIPP) has published hundreds of [cost-benefit analyses](http://www.wsipp.wa.gov/BenefitCost)
@@ -724,9 +725,9 @@ example:
 - sys:
     id: 4zkCAmorNkJM0R8ELeWEDS
     created_at: !ruby/object:DateTime 2020-06-23 13:07:14.818000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:12:53.448000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:13:56.761000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 6yER6nebIhxSU2UBDExIxn
@@ -735,7 +736,7 @@ example:
     title: Rhode-Island
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/6yER6nebIhxSU2UBDExIxn/38f7298b0ff38ca7681b31078ee44e96/Rhode-Island.png"
-  state: Rhode Island
+  state: RHODE ISLAND
   url: Active Contract Management Strategies and Results-Driven Contracting
   description: "Rhode Island’s Department of Children, Youth, and Families relied
     on [active contract management strategies](https://govlab.hks.harvard.edu/rhode-island-department-children-youth-and-families-performance-improvement)
@@ -746,9 +747,9 @@ example:
 - sys:
     id: 3xIwGtQQSmgzsFW2QJAaby
     created_at: !ruby/object:DateTime 2020-06-23 13:07:36.053000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:11:43.680000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:13:44.125000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 58dga69wUSEZJ3DYLfVgW2
@@ -757,7 +758,7 @@ example:
     title: Nevada
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/58dga69wUSEZJ3DYLfVgW2/aab95681d87f1959cbb09f543add121f/Nevada.png"
-  state: Nevada
+  state: NEVADA
   url: Commitment to Funding Evidence-based Interventions
   description: "Since 2017, the Nevada Department of Education has [allocated 100%
     of the state’s $8.5 million](https://results4america.org/wp-content/uploads/2019/11/RFA-NV-ESSA-case-study.pdf)
@@ -771,9 +772,9 @@ example:
 - sys:
     id: 6h0IeBvKh7Jx1o08yOuzD3
     created_at: !ruby/object:DateTime 2020-06-23 13:11:13.893000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:22:44.572000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:15:07.557000000 Z
     content_type_id: example
-    revision: 6
+    revision: 7
   state_outline:
     sys:
       id: 2rHitHaPVsiwv0hAeLW9YJ
@@ -782,7 +783,7 @@ example:
     title: Minnesota
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/2rHitHaPVsiwv0hAeLW9YJ/b998f428a7558fa23f929b9e31c13b3a/Minnesota.png"
-  state: Minnesota
+  state: MINNESOTA
   url: Performance-Based Targets for Cash Assistance Programs
   description: "The Minnesota Department of Human Services requires counties that
     do not meet the [Self-Support Index](https://www.leg.state.mn.us/docs/2016/other/160886.pdf)
@@ -794,9 +795,9 @@ example:
 - sys:
     id: GDDgyApAxW6mVj1aG0N8V
     created_at: !ruby/object:DateTime 2020-06-23 13:11:35.598000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 23:21:48.127000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 20:14:53.565000000 Z
     content_type_id: example
-    revision: 5
+    revision: 6
   state_outline:
     sys:
       id: 61lAA2QrB7VXivRyXmbw14
@@ -805,7 +806,7 @@ example:
     title: Pennsylvania
     description: 
     url: "//images.ctfassets.net/xrxa0m8bxqnj/61lAA2QrB7VXivRyXmbw14/b1f9a7587b6c15ff0ef3b23cd7738fc9/Pennsylvania.png"
-  state: Pennsylvania
+  state: PENNSYLVANIA
   url: Performance-Based Contracts Policy
   description: "Pennsylvania Department of Corrections has [set performance targets
     for its community corrections program](http://www.media.pa.gov/pages/corrections_details.aspx?newsid=225)

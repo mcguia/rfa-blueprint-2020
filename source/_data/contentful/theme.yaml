@@ -3,9 +3,9 @@ theme:
 - sys:
     id: 2UIJjDT50igsVZ3wI7MXKL
     created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 12:46:57.111000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:20:53.450000000 Z
     content_type_id: theme
-    revision: 9
+    revision: 10
   title: Managing for Results
   order: 1
   icon:
@@ -154,7 +154,7 @@ theme:
     management system for strategic goals \n- Ensure statewide strategic and performance
     goals are reflected in agencies’ work (see Colorado's Department of Human Services’s
     [C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat))\n- [Highlight](https://www.denverpost.com/2018/01/11/john-hickenlooper-colorado-state-of-state-text/)
-    important wins publicly and internally to emphasize progress made toward accomplishing
+    important wins publicly and internally to emphasize progress made towards accomplishing
     goals"
   long_term_wins: |-
     - Normalize performance management and strategic planning through executive action (see the executive order that established [Results Washington](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf))

@@ -3,19 +3,24 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-06 17:16:50.004000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 08:35:40.668000000 Z
     content_type_id: indexPage
-    revision: 20
+    revision: 23
   year: '2020'
-  overview: "This *Blueprint for Delivering Results in State Government* is an implementation
+  overview: "The Results for *America’s Blueprint for Delivering Results in State
+    Government* is designed to provide state government leaders with the information
+    they need to incorporate evidence and data into their state’s most critical budget,
+    policy, and management decisions. The Blueprint is based on the idea that evidence
+    and data can be key tools in helping governments deliver equitable outcomes for
+    residents in states across the country. \n\nThis Blueprint is an implementation
     guide for Results for America’s [Invest in What Works State Standard of Excellence](https://2019state.results4america.org/)
-    (State Standard of Excellence). \n\nThe State Standard of Excellence sets a national
-    benchmark for how state governments can use evidence and data to achieve better
-    outcomes for their residents, whereas the Blueprint provides state governments
-    with specific implementation strategies and actions for consistently and effectively
-    using evidence and data in budget, policy, and management decisions. \n\n\nTaken
-    together, the State Standard of Excellence and Blueprint provide state governments
-    with a set of comprehensive resources to:"
+    (State Standard of Excellence). The State Standard of Excellence sets a national
+    benchmark for how state governments can use evidence and data to achieve improved
+    outcomes for their residents, whereas the Blueprint for Delivering Results in
+    State Government (Blueprint) provides state governments with specific implementation
+    strategies and actions for consistently and effectively using evidence and data
+    to get better results..\n\nTaken together, the State Standard of Excellence and
+    Blueprint provide state governments with a set of comprehensive resources to:"
   roadmap_image:
     sys:
       id: 4udP4M1dqs3lWemK3A5JHx
@@ -47,19 +52,16 @@ indexPage:
   investments: __Improve investments__ by using their evidence and data capacity to
     invest taxpayer dollars in evidence-based solutions that achieve better results
     for their residents
-  overview2: This Blueprint is designed for state government leaders in governors’
-    offices, state budget offices, and within state agencies who are charged with
-    making their state’s critical budget, policy, and management decisions. The Blueprint
-    describes explicit Strategies, detailed Actions, useful resources, and specific
-    examples of leading practices to help state governments make progress on the State
-    Standard of Excellence and improve results for their residents.
+  summary_of_strategies: "*This Blueprint serves as an implementation guide with specific
+    strategies and actions aligned with the Results for America Invest in What Works
+    State Standard of Excellence [criteria](http://2019state.results4america.org).*"
   themes:
   - sys:
       id: 2UIJjDT50igsVZ3wI7MXKL
       created_at: !ruby/object:DateTime 2020-06-22 23:38:40.962000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 12:46:57.111000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-06 19:20:53.450000000 Z
       content_type_id: theme
-      revision: 9
+      revision: 10
     title: Managing for Results
     order: 1
     icon:
@@ -111,7 +113,7 @@ indexPage:
       management system for strategic goals \n- Ensure statewide strategic and performance
       goals are reflected in agencies’ work (see Colorado's Department of Human Services’s
       [C-Stat](https://www.colorado.gov/pacific/cdhs/c-stat))\n- [Highlight](https://www.denverpost.com/2018/01/11/john-hickenlooper-colorado-state-of-state-text/)
-      important wins publicly and internally to emphasize progress made toward accomplishing
+      important wins publicly and internally to emphasize progress made towards accomplishing
       goals"
     long_term_wins: |-
       - Normalize performance management and strategic planning through executive action (see the executive order that established [Results Washington](https://www.governor.wa.gov/sites/default/files/exe_order/eo_13-04.pdf))
@@ -295,8 +297,8 @@ indexPage:
       - Demonstrate significant improvements in major programs by using evidence of effectiveness
       - Budget for evaluations to identify more effective approaches by using a set-aside or carve-out of programs funds for evaluation activities (see Colorado’s [$500,000 evaluation fund](https://sites.google.com/state.co.us/research-evidence/implementation-and-evaluation-grant?authuser=0))
     year: '2020'
-  how_to_use_this_blueprint: 'The Blueprint contains Strategies -- and specific accompanying
-    Actions -- that provide a practical way for state governments to more effectively
+  how_to_use_this_blueprint: 'The Blueprint contains Strategies – and specific accompanying
+    Actions – that provide a practical way for state governments to more effectively
     achieve results by increasing their evidence and data capacity. However, it is
     worth noting that this capacity building is an iterative process and that each
     state’s process will not necessarily be linear. As such, to help state leaders

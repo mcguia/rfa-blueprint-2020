@@ -46,7 +46,7 @@ layout: default
          {%endunless%}
        </div>
     </div>
-      <div class="button-container button-container--align-left row">
+      <div class="button-container button--back button-container--align-left row">
         <a tabindex="0" class="button button--index" href="{{'/' | relative_url}}"><span>Back to<br>Blueprint Summary</span></a>
       </div>
   </section>
@@ -68,7 +68,7 @@ layout: default
 
 <div class="row align-center" style="margin-bottom: 3rem">
   <div class="column small-11 markdown">
-    <h3 class="example__title--leading">Strategies</h3>
+    <h3 class="example__title--leading" style="margin-top: 0">Blueprint Strategies for Delivering Results</h3>
   </div>
   <div class="column small-12 small-padding-0 markdown">
   {% for strategy in page.strategies %}
@@ -77,7 +77,7 @@ layout: default
       <section class="section section__actions" style="margin-bottom:3rem">
         <div class="row align-center">
           <div class="column large-10 markdown">
-            <h5>Actions:</h5>
+            <h5 style="margin-top: 0">Actions:</h5>
             <ul>
             {% for action in strategy.actions %}
               {% for a in site.data.contentful.action.action %}
@@ -97,7 +97,7 @@ layout: default
 
       <section class="table examples-grid">
         <!-- examples-grid header -->
-        <div class="row examples-grid__header fixed-section blueprint-example" style="max-width:62.5rem">
+        <div class="row examples-grid__header fixed-section blueprint-example" style="max-width:62.5rem; margin:0">
           <div class="row examples-grid__header-row blueprint-example">
             <!-- header columns  -->
             <div class="column examples-grid-column examples-grid__header-cell dark-blue">Blueprint Strategies in Practice</div>
@@ -110,7 +110,7 @@ layout: default
 
           <!-- grid content -->
           {% for example in strategy.examples %}
-          <div class="row examples-grid__content-row blueprint-example" style="max-width:62.5rem">
+          <div class="row examples-grid__content-row blueprint-example" style="max-width:62.5rem; margin:0">
             <!-- content columns  -->
               {% for e in site.data.contentful.example.example %}
                 {% if e.sys.id == example.sys.id %}
@@ -122,7 +122,7 @@ layout: default
                         </div>
                       </div>
                       <div class="media-object-section main-section">
-                        <div class="theme-link">{{ e.state | markdownify }}</div>
+                        <h5 class="theme-link" style="margin: 0 0 1rem 0">{{ e.state | markdownify }}</h5>
                         {{ e.url | markdownify }}
                       </div>
                     </div>

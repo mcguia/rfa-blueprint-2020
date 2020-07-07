@@ -167,6 +167,7 @@ a.external-link-container {
   }
 }
 a.internal-link-container {
+  color: currentColor;
   p {
     color: inherit;
   }
@@ -242,7 +243,7 @@ a.internal-link-container {
 .examples-grid__content-cell {
   padding: 1rem;
   @include breakpoint($large) {
-    padding: 3rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
   &.themes,
   &.title-strategies {

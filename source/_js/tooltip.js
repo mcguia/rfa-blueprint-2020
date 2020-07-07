@@ -8,7 +8,7 @@ const Tooltip = {
   },
   init() {
     this.hoverCriteria('.title');
-    this.hoverCriteria('.strategies');
+    this.hoverCriteria('.themes');
     let tooltips = document.querySelectorAll('.strategies-tooltip');
     tooltips.forEach((t) => {
       let link = document.querySelectorAll('.theme-link');

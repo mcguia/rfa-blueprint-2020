@@ -3,11 +3,11 @@ action:
 - sys:
     id: 7avQBLm7mKtB3dTlcLWq3p
     created_at: !ruby/object:DateTime 2020-06-22 23:42:20.688000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 19:17:15.798000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 09:11:40.159000000 Z
     content_type_id: action
-    revision: 4
+    revision: 5
   order: 1
-  description: Appoint or designate a key leader, such as a Chief Performance Officer,
+  description: Appoint or designate a key leader, such as a [Chief Performance Officer](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2019/04-2019/Governor-Lamont-Launches-Statewide-Performance-and-Results-Agenda),
     with the authority and skill set to lead the creation of specific goals and metrics
     across government agencies and departments
   type:
@@ -239,16 +239,16 @@ action:
 - sys:
     id: EcUaxajdmcf1H6pwrANwx
     created_at: !ruby/object:DateTime 2020-06-23 12:13:05.170000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-05 20:12:39.589000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-06 19:29:34.520000000 Z
     content_type_id: action
-    revision: 3
+    revision: 4
   order: 3
   description: 'Build groups and relationships to support the data agenda, such as:
 
     '
   sub_description: |-
     - [Data governance board](https://mldscenter.maryland.gov/Governance.html) to provide formal feedback on [data standards and usage](https://coloradolab.org/linc/)
-    - [Community of practice](https://coloradolab.org/linc/) amongst all data-related leaders / key agency staff to share best practices
+    - [Community of practice](https://data.ca.gov/) amongst all data-related leaders / key agency staff to share best practices
     - Relationship(s) with [university researchers](https://www.urban.org/sites/default/files/publication/99293/evidence-based_policymaking_at_the_state_level.pdf) to add expertise and capacity for potential project-based work
     - Stakeholder engagement mechanisms to ensure that [community voice](https://www.kingcounty.gov/depts/community-human-services/initiatives/best-starts-for-kids/advisory-board.aspx) informs how data is gathered and used
   type:
