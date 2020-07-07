@@ -3,9 +3,9 @@ indexPage:
 - sys:
     id: 4wjcRV9g1h0st68WWKMrCX
     created_at: !ruby/object:DateTime 2020-06-22 23:31:44.020000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-07 08:35:40.668000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 20:00:01.207000000 Z
     content_type_id: indexPage
-    revision: 23
+    revision: 24
   year: '2020'
   overview: "The Results for *America’s Blueprint for Delivering Results in State
     Government* is designed to provide state government leaders with the information
@@ -327,13 +327,13 @@ indexPage:
     dozen governors offices contributed their expertise to developing this Blueprint.
     As such, this Blueprint is a practical guide that reflects the collective experience
     of many of the country’s most effective state government leaders.
-  examples_of_prioritizing: "This table provides specific examples of how governments
-    have prioritized evidence of effectiveness in their grantmaking decisions. Using
-    evidence of effectiveness means shifting taxpayer dollars to programs that have
-    been proven to be effective through strong evaluations or based on their past
-    performance. \n\nOf note, the term “grant programs” as used below includes all
-    types of government spending on human services programs, including grants, contracts,
-    cooperative agreements, and other programmatic expenditures."
+  examples_of_prioritizing: "[This table](http://assets.ctfassets.net/xrxa0m8bxqnj/3d13siTYAhsepkWWewBqtT/46b7dd7c81210fbb92740136c5cfbb95/Prioritizing_Evidence_of_Effectiveness_chart_July_2020.pdf)
+    provides specific examples of how governments have prioritized evidence of effectiveness
+    in their grantmaking decisions. Using evidence of effectiveness means shifting
+    taxpayer dollars to programs that have been proven to be effective through strong
+    evaluations or based on their past performance. \n\nOf note, the term “grant programs”
+    as used below includes all types of government spending on human services programs,
+    including grants, contracts, cooperative agreements, and other programmatic expenditures."
   conclusion: |-
     The shift from “business as usual” to delivering real results is an iterative process that requires strong leadership and intentional action to build a culture of data and evidence use. The strategies outlined in this Blueprint allow state governments to build the infrastructure and capacity they need to become learning organizations that continuously work to improve results. This detailed implementation guide demonstrates how governors and their staff can consistently use evidence and data in budget, policy, and management decisions to achieve improved outcomes for their residents.
 

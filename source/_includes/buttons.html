@@ -1,7 +1,9 @@
+{% assign downloads = site.data.contentful.downloads.downloads %}
+{% for d in downloads %}
 <div class="button-container">
   <div class="row align-center buttons">
     <div class="column large-5 medium-8 small-12">
-      <a href="" class="button download-button">Download Blueprint<i
+      <a href="{{ d.blueprint.url }}" class="button download-button">Download Blueprint<i
           class="material-icons ">arrow_forward</i></a>
       <a href="" class="button download-button">Download Blueprint Chart Summary<i
           class="material-icons ">arrow_forward</i></a>
@@ -11,6 +13,5 @@
           class="material-icons ">arrow_forward</i></a>
     </div>
   </div>
-
-
 </div>
+{% endfor %}

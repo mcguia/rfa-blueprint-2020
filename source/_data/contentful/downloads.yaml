@@ -1,0 +1,24 @@
+---
+downloads:
+- sys:
+    id: 7eFDwRNFRXWwLQQ9mv65lq
+    created_at: !ruby/object:DateTime 2020-07-07 17:56:17.037000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-07 19:58:43.728000000 Z
+    content_type_id: downloads
+    revision: 4
+  blueprint:
+    sys:
+      id: 3km1sODxZxnvb29bDvRoPu
+      created_at: !ruby/object:DateTime 2020-07-07 17:53:50.151000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 19:47:14.193000000 Z
+    title: Results for America Blueprint July 2020
+    description: 
+    url: "//assets.ctfassets.net/xrxa0m8bxqnj/3km1sODxZxnvb29bDvRoPu/72211412c87a25db750e68747bf21164/Results_for_America_Blueprint_July_2020.pdf"
+  appendix_b:
+    sys:
+      id: 3d13siTYAhsepkWWewBqtT
+      created_at: !ruby/object:DateTime 2020-07-07 19:48:06.516000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-07 19:48:06.516000000 Z
+    title: Prioritizing Evidence of Effectiveness chart July 2020
+    description: 
+    url: "//assets.ctfassets.net/xrxa0m8bxqnj/3d13siTYAhsepkWWewBqtT/46b7dd7c81210fbb92740136c5cfbb95/Prioritizing_Evidence_of_Effectiveness_chart_July_2020.pdf"
