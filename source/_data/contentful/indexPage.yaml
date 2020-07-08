@@ -132,9 +132,9 @@ indexPage:
   - sys:
       id: 6KhIXREPYNHwzix4sIrXY
       created_at: !ruby/object:DateTime 2020-06-23 12:21:09.323000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 12:47:16.193000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 02:54:48.001000000 Z
       content_type_id: theme
-      revision: 10
+      revision: 11
     title: Leveraging Data
     order: 2
     icon:
@@ -188,6 +188,14 @@ indexPage:
       - Implement a comprehensive data strategy that is updated regularly (such as [Connecticut’s](https://portal.ct.gov/-/media/CT-Data/Connecticut-State-Data-Plan-Final-pdf.pdf?la=en) State Data Plan, which is updated biennially as required by [law](https://www.cga.ct.gov/2018/ACT/pa/2018PA-00175-R00HB-05517-PA.htm)).
       - Invest in data analytics capacities and teams in agencies (see Washington’s State Department of Social and Health Services’ [data analytics division](https://www.dshs.wa.gov/ffa/research-and-data-analysis/rdas-organization))
     year: '2020'
+    theme_pdf:
+      sys:
+        id: 1tMZg6VvtXD4rESy2v4dwX
+        created_at: !ruby/object:DateTime 2020-07-08 02:54:41.095000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 02:54:41.095000000 Z
+      title: Leveraging Data
+      description: 
+      url: "//assets.ctfassets.net/xrxa0m8bxqnj/1tMZg6VvtXD4rESy2v4dwX/d023ed2f3729cbda90be36a82319968e/Blueprint_Leveraging_Data.pdf"
   - sys:
       id: 4X17IPn0Lofc9ReTsH1RVq
       created_at: !ruby/object:DateTime 2020-06-23 13:00:00.408000000 Z
@@ -255,9 +263,9 @@ indexPage:
   - sys:
       id: 6HBSprlKyuoPQjXqEJzFjz
       created_at: !ruby/object:DateTime 2020-06-23 13:11:52.358000000 Z
-      updated_at: !ruby/object:DateTime 2020-07-06 00:56:52.006000000 Z
+      updated_at: !ruby/object:DateTime 2020-07-08 03:07:24.144000000 Z
       content_type_id: theme
-      revision: 8
+      revision: 9
     title: Investing for Results
     order: 4
     icon:
@@ -313,6 +321,14 @@ indexPage:
       - Demonstrate significant improvements in major programs by using evidence of effectiveness
       - Budget for evaluations to identify more effective approaches by using a set-aside or carve-out of programs funds for evaluation activities (see Colorado’s [$500,000 evaluation fund](https://sites.google.com/state.co.us/research-evidence/implementation-and-evaluation-grant?authuser=0))
     year: '2020'
+    theme_pdf:
+      sys:
+        id: 2h52HE8mANeAsXMHtQ9Jfq
+        created_at: !ruby/object:DateTime 2020-07-08 02:55:11.814000000 Z
+        updated_at: !ruby/object:DateTime 2020-07-08 03:07:09.511000000 Z
+      title: Investing for Results
+      description: 
+      url: "//assets.ctfassets.net/xrxa0m8bxqnj/2h52HE8mANeAsXMHtQ9Jfq/8f0cc8b063ca553acbe4316637090de7/Blueprint_Investing_for_Results.pdf"
   how_to_use_this_blueprint: 'The Blueprint contains Strategies – and specific accompanying
     Actions – that provide a practical way for state governments to more effectively
     achieve results by increasing their evidence and data capacity. However, it is
