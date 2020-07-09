@@ -3,9 +3,9 @@ downloads:
 - sys:
     id: 7eFDwRNFRXWwLQQ9mv65lq
     created_at: !ruby/object:DateTime 2020-07-07 17:56:17.037000000 Z
-    updated_at: !ruby/object:DateTime 2020-07-08 04:40:31.811000000 Z
+    updated_at: !ruby/object:DateTime 2020-07-09 04:01:24.870000000 Z
     content_type_id: downloads
-    revision: 7
+    revision: 10
   blueprint:
     sys:
       id: 3km1sODxZxnvb29bDvRoPu
@@ -14,6 +14,7 @@ downloads:
     title: Results for America Blueprint July 2020
     description: 
     url: "//assets.ctfassets.net/xrxa0m8bxqnj/3km1sODxZxnvb29bDvRoPu/bf2dcaa2a0caa56c095de56d75412424/Results_for_America_Blueprint_July_2020.pdf"
+  blueprint_url: "/media/Results%20for%20America_Blueprint_July%202020.pdf"
   appendix_b:
     sys:
       id: 3d13siTYAhsepkWWewBqtT
@@ -22,6 +23,7 @@ downloads:
     title: Prioritizing Evidence of Effectiveness chart July 2020
     description: 
     url: "//assets.ctfassets.net/xrxa0m8bxqnj/3d13siTYAhsepkWWewBqtT/46b7dd7c81210fbb92740136c5cfbb95/Prioritizing_Evidence_of_Effectiveness_chart_July_2020.pdf"
+  appendix_b_url: "/media/Prioritizing%20Evidence%20of%20Effectiveness%20chart_July%202020.pdf"
   chart_summary:
     sys:
       id: 7u4BqBqsazupGKnHLinwrr
@@ -30,4 +32,5 @@ downloads:
     title: Chart Summary
     description: 
     url: "//assets.ctfassets.net/xrxa0m8bxqnj/7u4BqBqsazupGKnHLinwrr/ceeeff416da288cdf151c50ab30370d3/Blueprint_Summary_Chart.pdf"
+  chart_summary_url: "/media/Blueprint_Summary%20Chart.pdf"
   press_release_url: https://results4america.org/press-releases/results-for-america-releases-a-new-blueprint-for-delivering-results-in-state-governments

@@ -126,6 +126,15 @@ footer {
   }
 }
 
+.read-link {
+  color: #f77c50;
+  font-weight: 500;
+  font-size: 1.1rem;
+  @include breakpoint($small-only) {
+    font-size: .8rem;
+  }
+}
+
 .visible-hidden {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;

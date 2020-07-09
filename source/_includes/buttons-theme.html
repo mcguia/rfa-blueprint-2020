@@ -3,9 +3,9 @@
 <div class="button-container">
   <div class="row align-center buttons">
     <div class="column large-5 medium-8 small-12">
-      <a href="{{ d.blueprint.url }}" class="button download-button">Download Blueprint<i
+      <a href="{{ d.blueprint_url | relative_url }}" class="button download-button" target="_blank">Download Blueprint<i
           class="material-icons ">arrow_forward</i></a>
-      <a href="{{ page.theme_pdf.url }}" class="button download-button">Download This Blueprint Theme Only<i
+      <a href="{{ page.pdf_url | relative_url }}" class="button download-button" target="_blank">Download This Blueprint Theme Only<i
           class="material-icons ">arrow_forward</i></a>
     </div>
   </div>
