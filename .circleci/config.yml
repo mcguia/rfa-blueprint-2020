@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.7-node
+    steps:
+        - checkout
+        - restore_cache:
+            keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+        - save_cache:
+            paths:
+              - node_modules
+            key: v1-dependencies-{{ checksum "package.json" }}
+
+        - run: gem install bundler:1.17.2
+        - run: bundle install
+        - run: npm install
+        - run: sudo npm install --global gulp-cli
+        - run: bundle exec jekyll contentful
+        - run: git config --global user.email "amcg10@gmail.com"
+        - run: git config --global user.name "Austin McGuire"
+        - run: gulp deploy
